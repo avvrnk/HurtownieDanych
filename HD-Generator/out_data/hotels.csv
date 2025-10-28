@@ -1,0 +1,138 @@
+IdHotelu;Nazwa;Adres;StandardHotelu;ZakresWyzywienia;LiczbaPokoi2;LiczbaPokoi3;LiczbaPokoi4;Udogodnienia
+1;Hotel_Rzym_1;Ul. Przykładowa 276, Rzym, Rzym, Włochy;4;bez wyżywienia;57;14;16;"wifi;parking"
+2;Hotel_Rzym_2;Ul. Centralna 198, Rzym, Rzym, Włochy;4;pełne wyżywienie;29;40;13;"basen;wifi"
+3;Hotel_Rzym_3;Ul. Przykładowa 292, Rzym, Rzym, Włochy;5;półpension;195;25;22;"basen;wifi"
+4;Hotel_Mediolan_4;Ul. Kwiatowa 177, Mediolan, Mediolan, Włochy;3;śniadania;84;16;30;"spa;basen"
+5;Hotel_Mediolan_5;Ul. Plażowa 28, Mediolan, Mediolan, Włochy;2;pełne wyżywienie;93;36;5;"spa;basen"
+6;Hotel_Wenecja_6;Ul. Centralna 241, Wenecja, Wenecja, Włochy;3;pełne wyżywienie;53;47;17;"basen;siłownia;spa"
+7;Hotel_Wenecja_7;Ul. Główna 220, Wenecja, Wenecja, Włochy;1;śniadania;143;2;5;"wifi;parking"
+8;Hotel_Paryż_8;Ul. Przykładowa 134, Paryż, Paryż, Francja;5;śniadania;132;25;30;"spa;basen"
+9;Hotel_Paryż_9;Ul. Kwiatowa 89, Paryż, Paryż, Francja;3;półpension;87;28;20;brak
+10;Hotel_Nicea_10;Ul. Główna 26, Nicea, Nicea, Francja;3;pełne wyżywienie;118;32;0;"spa;basen"
+11;Hotel_Nicea_11;Ul. Plażowa 25, Nicea, Nicea, Francja;3;śniadania;53;50;21;"basen;wifi"
+12;Hotel_Nicea_12;Ul. Plażowa 59, Nicea, Nicea, Francja;4;pełne wyżywienie;92;7;10;"basen;wifi"
+13;Hotel_Lyon_13;Ul. Główna 63, Lyon, Lyon, Francja;5;bez wyżywienia;180;26;30;"spa;basen"
+14;Hotel_Barcelona_14;Ul. Centralna 29, Barcelona, Barcelona, Hiszpania;2;bez wyżywienia;172;1;14;"wifi;parking"
+15;Hotel_Madryt_15;Ul. Przykładowa 292, Madryt, Madryt, Hiszpania;3;śniadania;131;47;9;brak
+16;Hotel_Madryt_16;Ul. Główna 228, Madryt, Madryt, Hiszpania;5;śniadania;133;32;16;"basen;siłownia;spa"
+17;Hotel_Madryt_17;Ul. Przykładowa 113, Madryt, Madryt, Hiszpania;4;śniadania;42;46;12;"spa;basen"
+18;Hotel_Walencja_18;Ul. Plażowa 182, Walencja, Walencja, Hiszpania;5;bez wyżywienia;163;30;9;"wifi;parking"
+19;Hotel_Londyn_19;Ul. Główna 124, Londyn, Londyn, Wielka Brytania;3;pełne wyżywienie;94;3;4;"spa;basen"
+20;Hotel_Manchester_20;Ul. Centralna 212, Manchester, Manchester, Wielka Brytania;4;bez wyżywienia;100;4;25;"basen;siłownia;spa"
+21;Hotel_Manchester_21;Ul. Centralna 9, Manchester, Manchester, Wielka Brytania;3;bez wyżywienia;71;41;0;brak
+22;Hotel_Edynburg_22;Ul. Przykładowa 21, Edynburg, Edynburg, Wielka Brytania;5;półpension;194;37;19;"basen;wifi"
+23;Hotel_Edynburg_23;Ul. Centralna 289, Edynburg, Edynburg, Wielka Brytania;4;pełne wyżywienie;24;0;9;"basen;wifi"
+24;Hotel_Edynburg_24;Ul. Kwiatowa 99, Edynburg, Edynburg, Wielka Brytania;4;pełne wyżywienie;180;15;20;brak
+25;Hotel_Ateny_25;Ul. Centralna 214, Ateny, Ateny, Grecja;3;półpension;99;44;18;"basen;wifi"
+26;Hotel_Saloniki_26;Ul. Centralna 216, Saloniki, Saloniki, Grecja;5;półpension;175;14;20;"spa;basen"
+27;Hotel_Lizbona_27;Ul. Centralna 20, Lizbona, Lizbona, Portugalia;4;półpension;102;9;6;"basen;wifi"
+28;Hotel_Lizbona_28;Ul. Główna 198, Lizbona, Lizbona, Portugalia;2;pełne wyżywienie;96;11;6;"basen;siłownia;spa"
+29;Hotel_Lizbona_29;Ul. Kwiatowa 227, Lizbona, Lizbona, Portugalia;4;bez wyżywienia;98;31;29;"basen;wifi"
+30;Hotel_Porto_30;Ul. Przykładowa 278, Porto, Porto, Portugalia;3;pełne wyżywienie;62;50;11;brak
+31;Hotel_Porto_31;Ul. Kwiatowa 232, Porto, Porto, Portugalia;3;pełne wyżywienie;47;14;27;"spa;basen"
+32;Hotel_Porto_32;Ul. Plażowa 23, Porto, Porto, Portugalia;3;półpension;100;10;12;"wifi;parking"
+33;Hotel_Dubrownik_33;Ul. Główna 152, Dubrownik, Dubrownik, Chorwacja;2;bez wyżywienia;134;26;6;brak
+34;Hotel_Dubrownik_34;Ul. Centralna 130, Dubrownik, Dubrownik, Chorwacja;4;śniadania;149;2;23;"basen;wifi"
+35;Hotel_Split_35;Ul. Przykładowa 91, Split, Split, Chorwacja;5;pełne wyżywienie;36;24;19;"spa;basen"
+36;Hotel_Sofia_36;Ul. Główna 95, Sofia, Sofia, Bułgaria;5;półpension;121;34;22;"spa;basen"
+37;Hotel_Burgas_37;Ul. Przykładowa 167, Burgas, Burgas, Bułgaria;3;śniadania;5;23;17;"spa;basen"
+38;Hotel_Berlin_38;Ul. Plażowa 145, Berlin, Berlin, Niemcy;3;półpension;159;3;14;"wifi;parking"
+39;Hotel_Berlin_39;Ul. Centralna 298, Berlin, Berlin, Niemcy;3;bez wyżywienia;80;45;4;"spa;basen"
+40;Hotel_Berlin_40;Ul. Plażowa 163, Berlin, Berlin, Niemcy;4;śniadania;71;32;7;"wifi;parking"
+41;Hotel_Monachium_41;Ul. Główna 43, Monachium, Monachium, Niemcy;4;półpension;20;6;6;brak
+42;Hotel_Hamburg_42;Ul. Centralna 201, Hamburg, Hamburg, Niemcy;1;bez wyżywienia;24;23;25;"basen;siłownia;spa"
+43;Hotel_Hamburg_43;Ul. Główna 127, Hamburg, Hamburg, Niemcy;3;bez wyżywienia;129;9;11;"wifi;parking"
+44;Hotel_Hamburg_44;Ul. Centralna 298, Hamburg, Hamburg, Niemcy;5;bez wyżywienia;15;18;18;"basen;wifi"
+45;Hotel_Amsterdam_45;Ul. Przykładowa 49, Amsterdam, Amsterdam, Holandia;4;półpension;139;38;6;"wifi;parking"
+46;Hotel_Amsterdam_46;Ul. Główna 136, Amsterdam, Amsterdam, Holandia;1;pełne wyżywienie;55;21;1;"wifi;parking"
+47;Hotel_Amsterdam_47;Ul. Centralna 45, Amsterdam, Amsterdam, Holandia;5;pełne wyżywienie;195;30;10;"basen;wifi"
+48;Hotel_Rotterdam_48;Ul. Plażowa 261, Rotterdam, Rotterdam, Holandia;3;pełne wyżywienie;124;0;17;"basen;wifi"
+49;Hotel_Rotterdam_49;Ul. Główna 227, Rotterdam, Rotterdam, Holandia;4;półpension;106;15;13;"wifi;parking"
+50;Hotel_Rotterdam_50;Ul. Centralna 127, Rotterdam, Rotterdam, Holandia;5;bez wyżywienia;133;17;2;"basen;siłownia;spa"
+51;Hotel_Bruksela_51;Ul. Plażowa 39, Bruksela, Bruksela, Belgia;3;bez wyżywienia;37;46;20;"basen;wifi"
+52;Hotel_Bruksela_52;Ul. Centralna 46, Bruksela, Bruksela, Belgia;3;półpension;187;7;9;brak
+53;Hotel_Bruksela_53;Ul. Główna 280, Bruksela, Bruksela, Belgia;4;bez wyżywienia;128;36;16;"basen;wifi"
+54;Hotel_Antwerpia_54;Ul. Kwiatowa 53, Antwerpia, Antwerpia, Belgia;5;pełne wyżywienie;58;33;3;"spa;basen"
+55;Hotel_Antwerpia_55;Ul. Przykładowa 221, Antwerpia, Antwerpia, Belgia;4;śniadania;132;31;3;"basen;siłownia;spa"
+56;Hotel_Zurych_56;Ul. Główna 218, Zurych, Zurych, Szwajcaria;3;bez wyżywienia;62;37;27;"basen;siłownia;spa"
+57;Hotel_Zurych_57;Ul. Centralna 104, Zurych, Zurych, Szwajcaria;5;śniadania;90;28;2;"basen;wifi"
+58;Hotel_Genewa_58;Ul. Główna 213, Genewa, Genewa, Szwajcaria;5;pełne wyżywienie;82;35;19;"basen;wifi"
+59;Hotel_Genewa_59;Ul. Przykładowa 66, Genewa, Genewa, Szwajcaria;1;pełne wyżywienie;157;18;4;"spa;basen"
+60;Hotel_Genewa_60;Ul. Główna 290, Genewa, Genewa, Szwajcaria;4;pełne wyżywienie;115;45;15;"basen;wifi"
+61;Hotel_Wiedeń_61;Ul. Kwiatowa 162, Wiedeń, Wiedeń, Austria;2;bez wyżywienia;66;17;4;"basen;wifi"
+62;Hotel_Wiedeń_62;Ul. Centralna 188, Wiedeń, Wiedeń, Austria;5;bez wyżywienia;12;33;10;"spa;basen"
+63;Hotel_Salzburg_63;Ul. Przykładowa 12, Salzburg, Salzburg, Austria;5;śniadania;187;33;5;"basen;siłownia;spa"
+64;Hotel_Praga_64;Ul. Centralna 44, Praga, Praga, Czechy;5;śniadania;22;12;15;brak
+65;Hotel_Praga_65;Ul. Przykładowa 138, Praga, Praga, Czechy;3;bez wyżywienia;24;35;8;"basen;wifi"
+66;Hotel_Praga_66;Ul. Główna 149, Praga, Praga, Czechy;1;pełne wyżywienie;184;12;15;"wifi;parking"
+67;Hotel_Ostrawa_67;Ul. Centralna 293, Ostrawa, Ostrawa, Czechy;5;półpension;72;31;6;"wifi;parking"
+68;Hotel_Ostrawa_68;Ul. Centralna 118, Ostrawa, Ostrawa, Czechy;4;śniadania;65;19;17;"wifi;parking"
+69;Hotel_Ostrawa_69;Ul. Przykładowa 152, Ostrawa, Ostrawa, Czechy;4;pełne wyżywienie;138;31;8;brak
+70;Hotel_Sztokholm_70;Ul. Przykładowa 26, Sztokholm, Sztokholm, Szwecja;5;bez wyżywienia;85;28;29;"wifi;parking"
+71;Hotel_Sztokholm_71;Ul. Kwiatowa 122, Sztokholm, Sztokholm, Szwecja;4;pełne wyżywienie;127;6;27;"spa;basen"
+72;Hotel_Sztokholm_72;Ul. Plażowa 222, Sztokholm, Sztokholm, Szwecja;5;półpension;49;34;20;brak
+73;Hotel_Gothenburg_73;Ul. Plażowa 156, Gothenburg, Gothenburg, Szwecja;4;półpension;200;6;1;brak
+74;Hotel_Oslo_74;Ul. Przykładowa 207, Oslo, Oslo, Norwegia;3;bez wyżywienia;105;49;23;"spa;basen"
+75;Hotel_Oslo_75;Ul. Przykładowa 47, Oslo, Oslo, Norwegia;3;pełne wyżywienie;113;44;27;"wifi;parking"
+76;Hotel_Bergen_76;Ul. Kwiatowa 105, Bergen, Bergen, Norwegia;4;śniadania;77;4;15;"basen;wifi"
+77;Hotel_Kopenhaga_77;Ul. Plażowa 64, Kopenhaga, Kopenhaga, Dania;5;śniadania;19;29;3;brak
+78;Hotel_Kopenhaga_78;Ul. Centralna 42, Kopenhaga, Kopenhaga, Dania;4;pełne wyżywienie;155;25;14;brak
+79;Hotel_Kopenhaga_79;Ul. Kwiatowa 299, Kopenhaga, Kopenhaga, Dania;3;półpension;174;20;15;"wifi;parking"
+80;Hotel_Aarhus_80;Ul. Centralna 22, Aarhus, Aarhus, Dania;3;półpension;125;2;30;"basen;wifi"
+81;Hotel_Stambuł_81;Ul. Przykładowa 169, Stambuł, Stambuł, Turcja;4;śniadania;7;8;5;"wifi;parking"
+82;Hotel_Antalya_82;Ul. Główna 182, Antalya, Antalya, Turcja;5;pełne wyżywienie;30;16;21;"basen;wifi"
+83;Hotel_Antalya_83;Ul. Główna 55, Antalya, Antalya, Turcja;3;bez wyżywienia;12;6;0;"basen;wifi"
+84;Hotel_Antalya_84;Ul. Plażowa 148, Antalya, Antalya, Turcja;3;półpension;63;48;9;"basen;siłownia;spa"
+85;Hotel_Marrakesz_85;Ul. Plażowa 144, Marrakesz, Marrakesz, Maroko;3;śniadania;89;19;6;"basen;siłownia;spa"
+86;Hotel_Marrakesz_86;Ul. Główna 239, Marrakesz, Marrakesz, Maroko;3;pełne wyżywienie;107;3;12;brak
+87;Hotel_Marrakesz_87;Ul. Przykładowa 162, Marrakesz, Marrakesz, Maroko;3;pełne wyżywienie;181;23;10;"basen;wifi"
+88;Hotel_Casablanca_88;Ul. Kwiatowa 232, Casablanca, Casablanca, Maroko;3;śniadania;175;28;5;"wifi;parking"
+89;Hotel_Casablanca_89;Ul. Kwiatowa 224, Casablanca, Casablanca, Maroko;3;śniadania;179;35;29;"spa;basen"
+90;Hotel_Casablanca_90;Ul. Centralna 255, Casablanca, Casablanca, Maroko;3;śniadania;77;31;23;"spa;basen"
+91;Hotel_Tunis_91;Ul. Centralna 206, Tunis, Tunis, Tunezja;3;śniadania;23;36;14;"wifi;parking"
+92;Hotel_Hammamet_92;Ul. Główna 96, Hammamet, Hammamet, Tunezja;5;bez wyżywienia;95;39;17;brak
+93;Hotel_Hammamet_93;Ul. Plażowa 238, Hammamet, Hammamet, Tunezja;3;pełne wyżywienie;40;2;19;"basen;wifi"
+94;Hotel_Kair_94;Ul. Kwiatowa 48, Kair, Kair, Egipt;3;śniadania;57;4;6;"spa;basen"
+95;Hotel_Hurghada_95;Ul. Kwiatowa 294, Hurghada, Hurghada, Egipt;4;śniadania;152;50;29;"basen;wifi"
+96;Hotel_Hurghada_96;Ul. Centralna 253, Hurghada, Hurghada, Egipt;4;pełne wyżywienie;109;46;1;"basen;siłownia;spa"
+97;Hotel_Hurghada_97;Ul. Kwiatowa 271, Hurghada, Hurghada, Egipt;5;bez wyżywienia;38;29;30;brak
+98;Hotel_Nowy Jork_98;Ul. Kwiatowa 104, Nowy Jork, Nowy Jork, USA;3;śniadania;95;6;1;"wifi;parking"
+99;Hotel_Los Angeles_99;Ul. Przykładowa 15, Los Angeles, Los Angeles, USA;3;śniadania;198;41;23;"wifi;parking"
+100;Hotel_Los Angeles_100;Ul. Centralna 176, Los Angeles, Los Angeles, USA;3;bez wyżywienia;93;33;6;brak
+101;Hotel_Miami_101;Ul. Kwiatowa 196, Miami, Miami, USA;4;śniadania;147;16;11;"spa;basen"
+102;Hotel_Miami_102;Ul. Główna 138, Miami, Miami, USA;5;śniadania;158;32;15;"basen;siłownia;spa"
+103;Hotel_Miami_103;Ul. Przykładowa 211, Miami, Miami, USA;3;półpension;98;47;7;brak
+104;Hotel_Toronto_104;Ul. Centralna 69, Toronto, Toronto, Kanada;3;półpension;27;5;27;"basen;wifi"
+105;Hotel_Toronto_105;Ul. Plażowa 61, Toronto, Toronto, Kanada;3;śniadania;19;50;1;brak
+106;Hotel_Toronto_106;Ul. Kwiatowa 243, Toronto, Toronto, Kanada;5;półpension;136;47;30;"spa;basen"
+107;Hotel_Montreal_107;Ul. Plażowa 90, Montreal, Montreal, Kanada;4;pełne wyżywienie;87;40;10;"wifi;parking"
+108;Hotel_Montreal_108;Ul. Kwiatowa 133, Montreal, Montreal, Kanada;3;półpension;25;7;24;"basen;siłownia;spa"
+109;Hotel_Montreal_109;Ul. Centralna 293, Montreal, Montreal, Kanada;2;bez wyżywienia;116;49;21;"spa;basen"
+110;Hotel_Sydney_110;Ul. Centralna 233, Sydney, Sydney, Australia;4;pełne wyżywienie;183;32;27;brak
+111;Hotel_Sydney_111;Ul. Centralna 3, Sydney, Sydney, Australia;2;bez wyżywienia;134;41;1;"spa;basen"
+112;Hotel_Melbourne_112;Ul. Plażowa 28, Melbourne, Melbourne, Australia;5;bez wyżywienia;6;36;28;"spa;basen"
+113;Hotel_Melbourne_113;Ul. Kwiatowa 286, Melbourne, Melbourne, Australia;4;półpension;149;7;6;brak
+114;Hotel_Tokio_114;Ul. Kwiatowa 21, Tokio, Tokio, Japonia;4;bez wyżywienia;95;9;21;brak
+115;Hotel_Tokio_115;Ul. Plażowa 104, Tokio, Tokio, Japonia;4;półpension;136;14;13;"wifi;parking"
+116;Hotel_Osaka_116;Ul. Kwiatowa 293, Osaka, Osaka, Japonia;3;śniadania;59;49;3;"basen;wifi"
+117;Hotel_Osaka_117;Ul. Główna 176, Osaka, Osaka, Japonia;5;bez wyżywienia;135;45;10;"spa;basen"
+118;Hotel_Osaka_118;Ul. Kwiatowa 67, Osaka, Osaka, Japonia;4;bez wyżywienia;40;3;16;"basen;wifi"
+119;Hotel_Pekin_119;Ul. Przykładowa 154, Pekin, Pekin, Chiny;3;bez wyżywienia;22;36;18;"spa;basen"
+120;Hotel_Szanghaj_120;Ul. Główna 9, Szanghaj, Szanghaj, Chiny;5;pełne wyżywienie;9;15;5;"basen;siłownia;spa"
+121;Hotel_Szanghaj_121;Ul. Plażowa 253, Szanghaj, Szanghaj, Chiny;3;pełne wyżywienie;154;24;15;"basen;siłownia;spa"
+122;Hotel_Szanghaj_122;Ul. Centralna 228, Szanghaj, Szanghaj, Chiny;5;śniadania;127;42;23;"spa;basen"
+123;Hotel_Mumbaj_123;Ul. Centralna 192, Mumbaj, Mumbaj, Indie;3;śniadania;168;49;1;"basen;wifi"
+124;Hotel_Mumbaj_124;Ul. Plażowa 5, Mumbaj, Mumbaj, Indie;2;półpension;123;27;8;"basen;siłownia;spa"
+125;Hotel_Delhi_125;Ul. Centralna 91, Delhi, Delhi, Indie;4;bez wyżywienia;59;4;8;"spa;basen"
+126;Hotel_Dublin_126;Ul. Plażowa 297, Dublin, Dublin, Irlandia;3;bez wyżywienia;121;31;18;"spa;basen"
+127;Hotel_Cork_127;Ul. Centralna 132, Cork, Cork, Irlandia;4;bez wyżywienia;146;43;30;brak
+128;Hotel_Reykjavik_128;Ul. Główna 264, Reykjavik, Reykjavik, Islandia;4;śniadania;17;29;10;brak
+129;Hotel_Reykjavik_129;Ul. Przykładowa 99, Reykjavik, Reykjavik, Islandia;3;bez wyżywienia;160;42;25;"wifi;parking"
+130;Hotel_Akureyri_130;Ul. Centralna 142, Akureyri, Akureyri, Islandia;4;śniadania;165;8;2;"wifi;parking"
+131;Hotel_Akureyri_131;Ul. Kwiatowa 244, Akureyri, Akureyri, Islandia;5;pełne wyżywienie;153;36;28;"basen;wifi"
+132;Hotel_Warszawa_132;Ul. Centralna 148, Warszawa, Warszawa, Polska;2;pełne wyżywienie;8;21;7;"basen;wifi"
+133;Hotel_Warszawa_133;Ul. Centralna 225, Warszawa, Warszawa, Polska;3;pełne wyżywienie;160;44;18;"basen;wifi"
+134;Hotel_Warszawa_134;Ul. Kwiatowa 127, Warszawa, Warszawa, Polska;4;pełne wyżywienie;47;34;11;"basen;wifi"
+135;Hotel_Kraków_135;Ul. Plażowa 209, Kraków, Kraków, Polska;4;półpension;173;1;28;"wifi;parking"
+136;Hotel_Gdańsk_136;Ul. Przykładowa 62, Gdańsk, Gdańsk, Polska;3;półpension;106;16;14;"wifi;parking"
+137;Hotel_Gdańsk_137;Ul. Główna 12, Gdańsk, Gdańsk, Polska;5;pełne wyżywienie;139;28;30;"spa;basen"
