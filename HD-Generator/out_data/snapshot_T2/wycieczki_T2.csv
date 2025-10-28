@@ -48,4 +48,6 @@ IdWycieczki;Kraj;Miasto;Cena;Typ;IdPilota
 47;Czechy;Praga;1592;city break;6
 48;Chiny;Szanghaj;1528;objazdowa;8
 49;Norwegia;Oslo;500;tematyczna;8
-50;Irlandia;Cork;1044;objazdowa;9
+50;Irlandia;Cork;1044;objazdowa;2
+51;Wielka Brytania;Londyn;954;city break;7
+52;Francja;Nicea;744;wypoczynkowa;4

@@ -76,7 +76,7 @@ HEADERS = {
     "atrakcje": ["IdAtrakcji","Nazwa","Typ"],
     "kwaterowanie": ["IdWycieczki","IdHotelu"],
     "harmonogram": ["IdWycieczki","IdAtrakcji"],
-    "rezerwacje": ["Miejscowosc","Termin","Cena","LiczbaOsob"]
+    "rezerwacje": ["Miasto","Termin","Cena","LiczbaOsob"]
 }
 
 def ensure_dir(d):
@@ -337,10 +337,10 @@ def generate_rezerwacje_csv_stream(n_facts, terms_rows, trip_city_map, outpath, 
 
 # ---------- MAIN ----------
 def main():
-    outdir = os.environ.get("OUTDIR", "out_data/snapshot_t1")
-    facts = int(os.environ.get("FACTS", "1000"))
-    pilots = int(os.environ.get("PILOTS", "5"))
-    trips = int(os.environ.get("TRIPS", "50"))
+    outdir = os.environ.get("OUTDIR", "out_data/test")
+    facts = int(os.environ.get("FACTS", "1000000"))
+    pilots = int(os.environ.get("PILOTS", "500"))
+    trips = int(os.environ.get("TRIPS", "100000"))
     random.seed(12345)
     ensure_dir(outdir)
 
@@ -366,7 +366,7 @@ def main():
     trips_ids = [t['IdWycieczki'] for t in trips_list]
 
     # 4) Terminy - w trakcie ich tworzenia przypisujemy pilota, dbając o konflikty
-    termy_csv, trips_list = generate_terms(trips_list, outdir, pilots_ids, start_term_id=1, terms_per_trip=2, append_pilot_fn=append_pilot_fn)
+    termy_csv, trips_list = generate_terms(trips_list, outdir, pilots_ids, start_term_id=1, terms_per_trip=3, append_pilot_fn=append_pilot_fn)
 
     # 5) Atrakcje
     atrakcje_csv = generate_attractions(20, outdir, start_id=1)

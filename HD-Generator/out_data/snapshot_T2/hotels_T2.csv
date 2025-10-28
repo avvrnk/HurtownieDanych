@@ -1,5 +1,5 @@
 IdHotelu;Nazwa;Adres;StandardHotelu;ZakresWyzywienia;LiczbaPokoi2;LiczbaPokoi3;LiczbaPokoi4;Udogodnienia
-1;Hotel_Rzym_1;Ul. Przykładowa 288, Rzym, Rzym, Włochy;4;półpension;95;47;30;"basen;wifi"
+1;Hotel_Rzym_1;Ul. Przykładowa 288, Rzym, Rzym, Włochy;4;pełne wyżywienia;95;47;30;"basen;wifi"
 2;Hotel_Rzym_2;Ul. Centralna 212, Rzym, Rzym, Włochy;4;półpension;42;13;23;"basen;wifi"
 3;Hotel_Mediolan_3;Ul. Przykładowa 165, Mediolan, Mediolan, Włochy;3;pełne wyżywienie;11;32;22;brak
 4;Hotel_Wenecja_4;Ul. Główna 84, Wenecja, Wenecja, Włochy;5;półpension;78;6;20;brak
@@ -98,3 +98,4 @@ IdHotelu;Nazwa;Adres;StandardHotelu;ZakresWyzywienia;LiczbaPokoi2;LiczbaPokoi3;L
 97;Hotel_Kraków_97;Ul. Centralna 119, Kraków, Kraków, Polska;5;bez wyżywienia;193;11;24;"basen;wifi"
 98;Hotel_Gdańsk_98;Ul. Kwiatowa 70, Gdańsk, Gdańsk, Polska;4;pełne wyżywienie;162;14;10;"basen;wifi"
 99;Hotel_Gdańsk_99;Ul. Główna 82, Gdańsk, Gdańsk, Polska;3;śniadania;186;7;10;"basen;siłownia;spa"
+100;Hotel_Londyn_100;Ul. Główna 120, Londyn, Londyn, Wielka Brytania;4;pełne wyżywienia;21;18;19;"basen;spa"

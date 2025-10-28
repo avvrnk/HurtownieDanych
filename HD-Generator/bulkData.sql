@@ -2,7 +2,7 @@ use TripOut				-- HD_biuroPodró¿y
 go 
 
 BULK INSERT Pilot 
-from 'C:\Users\Agata\projekty\HD-Generator\out_data\pilots.csv'
+from 'C:\Users\wronk\projekty\HurtownieDanych\HD-Generator\Generator\dane_docelowe\pilots.csv'
 WITH (
 	FIELDTERMINATOR=';',
 	ROWTERMINATOR = '\n', 
@@ -11,7 +11,7 @@ WITH (
 	);
 
 BULK INSERT Wycieczka 
-from 'C:\Users\Agata\projekty\HD-Generator\out_data\wycieczki.csv'
+from 'C:\Users\wronk\projekty\HurtownieDanych\HD-Generator\Generator\dane_docelowe\wycieczki.csv'
 WITH (
 	FIELDTERMINATOR=';',
 	ROWTERMINATOR = '\n', 
@@ -20,7 +20,7 @@ WITH (
 	);
 
 BULK INSERT Termin 
-from 'C:\Users\Agata\projekty\HD-Generator\out_data\terminy.csv'
+from 'C:\Users\wronk\projekty\HurtownieDanych\HD-Generator\Generator\dane_docelowe\terminy.csv'
 WITH (
 	FIELDTERMINATOR=';',
 	ROWTERMINATOR = '\n', 
@@ -29,7 +29,7 @@ WITH (
 	);
 
 BULK INSERT Hotel 
-from 'C:\Users\Agata\projekty\HD-Generator\out_data\hotels.csv'
+from 'C:\Users\wronk\projekty\HurtownieDanych\HD-Generator\Generator\dane_docelowe\hotels.csv'
 WITH (
 	FIELDTERMINATOR=';',
 	ROWTERMINATOR = '\n', 
@@ -38,7 +38,7 @@ WITH (
 	);
 
 BULK INSERT AtrakcjaDodatkowa 
-from 'C:\Users\Agata\projekty\HD-Generator\out_data\atrakcje.csv'
+from 'C:\Users\wronk\projekty\HurtownieDanych\HD-Generator\Generator\dane_docelowe\atrakcje.csv'
 WITH (
 	FIELDTERMINATOR=';',
 	ROWTERMINATOR = '\n', 
@@ -47,7 +47,7 @@ WITH (
 	);
 
 BULK INSERT Kwaterowanie 
-from 'C:\Users\Agata\projekty\HD-Generator\out_data\kwaterowanie.csv'
+from 'C:\Users\wronk\projekty\HurtownieDanych\HD-Generator\Generator\dane_docelowe\kwaterowanie.csv'
 WITH (
 	FIELDTERMINATOR=';',
 	ROWTERMINATOR = '\n', 
@@ -56,7 +56,7 @@ WITH (
 	);
 
 BULK INSERT Harmonogram 
-from 'C:\Users\Agata\projekty\HD-Generator\out_data\harmonogram.csv'
+from 'C:\Users\wronk\projekty\HurtownieDanych\HD-Generator\Generator\dane_docelowe\harmonogram.csv'
 WITH (
 	FIELDTERMINATOR=';',
 	ROWTERMINATOR = '\n', 
