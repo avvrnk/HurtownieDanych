@@ -1,21 +1,21 @@
 IdAtrakcji;Nazwa;Typ
-1;Atrakcja_1;wycieczka
+1;Atrakcja_1;wystawa
 2;Atrakcja_2;degustacja
-3;Atrakcja_3;wycieczka
-4;Atrakcja_4;koncert
-5;Atrakcja_5;spotkanie lokalne
-6;Atrakcja_6;spotkanie lokalne
-7;Atrakcja_7;spotkanie lokalne
-8;Atrakcja_8;degustacja
+3;Atrakcja_3;wystawa
+4;Atrakcja_4;wycieczka
+5;Atrakcja_5;koncert
+6;Atrakcja_6;wycieczka
+7;Atrakcja_7;koncert
+8;Atrakcja_8;wycieczka
 9;Atrakcja_9;koncert
-10;Atrakcja_10;koncert
-11;Atrakcja_11;degustacja
+10;Atrakcja_10;wycieczka
+11;Atrakcja_11;wycieczka
 12;Atrakcja_12;wystawa
-13;Atrakcja_13;degustacja
-14;Atrakcja_14;koncert
-15;Atrakcja_15;wystawa
-16;Atrakcja_16;spotkanie lokalne
-17;Atrakcja_17;spotkanie lokalne
+13;Atrakcja_13;wystawa
+14;Atrakcja_14;spotkanie lokalne
+15;Atrakcja_15;spotkanie lokalne
+16;Atrakcja_16;wystawa
+17;Atrakcja_17;wycieczka
 18;Atrakcja_18;wystawa
-19;Atrakcja_19;koncert
-20;Atrakcja_20;wycieczka
+19;Atrakcja_19;wystawa
+20;Atrakcja_20;degustacja
