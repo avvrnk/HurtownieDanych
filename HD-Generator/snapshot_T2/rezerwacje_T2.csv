@@ -1,4 +1,4 @@
-Miasto;Termin;Cena;LiczbaOsob
+Miejscowosc;Termin;Cena;LiczbaOsob
 Ostrawa;2026-08-27;1203;20
 Marrakesz;2026-07-25;771;18
 Szanghaj;2026-05-11;2433;14
@@ -999,3 +999,4 @@ Nowy Jork;2026-06-13;2092;29
 Marrakesz;2026-09-06;1859;7
 Ostrawa;2025-12-08;1970;17
 Bruksela;2026-03-17;319;7
+Londyn;2026-11-25;954;4
