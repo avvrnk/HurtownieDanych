@@ -1,0 +1,11 @@
+use TripOut					-- HD_biuroPodró¿y
+go 
+
+DROP TABLE IF EXISTS Oferta; 
+DROP TABLE IF EXISTS Harmonogram;
+DROP TABLE IF EXISTS Kwaterowanie;
+DROP TABLE IF EXISTS Wycieczka;
+DROP TABLE IF EXISTS Pilot;
+DROP TABLE IF EXISTS Hotel;
+DROP TABLE IF EXISTS Data;
+DROP TABLE IF EXISTS Atrakcja;

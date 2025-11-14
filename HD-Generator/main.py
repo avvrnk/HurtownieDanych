@@ -229,6 +229,8 @@ def main():
                 rr['StandardHotelu'] = str(min(5, int(rr['StandardHotelu']) + 1))
                 rr['Nazwa'] = rr['Nazwa'] + "_v2"
             w.writerow([rr[h] for h in HEADERS['hotels']])
+
+            
     # create_sql_path = os.path.join(outdir, "create_tables.sql")
     # with open(create_sql_path, "w", encoding="utf-8") as f:
     #     f.write(CREATE_TABLES_SQL)

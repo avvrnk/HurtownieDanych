@@ -1,19 +1,5 @@
-create database TripOut				-- HD_biuroPodr�y 
+use TripOut				-- HD_biuroPodr�y 
 go 
-
-create table Oferta(
-    IdOferty integer primary key, 
-    IdDaty integer foreign key references Data(IdDaty),
-    IdWycieczki integer foreign key references Wycieczka(IdWycieczki),
-    IdPilota integer foreign key references Pilot(IdPilota),
-    DlugoscPobytu integer not null,
-    IloscMiejsc integer not null,
-    ZarezerwowaneMiejsca integer not null,
-    CenaZaOsobe decimal(10,2) not null,
-    Oblozenie integer not null check(Oblozenie between 0 and 100),
-    Przychod decimal(10,2) not null
-)
-go
 
 create table Data(
     IdDaty integer primary key, 
@@ -22,6 +8,7 @@ create table Data(
     Kwartal integer not null,
     Miesiac varchar(20) not null,
     MiesiacNum integer not null,
+    Dzien integer not null,
     DzienTygodnia varchar(20) not null,
     DzienTygodniaNum integer not null,
     Wakacje bit not null,
@@ -85,7 +72,19 @@ create table Harmonogram(
 ) 
 go 
 
-
+create table Oferta(
+    IdOferty integer primary key, 
+    IdDaty integer foreign key references Data(IdDaty),
+    IdWycieczki integer foreign key references Wycieczka(IdWycieczki),
+    IdPilota integer foreign key references Pilot(IdPilota),
+    DlugoscPobytu integer not null,
+    IloscMiejsc integer not null,
+    ZarezerwowaneMiejsca integer not null,
+    CenaZaOsobe decimal(10,2) not null,
+    Oblozenie integer not null check(Oblozenie between 0 and 100),
+    Przychod decimal(10,2) not null
+)
+go
  
 
 
