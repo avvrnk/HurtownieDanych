@@ -197,9 +197,9 @@ def read_terms_rows(terminy_csv):
 def main():
     outdir = os.environ.get("OUTDIR", "out_data")
     facts = int(os.environ.get("FACTS", "1000000"))
-    pilots = int(os.environ.get("PILOTS", "5"))
+    pilots = int(os.environ.get("PILOTS", "5000"))
     hotels = int(os.environ.get("HOTELS", "10"))
-    trips = int(os.environ.get("TRIPS", "50"))
+    trips = int(os.environ.get("TRIPS", "100000"))
     random.seed(12345)
     ensure_dir(outdir)
     pilots_csv = generate_pilots(pilots, outdir, start_id=1)

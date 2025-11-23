@@ -66,8 +66,8 @@ COUNTRIES_CITIES = {
 }
 
 HEADERS = {
-    "pilots": ["IdPilota","Imie","Nazwisko","Jezyk"],
-    "hotels": ["IdHotelu","Nazwa","Adres","StandardHotelu","ZakresWyzywienia","LiczbaPokoi2","LiczbaPokoi3","LiczbaPokoi4","Udogodnienia"],
+    "piloci": ["IdPilota","Imie","Nazwisko","Jezyk"],
+    "hotele": ["IdHotelu","Nazwa","Adres","StandardHotelu","ZakresWyzywienia","LiczbaPokoi2","LiczbaPokoi3","LiczbaPokoi4","Udogodnienie"],
     "wycieczki": ["IdWycieczki","Kraj","Miasto","Cena","Typ","IdPilota"],
     "terminy": ["IdTerminu","DataWyjazdu","DlugoscPobytu","IloscMiejsc","IdWycieczki"],
     "atrakcje": ["IdAtrakcji","Nazwa","Typ"],
@@ -93,22 +93,40 @@ def rnd_city_country():
     return city, country
 
 def generate_pilots(n_pilots, outdir, start_id=1):
-    path = os.path.join(outdir, "pilots.csv")
+    path = os.path.join(outdir, "piloci.csv")
+    used_names = set()
     with open(path, "w", newline='', encoding="utf-8") as f:
         w = csv.writer(f, delimiter=';')
-        w.writerow(HEADERS["pilots"])
+        w.writerow(HEADERS["piloci"])
+
         for i in range(n_pilots):
             pid = start_id + i
-            im = rnd_name()
-            ns = rnd_surname()
+            while True:
+                im = rnd_name()
+                ns = rnd_surname()
+                if (im, ns) not in used_names:
+                    used_names.add((im, ns))
+                    break
             lang = random.choice(["polski","angielski","włoski","hiszpański","francuski","niemiecki","rosyjski","arabski","chiński"])
             w.writerow([pid, im, ns, lang])
     return path
 
 def append_pilot(outdir, pid):
     path = os.path.join(outdir, "piloci.csv")
-    im = rnd_name()
-    ns = rnd_surname()
+    used_names = set()
+    # read existing names to avoid duplicates
+    if os.path.exists(path):
+        with open(path, newline='', encoding="utf-8") as f:
+            r = csv.reader(f, delimiter=';')
+            next(r)  # skip header
+            for rr in r:
+                used_names.add((rr[1], rr[2]))
+    while True:
+        im = rnd_name()
+        ns = rnd_surname()
+        if (im, ns) not in used_names:
+            used_names.add((im, ns))
+            break
     lang = random.choice(["polski","angielski","włoski","hiszpański","francuski","niemiecki","rosyjski","arabski","chiński"])
     with open(path, "a", newline='', encoding="utf-8") as f:
         w = csv.writer(f, delimiter=';')
@@ -129,7 +147,27 @@ def generate_hotels(outdir, start_id=1, min_per_city=1, max_per_city=3):
                 r2 = random.randint(5,200)
                 r3 = random.randint(0,50)
                 r4 = random.randint(0,30)
-                amenities = random.choice(["basen;wifi","spa;basen","wifi;parking","brak","basen;siłownia;spa"])
+                amenities = random.choice([
+                                            "Bezpłatne Wi-Fi",
+                                            "Klimatyzacja w pokojach",
+                                            "Śniadanie w cenie",
+                                            "Całodobowa recepcja",
+                                            "Parking (bezpłatny lub płatny)",
+                                            "Siłownia / centrum fitness",
+                                            "Basen (kryty lub odkryty)",
+                                            "Spa i strefa wellness",
+                                            "Obsługa pokojowa (room service)",
+                                            "Restauracja lub bar hotelowy",
+                                            "Transfer z/na lotnisko",
+                                            "Przechowalnia bagażu",
+                                            "Sejf w pokoju lub w recepcji",
+                                            "Telewizor z serwisami streamingowymi",
+                                            "Czajnik, kawa i herbata w pokoju",
+                                            "Mini bar lub lodówka",
+                                            "Udogodnienia dla rodzin",
+                                            "Udogodnienia dla osób niepełnosprawnych",
+                                            "Centrum biznesowe / sala konferencyjna",
+                                            "Usługa pralni i prasowania"])
                 hotels.append({
                     "IdHotelu": hid,
                     "Nazwa": name,
@@ -148,7 +186,7 @@ def generate_hotels(outdir, start_id=1, min_per_city=1, max_per_city=3):
     path = os.path.join(outdir, "hotele.csv")
     with open(path, "w", newline='', encoding="utf-8") as f:
         w = csv.writer(f, delimiter=';')
-        w.writerow(HEADERS["hotels"])
+        w.writerow(HEADERS["hotele"])
         for h in hotels:
             w.writerow([h['IdHotelu'], h['Nazwa'], h['Adres'], h['StandardHotelu'],
                         h['ZakresWyzywienia'], h['LiczbaPokoi2'], h['LiczbaPokoi3'], h['LiczbaPokoi4'], h['Udogodnienia']])
@@ -244,7 +282,7 @@ def generate_attractions(n_atr, outdir, start_id=1):
         for i in range(n_atr):
             aid = start_id + i
             name = f"Atrakcja_{aid}"
-            typ = random.choice(["wycieczka","wystawa","degustacja","koncert","spotkanie lokalne"])
+            typ = random.choice(["wycieczka","wystawa","degustacja","koncert","zwiedzanie","pokaz","warsztaty","inne"])
             w.writerow([aid, name, typ])
     return path
 
@@ -326,7 +364,7 @@ def main():
         return pid
 
     # 2) Hotele (przypisane do miast)
-    hotels_csv, hotels_info = generate_hotels(outdir, start_id=1, min_per_city=1, max_per_city=3)
+    hotels_csv, hotels_info = generate_hotels(outdir, start_id=1, min_per_city=2, max_per_city=5)
     hotels_ids = [h['IdHotelu'] for h in hotels_info]
 
     # 3) Wycieczki (bez pilota na razie)
@@ -334,11 +372,11 @@ def main():
     trips_ids = [t['IdWycieczki'] for t in trips_list]
 
     # 4) Terminy - w trakcie ich tworzenia przypisujemy pilota, dbając o konflikty
-    termy_csv, trips_list = generate_terms(trips_list, outdir, pilots_ids, start_term_id=1, terms_per_trip=2, append_pilot_fn=append_pilot_fn)
+    termy_csv, trips_list = generate_terms(trips_list, outdir, pilots_ids, start_term_id=1, terms_per_trip=3, append_pilot_fn=append_pilot_fn)
 
     # 5) Atrakcje
-    atrakcje_csv = generate_attractions(20, outdir, start_id=1)
-    attractions_ids = list(range(1, 20+1))
+    atrakcje_csv = generate_attractions(128, outdir, start_id=1)
+    attractions_ids = list(range(1, 128+1))
 
     # 6) Kwaterowanie: przypiszemy tylko hotele z tego samego miasta co wycieczka
     kw_csv = generate_kwaterowanie(trips_list, hotels_info, outdir)
