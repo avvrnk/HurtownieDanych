@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|solutionrelative:Trip Out.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|solutionrelative:Trip Out.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trip Out.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.cube",
+              "RelativeDocumentMoniker": "Trip Out.cube",
+              "ToolTip": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.cube [Design]",
+              "RelativeToolTip": "Trip Out.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-14T16:27:23.723Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Trip Out.dsv [Design]",
+              "DocumentMoniker": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.dsv",
+              "RelativeDocumentMoniker": "Trip Out.dsv",
+              "ToolTip": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.dsv [Design]",
+              "RelativeToolTip": "Trip Out.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-14T16:24:48.938Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
