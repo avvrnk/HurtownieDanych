@@ -1,4 +1,4 @@
-use TripOut_test				-- HD_biuroPodró¿y
+use TripOutDW		
 go 
 
 DROP TABLE IF EXISTS Oferta; 
@@ -9,5 +9,3 @@ DROP TABLE IF EXISTS Pilot;
 DROP TABLE IF EXISTS Hotel;
 DROP TABLE IF EXISTS Data;
 DROP TABLE IF EXISTS Atrakcja;
-DROP TABLE IF EXISTS DataTmp;
-DROP TABLE IF EXISTS rezerwacje_temp;

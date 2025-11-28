@@ -2,67 +2,68 @@
 import csv, os, argparse, random, datetime, json
 from collections import defaultdict
 
+# ---------- DANE STAlE ---------- 
+
 FIRST_NAMES = [
-"Anna","Katarzyna","Maria","Małgorzata","Agnieszka","Barbara","Ewa","Krystyna","Elżbieta","Joanna",
+"Anna","Katarzyna","Maria","Malogorzata","Agnieszka","Barbara","Ewa","Krystyna","Elzbieta","Joanna",
 "Zofia","Magdalena","Halina","Teresa","Dorota","Iwona","Beata","Renata","Aleksandra","Natalia",
 "Paulina","Monika","Karolina","Julia","Marta","Alicja","Oliwia","Amelia","Marianna","Weronika",
 "Patrycja","Izabela","Kinga","Sylwia","Klaudia","Jagoda","Nikola","Adriana","Milena","Dominika",
 "Roksana","Laura","Gabriela","Stefania","Antonina","Blanka","Leokadia","Helena","Lidia","Urszula",
-"Jan","Piotr","Marek","Tomasz","Paweł","Andrzej","Grzegorz","Krzysztof","Marcin","Łukasz",
-"Mateusz","Szymon","Adam","Jakub","Rafał","Dawid","Wojciech","Sebastian","Mariusz","Przemysław",
+"Jan","Piotr","Marek","Tomasz","Pawel","Andrzej","Grzegorz","Krzysztof","Marcin","Lukasz",
+"Mateusz","Szymon","Adam","Jakub","Rafal","Dawid","Wojciech","Sebastian","Mariusz","Przemyslaw",
 "Arkadiusz","Artur","Bartosz","Cezary","Damian","Dominik","Emil","Filip","Igor","Jacek",
-"Kamil","Leszek","Mieczysław","Norbert","Olaf","Oskar","Radosław","Ryszard","Szczepan","Szymek",
+"Kamil","Leszek","Mieczyslaw","Norbert","Olaf","Oskar","Radoslaw","Ryszard","Szczepan","Szymek",
 "Teodor","Waldemar","Zygmunt","Zenon","Hubert","Fabian","Eryk","Borys","Maurycy","Constantin",
 "Bruno","Dorian","Emanuel","Feliks","Gustaw","Henri","Iwo","Juliusz","Lech","Nikodem","Olgierd",
 "Radomir","Witold","Wiktor","Arnold","Cezary","Dorian"
 ]
 
 SURNAMES = [
-"Kowalski","Nowak","Wiśniewski","Wójcik","Kowalczyk","Kamiński","Lewandowski","Zieliński","Szymański","Woźniak",
-"Kozłowski","Jankowski","Mazur","Kwiatkowski","Kaczmarek","Piotrowski","Grabowski","Nowicki","Pawłowski","Michalski",
-"Olszewski","Nowacki","Majewski","Ostrowski","Malinowski","Jaworski","Wróblewski","Sadowski","Walczak","Baran",
-"Rutkowski","Michalak","Bąk","Zawadzki","Nawrocki","Duda","Mazurek","Czajkowski","Lis","Sikora",
-"Kubiak","Adamski","Górski","Gajewski","Szulc","Sokołowski","Wasilewski","Lipinski","Włodarczyk","Nowakowski",
-"Markowski","Stępień","Zielińska","Krawczyk","Urban","Tomczak","Król","Krajewski","Wilk","Orzechowski",
-"Włodarczyk","Błaszczyk","Mika","Kurek","Bednarek","Kubicki","Sikorski","Konecki","Tomaszewski","Kalinowski",
-"Jabłoński","Rybicki","Nowosielski","Piórkowski","Jaworska","Siwek","Domański","Mikołajczyk","Stasiak","Kalinowska",
-"Leszczyński","Matusiak","Szewczyk","Kruk","Czerwiński","Pawlak","Szczepański","Kisielewski","Niemczyk","Polak",
-"Wilczyński","Sowa","Chmielewski","Biela","Głowacki","Brzeziński","Bączek","Szczepaniak","Kaczor","Borkowski",
+"Kowalski","Nowak","Wisniewski","Wojcik","Kowalczyk","Kaminski","Lewandowski","Zielinski","Szymanski","Wozniak",
+"Kozlowski","Jankowski","Mazur","Kwiatkowski","Kaczmarek","Piotrowski","Grabowski","Nowicki","Pawlowski","Michalski",
+"Olszewski","Nowacki","Majewski","Ostrowski","Malinowski","Jaworski","Wroblewski","Sadowski","Walczak","Baran",
+"Rutkowski","Michalak","Bak","Zawadzki","Nawrocki","Duda","Mazurek","Czajkowski","Lis","Sikora",
+"Kubiak","Adamski","Gorski","Gajewski","Szulc","Sokolowski","Wasilewski","Lipinski","Wlodarczyk","Nowakowski",
+"Markowski","Stepien","Zielinska","Krawczyk","Urban","Tomczak","Krol","Krajewski","Wilk","Orzechowski",
+"Wlodarczyk","Blaszczyk","Mika","Kurek","Bednarek","Kubicki","Sikorski","Konecki","Tomaszewski","Kalinowski",
+"Jablonski","Rybicki","Nowosielski","Piorkowski","Jaworska","Siwek","Domanski","Mikolajczyk","Stasiak","Kalinowska",
+"Leszczynski","Matusiak","Szewczyk","Kruk","Czerwinski","Pawlak","Szczepanski","Kisielewski","Niemczyk","Polak",
+"Wilczynski","Sowa","Chmielewski","Biela","Glowacki","Brzezinski","Baczek","Szczepaniak","Kaczor","Borkowski",
 "Urbanek","Cichy","Szewczyk","Zaremba","Mikulski","Baron","Wawrzyniak","Gajda","Kubiak","Kurek","Kowal"
 ]
 
-# ~30 krajów z 2-3 miastami każdy (przykładowe)
 COUNTRIES_CITIES = {
-    "Włochy": ["Rzym","Mediolan","Wenecja"],
-    "Francja": ["Paryż","Nicea","Lyon"],
-    "Hiszpania": ["Barcelona","Madryt","Walencja"],
-    "Wielka Brytania": ["Londyn","Manchester","Edynburg"],
-    "Grecja": ["Ateny","Saloniki"],
-    "Portugalia": ["Lizbona","Porto"],
-    "Chorwacja": ["Dubrownik","Split"],
-    "Bułgaria": ["Sofia","Burgas"],
-    "Niemcy": ["Berlin","Monachium","Hamburg"],
-    "Holandia": ["Amsterdam","Rotterdam"],
-    "Belgia": ["Bruksela","Antwerpia"],
-    "Szwajcaria": ["Zurych","Genewa"],
-    "Austria": ["Wiedeń","Salzburg"],
-    "Czechy": ["Praga","Ostrawa"],
-    "Szwecja": ["Sztokholm","Gothenburg"],
-    "Norwegia": ["Oslo","Bergen"],
-    "Dania": ["Kopenhaga","Aarhus"],
-    "Turcja": ["Stambuł","Antalya"],
-    "Maroko": ["Marrakesz","Casablanca"],
-    "Tunezja": ["Tunis","Hammamet"],
-    "Egipt": ["Kair","Hurghada"],
-    "USA": ["Nowy Jork","Los Angeles","Miami"],
-    "Kanada": ["Toronto","Montreal"],
+    "Italy": ["Rome","Milan","Venice"],
+    "France": ["Paris","Nice","Lyon"],
+    "Spain": ["Barcelona","Madrid","Valencia"],
+    "United Kingdom": ["London","Manchester","Edinburgh"],
+    "Greece": ["Athens","Thessaloniki"],
+    "Portugal": ["Lisbon","Porto"],
+    "Croatia": ["Dubrovnik","Split"],
+    "Bulgaria": ["Sofia","Burgas"],
+    "Germany": ["Berlin","Munich","Hamburg"],
+    "Netherlands": ["Amsterdam","Rotterdam"],
+    "Belgium": ["Brussels","Antwerp"],
+    "Switzerland": ["Zurich","Geneva"],
+    "Austria": ["Vienna","Salzburg"],
+    "Czech Republic": ["Prague","Ostrava"],
+    "Sweden": ["Stockholm","Gothenburg"],
+    "Norway": ["Oslo","Bergen"],
+    "Denmark": ["Copenhagen","Aarhus"],
+    "Turkey": ["Istanbul","Antalya"],
+    "Morocco": ["Marrakesh","Casablanca"],
+    "Tunisia": ["Tunis","Hammamet"],
+    "Egypt": ["Cairo","Hurghada"],
+    "USA": ["New York","Los Angeles","Miami"],
+    "Canada": ["Toronto","Montreal"],
     "Australia": ["Sydney","Melbourne"],
-    "Japonia": ["Tokio","Osaka"],
-    "Chiny": ["Pekin","Szanghaj"],
-    "Indie": ["Mumbaj","Delhi"],
-    "Irlandia": ["Dublin","Cork"],
-    "Islandia": ["Reykjavik","Akureyri"],
-    "Polska": ["Warszawa","Kraków","Gdańsk"]
+    "Japan": ["Tokyo","Osaka"],
+    "China": ["Beijing","Shanghai"],
+    "India": ["Mumbai","Delhi"],
+    "Ireland": ["Dublin","Cork"],
+    "Iceland": ["Reykjavik","Akureyri"],
+    "Poland": ["Warsaw","Krakow","Gdansk"]
 }
 
 HEADERS = {
@@ -107,7 +108,7 @@ def generate_pilots(n_pilots, outdir, start_id=1):
                 if (im, ns) not in used_names:
                     used_names.add((im, ns))
                     break
-            lang = random.choice(["polski","angielski","włoski","hiszpański","francuski","niemiecki","rosyjski","arabski","chiński"])
+            lang = random.choice(["polski","angielski","wloski","hiszpanski","francuski","niemiecki","rosyjski","arabski","chinski"])
             w.writerow([pid, im, ns, lang])
     return path
 
@@ -127,13 +128,13 @@ def append_pilot(outdir, pid):
         if (im, ns) not in used_names:
             used_names.add((im, ns))
             break
-    lang = random.choice(["polski","angielski","włoski","hiszpański","francuski","niemiecki","rosyjski","arabski","chiński"])
+    lang = random.choice(["polski","angielski","wloski","hiszpanski","francuski","niemiecki","rosyjski","arabski","chinski"])
     with open(path, "a", newline='', encoding="utf-8") as f:
         w = csv.writer(f, delimiter=';')
         w.writerow([pid, im, ns, lang])
     return pid
 
-def generate_hotels(outdir, start_id=1, min_per_city=1, max_per_city=3):
+def generate_hotels(outdir, start_id=1, min_per_city=1, max_per_city=2):
     hotels = []
     hid = start_id
     for country, cities in COUNTRIES_CITIES.items():
@@ -141,33 +142,33 @@ def generate_hotels(outdir, start_id=1, min_per_city=1, max_per_city=3):
             num = random.randint(min_per_city, max_per_city)
             for _ in range(num):
                 name = f"Hotel_{city}_{hid}"
-                addr = f"Ul. {random.choice(['Główna','Kwiatowa','Przykładowa','Plażowa','Centralna'])} {random.randint(1,300)}, {city}"
+                addr = f"Ul. {random.choice(['Glowna','Kwiatowa','Przykladowa','Plazowa','Centralna'])} {random.randint(1,300)}"
                 standard = random.choices([3,4,5,2,1], weights=[40,30,20,8,2])[0]
-                board = random.choice(["śniadania","półpension","pełne wyżywienie","bez wyżywienia"])
+                board = random.choice(["sniadania","polpension","pelne wyzywienie","bez wyzywienia"])
                 r2 = random.randint(5,200)
                 r3 = random.randint(0,50)
                 r4 = random.randint(0,30)
                 amenities = random.choice([
-                                            "Bezpłatne Wi-Fi",
+                                            "Bezplatne Wi-Fi",
                                             "Klimatyzacja w pokojach",
-                                            "Śniadanie w cenie",
-                                            "Całodobowa recepcja",
-                                            "Parking (bezpłatny lub płatny)",
-                                            "Siłownia / centrum fitness",
+                                            "sniadanie w cenie",
+                                            "Calodobowa recepcja",
+                                            "Parking (bezplatny lub platny)",
+                                            "Silownia / centrum fitness",
                                             "Basen (kryty lub odkryty)",
                                             "Spa i strefa wellness",
-                                            "Obsługa pokojowa (room service)",
+                                            "Obsluga pokojowa (room service)",
                                             "Restauracja lub bar hotelowy",
                                             "Transfer z/na lotnisko",
-                                            "Przechowalnia bagażu",
+                                            "Przechowalnia bagazu",
                                             "Sejf w pokoju lub w recepcji",
                                             "Telewizor z serwisami streamingowymi",
                                             "Czajnik, kawa i herbata w pokoju",
-                                            "Mini bar lub lodówka",
+                                            "Mini bar lub lodowka",
                                             "Udogodnienia dla rodzin",
-                                            "Udogodnienia dla osób niepełnosprawnych",
+                                            "Udogodnienia dla osob niepelnosprawnych",
                                             "Centrum biznesowe / sala konferencyjna",
-                                            "Usługa pralni i prasowania"])
+                                            "Usluga pralni i prasowania"])
                 hotels.append({
                     "IdHotelu": hid,
                     "Nazwa": name,
@@ -197,7 +198,7 @@ def generate_trips(n_trips, outdir, start_id=1):
     for i in range(n_trips):
         tid = start_id + i
         city, country = rnd_city_country()
-        price = random.randint(300,2500)
+        price = random.randint(40,400)   # cena za dzien za osobe
         typ = random.choice(["objazdowa","wypoczynkowa","city break","tematyczna"])
         trips.append({"IdWycieczki": tid, "Kraj": country, "Miasto": city, "Cena": price, "Typ": typ, "IdPilota": ""})
     path = os.path.join(outdir, "wycieczki.csv")
@@ -211,10 +212,10 @@ def generate_trips(n_trips, outdir, start_id=1):
 def dates_overlap(a_start, a_end, b_start, b_end):
     return max(a_start, b_start) <= min(a_end, b_end)
 
-def generate_terms(trips, outdir, pilots_ids, start_term_id=1, terms_per_trip=3, append_pilot_fn=None):
+def generate_terms(trips, outdir, pilots_ids, start_term_id=1, terms_per_trip=2, append_pilot_fn=None):
     pilot_bookings = {pid: [] for pid in pilots_ids}  # pid -> list of (start,end)
     next_term_id = start_term_id
-    # jeśli append_pilot_fn nie None, musi zwracać nowe id
+    # jesli append_pilot_fn nie None, musi zwracac nowe id
     path = os.path.join(outdir, "terminy.csv")
     with open(path, "w", newline='', encoding="utf-8") as f:
         w = csv.writer(f, delimiter=';')
@@ -223,15 +224,24 @@ def generate_terms(trips, outdir, pilots_ids, start_term_id=1, terms_per_trip=3,
             # generate term dates for this trip
             term_ranges = []
             term_rows = []
+            temp = []
             for _ in range(terms_per_trip):
-                date_start = datetime.date.today() + datetime.timedelta(days=random.randint(7,365))
+                #date_start = datetime.date.today() + datetime.timedelta(days=random.randint(7,365))
+                # data rozpoczęcia losowo od 1.01.2020 do 31.12.2025
+                date_start = datetime.date(2020,1,1) + datetime.timedelta(days=random.randint(0,2191))
+                if date_start in temp:
+                    # unikaj duplikatow dat rozpoczęcia dla tej wycieczki
+                    while date_start in temp:
+                        date_start = datetime.date(2020,1,1) + datetime.timedelta(days=random.randint(0,2191))
+                temp.append(date_start)
                 length = random.choice([3,5,7,10,14,18,21])
                 date_end = date_start + datetime.timedelta(days=length-1)
                 seats = random.randint(5,50)
                 term_ranges.append((date_start, date_end))
                 term_rows.append((next_term_id, date_start.isoformat(), length, seats, trip['IdWycieczki'], date_start, date_end))
                 next_term_id += 1
-            # try znaleźć pilota dostępnego dla wszystkich zakresów
+            temp.clear()
+            # try znalezc pilota dostępnego dla wszystkich zakresow
             pilot_found = None
             pilot_try_order = pilots_ids.copy()
             random.shuffle(pilot_try_order)
@@ -248,24 +258,24 @@ def generate_terms(trips, outdir, pilots_ids, start_term_id=1, terms_per_trip=3,
                     pilot_found = pid
                     break
             if pilot_found is None and append_pilot_fn is not None:
-                # utwórz nowego pilota i użyj go
+                # utworz nowego pilota i uzyj go
                 new_pid = append_pilot_fn()
                 pilots_ids.append(new_pid)
                 pilot_bookings[new_pid] = []
                 pilot_found = new_pid
-            # jeśli nadal none (brak funkcji append), zostaw puste -> ale spróbujemy z losowym pilotem
+            # jesli nadal none (brak funkcji append), zostaw puste -> ale sprobujemy z losowym pilotem
             if pilot_found is None:
                 pilot_found = random.choice(pilots_ids) if pilots_ids else ""
             # zarejestruj rezerwacje czasu dla pilota
             if pilot_found != "":
                 for (ts, te) in term_ranges:
                     pilot_bookings[pilot_found].append((ts, te))
-            # uzupełnij w trip
+            # uzupelnij w trip
             trip['IdPilota'] = pilot_found
             for tr in term_rows:
                 # IdTerminu, DataWyjazdu, DlugoscPobytu, IloscMiejsc, IdWycieczki
                 w.writerow([tr[0], tr[1], tr[2], tr[3], tr[4]])
-    # po zakończeniu zapisz zaktualizowane wycieczki (uzupełnione IdPilota)
+    # po zakonczeniu zapisz zaktualizowane wycieczki (uzupelnione IdPilota)
     trips_path = os.path.join(outdir, "wycieczki.csv")
     with open(trips_path, "w", newline='', encoding="utf-8") as f:
         w = csv.writer(f, delimiter=';')
@@ -297,6 +307,12 @@ def generate_kwaterowanie(trips, hotels_info, outdir):
         for t in trips:
             city = t['Miasto']
             available = city_hotels.get(city, [])
+            # przypisz 1 hotel z tego miasta
+            # if available:
+            #     hid = random.choice(available)
+            #     w.writerow([t['IdWycieczki'], hid])
+
+
             if not available:
                 hotel_choice = [random.choice([h['IdHotelu'] for h in hotels_info])]
             else:
@@ -312,9 +328,12 @@ def generate_harmonogram(trips_ids, attractions_ids, outdir):
         w = csv.writer(f, delimiter=';')
         w.writerow(HEADERS["harmonogram"])
         for t in trips_ids:
+            # przypisz 1 atrakcji na wycieczkę
+            # a = random.choice(attractions_ids)
+            # w.writerow([t, a])
             k = random.randint(0, 3)
             for a in random.sample(attractions_ids, k=min(k, len(attractions_ids))):
-                w.writerow([t, a])
+               w.writerow([t, a])
     return path
 
 def read_terms_rows(terminy_csv):
@@ -326,28 +345,29 @@ def read_terms_rows(terminy_csv):
             rows.append((int(rr['IdTerminu']), int(rr['IdWycieczki']), rr['DataWyjazdu'], int(rr['DlugoscPobytu']), int(rr['IloscMiejsc'])))
     return rows
 
-def generate_rezerwacje_csv_stream(n_facts, terms_rows, trip_city_map, outpath, seed_offset=0):
+def generate_rezerwacje_csv_stream(terms_rows, trip_city_map, trip_price_map, outpath, seed_offset=0):
     random.seed(42 + seed_offset)
     with open(outpath, "w", newline='', encoding="utf-8") as f:
         w = csv.writer(f, delimiter=';')
         w.writerow(HEADERS["rezerwacje"])
         N = len(terms_rows)
-        for i in range(n_facts):
-            term = terms_rows[random.randint(0, N-1)]
+        for i in range(N):
+            term = terms_rows[i]
             trip_id = term[1]
             city = trip_city_map.get(trip_id, "Nieznane")
+            price = trip_price_map.get(trip_id, random.randint(200, 3000))
             seats_available = int(term[4])
-            booked = max(1, int(random.gauss(seats_available*0.5, max(1, seats_available*0.2))))
-            booked = min(seats_available, max(0, booked))
-            price = random.randint(200, 3000)
+            booked = random.randint(1, seats_available)
+
+            #booked = max(1, int(random.gauss(seats_available*0.5, max(1, seats_available*0.2))))
+            #booked = min(seats_available, max(0, booked))
             w.writerow([city, term[2], price, booked])
     return outpath
 
 def main():
-    outdir = os.environ.get("OUTDIR", "out_data")
-    facts = int(os.environ.get("FACTS", "1000000"))
-    pilots = int(os.environ.get("PILOTS", "500"))
-    trips = int(os.environ.get("TRIPS", "100000"))
+    outdir = os.environ.get("OUTDIR", "XDDDDD")
+    pilots = int(os.environ.get("PILOTS", "50"))
+    trips = int(os.environ.get("TRIPS", "1000"))
     random.seed(12345)
     ensure_dir(outdir)
 
@@ -371,12 +391,12 @@ def main():
     trips_csv, trips_list = generate_trips(trips, outdir, start_id=1)
     trips_ids = [t['IdWycieczki'] for t in trips_list]
 
-    # 4) Terminy - w trakcie ich tworzenia przypisujemy pilota, dbając o konflikty
+    # 4) Terminy - w trakcie ich tworzenia przypisujemy pilota, dbajac o konflikty
     termy_csv, trips_list = generate_terms(trips_list, outdir, pilots_ids, start_term_id=1, terms_per_trip=3, append_pilot_fn=append_pilot_fn)
 
     # 5) Atrakcje
-    atrakcje_csv = generate_attractions(128, outdir, start_id=1)
-    attractions_ids = list(range(1, 128+1))
+    #atrakcje_csv = generate_attractions(128, outdir, start_id=1)
+    attractions_ids = list(range(1, 125+1))
 
     # 6) Kwaterowanie: przypiszemy tylko hotele z tego samego miasta co wycieczka
     kw_csv = generate_kwaterowanie(trips_list, hotels_info, outdir)
@@ -387,8 +407,9 @@ def main():
     # 8) Rezerwacje: odczytamy terminy i wygenerujemy fakty
     terms_rows = read_terms_rows(termy_csv)
     trip_city_map = {t['IdWycieczki']: t['Miasto'] for t in trips_list}
+    trip_price_map = {t['IdWycieczki']: t['Cena'] for t in trips_list}
     rezerwacje_t1 = os.path.join(outdir, "rezerwacje.csv")
-    generate_rezerwacje_csv_stream(facts, terms_rows, trip_city_map ,rezerwacje_t1, seed_offset=0)
+    generate_rezerwacje_csv_stream(terms_rows, trip_city_map, trip_price_map, rezerwacje_t1, seed_offset=0)
 
     print("Generated files under:", os.path.abspath(outdir))
     print("Pilots total (including auto-added if any):", next_pilot_id - 1)

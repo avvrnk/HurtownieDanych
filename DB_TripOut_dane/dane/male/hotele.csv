@@ -1,0 +1,234 @@
+IdHotelu;Nazwa;Adres;StandardHotelu;ZakresWyzywienia;LiczbaPokoi2;LiczbaPokoi3;LiczbaPokoi4;Udogodnienie
+1;Hotel_Rzym_1;Ul. Przykładowa 288, Rzym, Włochy;4;półpension;95;47;30;Śniadanie w cenie
+2;Hotel_Rzym_2;Ul. Centralna 212, Rzym, Włochy;4;półpension;42;13;23;Śniadanie w cenie
+3;Hotel_Rzym_3;Ul. Kwiatowa 175, Rzym, Włochy;3;bez wyżywienia;91;1;30;Udogodnienia dla rodzin
+4;Hotel_Rzym_4;Ul. Plażowa 2, Rzym, Włochy;3;półpension;153;11;9;Całodobowa recepcja
+5;Hotel_Rzym_5;Ul. Plażowa 55, Rzym, Włochy;5;półpension;193;24;7;Udogodnienia dla rodzin
+6;Hotel_Mediolan_6;Ul. Główna 119, Mediolan, Włochy;3;bez wyżywienia;60;47;25;Udogodnienia dla osób niepełnosprawnych
+7;Hotel_Mediolan_7;Ul. Kwiatowa 132, Mediolan, Włochy;4;półpension;15;10;9;Bezpłatne Wi-Fi
+8;Hotel_Mediolan_8;Ul. Kwiatowa 118, Mediolan, Włochy;3;pełne wyżywienie;45;24;10;Bezpłatne Wi-Fi
+9;Hotel_Mediolan_9;Ul. Główna 32, Mediolan, Włochy;5;śniadania;104;11;25;Bezpłatne Wi-Fi
+10;Hotel_Wenecja_10;Ul. Kwiatowa 263, Wenecja, Włochy;5;bez wyżywienia;164;3;0;Mini bar lub lodówka
+11;Hotel_Wenecja_11;Ul. Przykładowa 216, Wenecja, Włochy;2;półpension;98;49;21;Całodobowa recepcja
+12;Hotel_Wenecja_12;Ul. Centralna 77, Wenecja, Włochy;3;półpension;90;14;6;Siłownia / centrum fitness
+13;Hotel_Wenecja_13;Ul. Kwiatowa 148, Wenecja, Włochy;3;śniadania;138;44;0;Parking (bezpłatny lub płatny)
+14;Hotel_Paryż_14;Ul. Plażowa 95, Paryż, Francja;5;śniadania;72;32;24;Sejf w pokoju lub w recepcji
+15;Hotel_Paryż_15;Ul. Główna 236, Paryż, Francja;4;półpension;52;1;11;Transfer z/na lotnisko
+16;Hotel_Nicea_16;Ul. Plażowa 92, Nicea, Francja;3;półpension;110;32;22;Telewizor z serwisami streamingowymi
+17;Hotel_Nicea_17;Ul. Przykładowa 62, Nicea, Francja;3;bez wyżywienia;195;12;20;Usługa pralni i prasowania
+18;Hotel_Nicea_18;Ul. Centralna 104, Nicea, Francja;5;półpension;89;36;9;Parking (bezpłatny lub płatny)
+19;Hotel_Lyon_19;Ul. Przykładowa 219, Lyon, Francja;3;śniadania;166;48;2;Parking (bezpłatny lub płatny)
+20;Hotel_Lyon_20;Ul. Przykładowa 19, Lyon, Francja;3;bez wyżywienia;180;23;12;Restauracja lub bar hotelowy
+21;Hotel_Barcelona_21;Ul. Centralna 136, Barcelona, Hiszpania;3;bez wyżywienia;127;3;8;Czajnik, kawa i herbata w pokoju
+22;Hotel_Barcelona_22;Ul. Główna 113, Barcelona, Hiszpania;3;śniadania;178;40;25;Śniadanie w cenie
+23;Hotel_Barcelona_23;Ul. Główna 57, Barcelona, Hiszpania;4;półpension;106;31;5;Obsługa pokojowa (room service)
+24;Hotel_Barcelona_24;Ul. Przykładowa 107, Barcelona, Hiszpania;2;pełne wyżywienie;104;4;19;Restauracja lub bar hotelowy
+25;Hotel_Barcelona_25;Ul. Przykładowa 21, Barcelona, Hiszpania;4;półpension;25;9;26;Restauracja lub bar hotelowy
+26;Hotel_Madryt_26;Ul. Przykładowa 218, Madryt, Hiszpania;3;półpension;34;32;1;Transfer z/na lotnisko
+27;Hotel_Madryt_27;Ul. Plażowa 164, Madryt, Hiszpania;5;półpension;30;31;4;Centrum biznesowe / sala konferencyjna
+28;Hotel_Madryt_28;Ul. Kwiatowa 133, Madryt, Hiszpania;4;pełne wyżywienie;45;47;9;Klimatyzacja w pokojach
+29;Hotel_Walencja_29;Ul. Główna 271, Walencja, Hiszpania;3;bez wyżywienia;139;0;24;Udogodnienia dla rodzin
+30;Hotel_Walencja_30;Ul. Kwiatowa 273, Walencja, Hiszpania;3;półpension;122;26;14;Bezpłatne Wi-Fi
+31;Hotel_Londyn_31;Ul. Główna 199, Londyn, Wielka Brytania;3;śniadania;86;30;14;Klimatyzacja w pokojach
+32;Hotel_Londyn_32;Ul. Przykładowa 161, Londyn, Wielka Brytania;3;pełne wyżywienie;37;24;18;Usługa pralni i prasowania
+33;Hotel_Londyn_33;Ul. Główna 292, Londyn, Wielka Brytania;3;śniadania;29;39;5;Klimatyzacja w pokojach
+34;Hotel_Londyn_34;Ul. Główna 159, Londyn, Wielka Brytania;5;śniadania;122;31;15;Klimatyzacja w pokojach
+35;Hotel_Manchester_35;Ul. Kwiatowa 114, Manchester, Wielka Brytania;3;półpension;103;37;17;Spa i strefa wellness
+36;Hotel_Manchester_36;Ul. Plażowa 93, Manchester, Wielka Brytania;2;półpension;45;43;23;Czajnik, kawa i herbata w pokoju
+37;Hotel_Manchester_37;Ul. Główna 100, Manchester, Wielka Brytania;3;śniadania;148;7;3;Obsługa pokojowa (room service)
+38;Hotel_Manchester_38;Ul. Centralna 121, Manchester, Wielka Brytania;3;pełne wyżywienie;62;31;11;Czajnik, kawa i herbata w pokoju
+39;Hotel_Manchester_39;Ul. Plażowa 288, Manchester, Wielka Brytania;3;bez wyżywienia;134;6;16;Bezpłatne Wi-Fi
+40;Hotel_Edynburg_40;Ul. Kwiatowa 205, Edynburg, Wielka Brytania;4;śniadania;112;29;3;Transfer z/na lotnisko
+41;Hotel_Edynburg_41;Ul. Kwiatowa 228, Edynburg, Wielka Brytania;3;śniadania;48;13;23;Usługa pralni i prasowania
+42;Hotel_Edynburg_42;Ul. Plażowa 135, Edynburg, Wielka Brytania;4;półpension;166;0;16;Obsługa pokojowa (room service)
+43;Hotel_Edynburg_43;Ul. Główna 246, Edynburg, Wielka Brytania;5;półpension;165;19;0;Sejf w pokoju lub w recepcji
+44;Hotel_Ateny_44;Ul. Kwiatowa 288, Ateny, Grecja;1;półpension;28;50;6;Obsługa pokojowa (room service)
+45;Hotel_Ateny_45;Ul. Centralna 3, Ateny, Grecja;3;półpension;89;13;4;Usługa pralni i prasowania
+46;Hotel_Ateny_46;Ul. Centralna 157, Ateny, Grecja;4;śniadania;58;27;12;Centrum biznesowe / sala konferencyjna
+47;Hotel_Ateny_47;Ul. Plażowa 226, Ateny, Grecja;4;pełne wyżywienie;133;18;17;Śniadanie w cenie
+48;Hotel_Saloniki_48;Ul. Plażowa 82, Saloniki, Grecja;5;śniadania;185;6;23;Całodobowa recepcja
+49;Hotel_Saloniki_49;Ul. Przykładowa 162, Saloniki, Grecja;5;bez wyżywienia;127;5;12;Całodobowa recepcja
+50;Hotel_Saloniki_50;Ul. Plażowa 118, Saloniki, Grecja;1;śniadania;197;29;4;Bezpłatne Wi-Fi
+51;Hotel_Saloniki_51;Ul. Przykładowa 82, Saloniki, Grecja;5;pełne wyżywienie;41;24;5;Restauracja lub bar hotelowy
+52;Hotel_Saloniki_52;Ul. Przykładowa 162, Saloniki, Grecja;4;pełne wyżywienie;67;44;19;Czajnik, kawa i herbata w pokoju
+53;Hotel_Lizbona_53;Ul. Przykładowa 201, Lizbona, Portugalia;4;pełne wyżywienie;181;36;26;Restauracja lub bar hotelowy
+54;Hotel_Lizbona_54;Ul. Centralna 68, Lizbona, Portugalia;4;śniadania;124;48;11;Spa i strefa wellness
+55;Hotel_Porto_55;Ul. Plażowa 116, Porto, Portugalia;4;pełne wyżywienie;130;18;26;Usługa pralni i prasowania
+56;Hotel_Porto_56;Ul. Kwiatowa 213, Porto, Portugalia;3;śniadania;43;11;17;Klimatyzacja w pokojach
+57;Hotel_Porto_57;Ul. Główna 199, Porto, Portugalia;3;śniadania;56;42;6;Bezpłatne Wi-Fi
+58;Hotel_Porto_58;Ul. Główna 173, Porto, Portugalia;3;półpension;172;34;19;Obsługa pokojowa (room service)
+59;Hotel_Porto_59;Ul. Centralna 294, Porto, Portugalia;3;pełne wyżywienie;105;1;18;Całodobowa recepcja
+60;Hotel_Dubrownik_60;Ul. Plażowa 162, Dubrownik, Chorwacja;3;śniadania;48;43;9;Klimatyzacja w pokojach
+61;Hotel_Dubrownik_61;Ul. Centralna 66, Dubrownik, Chorwacja;3;półpension;184;17;6;Obsługa pokojowa (room service)
+62;Hotel_Dubrownik_62;Ul. Przykładowa 25, Dubrownik, Chorwacja;3;półpension;194;14;22;Klimatyzacja w pokojach
+63;Hotel_Dubrownik_63;Ul. Kwiatowa 11, Dubrownik, Chorwacja;3;bez wyżywienia;113;37;13;Bezpłatne Wi-Fi
+64;Hotel_Dubrownik_64;Ul. Kwiatowa 80, Dubrownik, Chorwacja;4;półpension;130;6;11;Śniadanie w cenie
+65;Hotel_Split_65;Ul. Główna 37, Split, Chorwacja;5;pełne wyżywienie;38;23;10;Basen (kryty lub odkryty)
+66;Hotel_Split_66;Ul. Przykładowa 101, Split, Chorwacja;4;bez wyżywienia;23;21;5;Obsługa pokojowa (room service)
+67;Hotel_Split_67;Ul. Plażowa 283, Split, Chorwacja;3;półpension;103;1;14;Parking (bezpłatny lub płatny)
+68;Hotel_Sofia_68;Ul. Kwiatowa 80, Sofia, Bułgaria;4;pełne wyżywienie;182;16;9;Bezpłatne Wi-Fi
+69;Hotel_Sofia_69;Ul. Centralna 290, Sofia, Bułgaria;3;bez wyżywienia;146;12;12;Całodobowa recepcja
+70;Hotel_Sofia_70;Ul. Główna 277, Sofia, Bułgaria;3;półpension;24;42;26;Centrum biznesowe / sala konferencyjna
+71;Hotel_Sofia_71;Ul. Główna 56, Sofia, Bułgaria;4;śniadania;119;40;3;Sejf w pokoju lub w recepcji
+72;Hotel_Burgas_72;Ul. Przykładowa 68, Burgas, Bułgaria;4;półpension;194;11;20;Całodobowa recepcja
+73;Hotel_Burgas_73;Ul. Plażowa 76, Burgas, Bułgaria;3;śniadania;176;20;21;Sejf w pokoju lub w recepcji
+74;Hotel_Burgas_74;Ul. Centralna 135, Burgas, Bułgaria;3;bez wyżywienia;84;0;9;Usługa pralni i prasowania
+75;Hotel_Burgas_75;Ul. Plażowa 231, Burgas, Bułgaria;4;śniadania;126;30;7;Centrum biznesowe / sala konferencyjna
+76;Hotel_Berlin_76;Ul. Przykładowa 90, Berlin, Niemcy;4;półpension;197;4;28;Centrum biznesowe / sala konferencyjna
+77;Hotel_Berlin_77;Ul. Centralna 107, Berlin, Niemcy;3;półpension;169;0;26;Całodobowa recepcja
+78;Hotel_Monachium_78;Ul. Główna 31, Monachium, Niemcy;3;pełne wyżywienie;8;30;19;Centrum biznesowe / sala konferencyjna
+79;Hotel_Monachium_79;Ul. Kwiatowa 174, Monachium, Niemcy;4;śniadania;8;41;13;Całodobowa recepcja
+80;Hotel_Monachium_80;Ul. Przykładowa 228, Monachium, Niemcy;2;śniadania;103;9;14;Transfer z/na lotnisko
+81;Hotel_Hamburg_81;Ul. Kwiatowa 269, Hamburg, Niemcy;3;półpension;110;9;13;Przechowalnia bagażu
+82;Hotel_Hamburg_82;Ul. Kwiatowa 200, Hamburg, Niemcy;2;bez wyżywienia;93;7;30;Mini bar lub lodówka
+83;Hotel_Hamburg_83;Ul. Przykładowa 62, Hamburg, Niemcy;4;śniadania;139;12;0;Całodobowa recepcja
+84;Hotel_Hamburg_84;Ul. Plażowa 166, Hamburg, Niemcy;1;bez wyżywienia;171;11;7;Obsługa pokojowa (room service)
+85;Hotel_Hamburg_85;Ul. Plażowa 13, Hamburg, Niemcy;3;półpension;102;14;28;Całodobowa recepcja
+86;Hotel_Amsterdam_86;Ul. Plażowa 7, Amsterdam, Holandia;3;bez wyżywienia;112;32;10;Centrum biznesowe / sala konferencyjna
+87;Hotel_Amsterdam_87;Ul. Plażowa 216, Amsterdam, Holandia;3;bez wyżywienia;18;11;20;Całodobowa recepcja
+88;Hotel_Amsterdam_88;Ul. Przykładowa 227, Amsterdam, Holandia;3;śniadania;123;42;17;Całodobowa recepcja
+89;Hotel_Rotterdam_89;Ul. Plażowa 68, Rotterdam, Holandia;2;śniadania;47;9;14;Centrum biznesowe / sala konferencyjna
+90;Hotel_Rotterdam_90;Ul. Plażowa 15, Rotterdam, Holandia;1;bez wyżywienia;88;21;13;Udogodnienia dla osób niepełnosprawnych
+91;Hotel_Rotterdam_91;Ul. Centralna 251, Rotterdam, Holandia;3;pełne wyżywienie;113;5;5;Spa i strefa wellness
+92;Hotel_Rotterdam_92;Ul. Plażowa 247, Rotterdam, Holandia;5;śniadania;91;17;17;Transfer z/na lotnisko
+93;Hotel_Rotterdam_93;Ul. Plażowa 178, Rotterdam, Holandia;1;pełne wyżywienie;181;34;11;Siłownia / centrum fitness
+94;Hotel_Bruksela_94;Ul. Główna 53, Bruksela, Belgia;4;bez wyżywienia;122;50;30;Czajnik, kawa i herbata w pokoju
+95;Hotel_Bruksela_95;Ul. Centralna 105, Bruksela, Belgia;4;półpension;95;29;10;Telewizor z serwisami streamingowymi
+96;Hotel_Bruksela_96;Ul. Plażowa 269, Bruksela, Belgia;3;śniadania;187;22;23;Czajnik, kawa i herbata w pokoju
+97;Hotel_Bruksela_97;Ul. Główna 125, Bruksela, Belgia;4;półpension;100;37;27;Bezpłatne Wi-Fi
+98;Hotel_Antwerpia_98;Ul. Główna 149, Antwerpia, Belgia;4;półpension;56;44;27;Transfer z/na lotnisko
+99;Hotel_Antwerpia_99;Ul. Przykładowa 175, Antwerpia, Belgia;4;półpension;54;29;28;Bezpłatne Wi-Fi
+100;Hotel_Antwerpia_100;Ul. Kwiatowa 118, Antwerpia, Belgia;5;półpension;118;47;5;Klimatyzacja w pokojach
+101;Hotel_Zurych_101;Ul. Kwiatowa 70, Zurych, Szwajcaria;4;pełne wyżywienie;162;14;10;Bezpłatne Wi-Fi
+102;Hotel_Zurych_102;Ul. Główna 82, Zurych, Szwajcaria;3;śniadania;186;7;10;Usługa pralni i prasowania
+103;Hotel_Zurych_103;Ul. Plażowa 297, Zurych, Szwajcaria;2;pełne wyżywienie;172;32;11;Basen (kryty lub odkryty)
+104;Hotel_Zurych_104;Ul. Plażowa 45, Zurych, Szwajcaria;4;bez wyżywienia;58;7;5;Siłownia / centrum fitness
+105;Hotel_Zurych_105;Ul. Centralna 191, Zurych, Szwajcaria;3;śniadania;169;17;4;Transfer z/na lotnisko
+106;Hotel_Genewa_106;Ul. Centralna 291, Genewa, Szwajcaria;2;bez wyżywienia;197;1;8;Obsługa pokojowa (room service)
+107;Hotel_Genewa_107;Ul. Plażowa 171, Genewa, Szwajcaria;5;pełne wyżywienie;196;32;21;Udogodnienia dla osób niepełnosprawnych
+108;Hotel_Genewa_108;Ul. Główna 188, Genewa, Szwajcaria;4;półpension;10;4;22;Usługa pralni i prasowania
+109;Hotel_Wiedeń_109;Ul. Kwiatowa 186, Wiedeń, Austria;5;bez wyżywienia;123;2;1;Udogodnienia dla rodzin
+110;Hotel_Wiedeń_110;Ul. Główna 289, Wiedeń, Austria;4;pełne wyżywienie;60;37;13;Transfer z/na lotnisko
+111;Hotel_Wiedeń_111;Ul. Centralna 9, Wiedeń, Austria;4;półpension;163;44;9;Parking (bezpłatny lub płatny)
+112;Hotel_Salzburg_112;Ul. Plażowa 300, Salzburg, Austria;5;półpension;197;29;10;Siłownia / centrum fitness
+113;Hotel_Salzburg_113;Ul. Plażowa 190, Salzburg, Austria;2;półpension;96;14;14;Telewizor z serwisami streamingowymi
+114;Hotel_Salzburg_114;Ul. Plażowa 155, Salzburg, Austria;2;bez wyżywienia;26;15;13;Siłownia / centrum fitness
+115;Hotel_Praga_115;Ul. Centralna 174, Praga, Czechy;5;bez wyżywienia;8;43;10;Telewizor z serwisami streamingowymi
+116;Hotel_Praga_116;Ul. Przykładowa 248, Praga, Czechy;3;pełne wyżywienie;91;48;6;Udogodnienia dla osób niepełnosprawnych
+117;Hotel_Ostrawa_117;Ul. Główna 192, Ostrawa, Czechy;3;półpension;173;19;12;Udogodnienia dla rodzin
+118;Hotel_Ostrawa_118;Ul. Główna 232, Ostrawa, Czechy;5;śniadania;96;24;29;Całodobowa recepcja
+119;Hotel_Sztokholm_119;Ul. Główna 56, Sztokholm, Szwecja;5;półpension;14;43;5;Transfer z/na lotnisko
+120;Hotel_Sztokholm_120;Ul. Główna 102, Sztokholm, Szwecja;3;półpension;172;40;19;Całodobowa recepcja
+121;Hotel_Sztokholm_121;Ul. Plażowa 77, Sztokholm, Szwecja;4;bez wyżywienia;188;18;21;Śniadanie w cenie
+122;Hotel_Sztokholm_122;Ul. Główna 168, Sztokholm, Szwecja;3;śniadania;83;0;6;Obsługa pokojowa (room service)
+123;Hotel_Sztokholm_123;Ul. Przykładowa 16, Sztokholm, Szwecja;3;śniadania;118;27;29;Udogodnienia dla rodzin
+124;Hotel_Gothenburg_124;Ul. Główna 263, Gothenburg, Szwecja;3;śniadania;139;36;24;Całodobowa recepcja
+125;Hotel_Gothenburg_125;Ul. Plażowa 145, Gothenburg, Szwecja;5;pełne wyżywienie;193;27;2;Centrum biznesowe / sala konferencyjna
+126;Hotel_Gothenburg_126;Ul. Przykładowa 214, Gothenburg, Szwecja;3;pełne wyżywienie;142;44;24;Bezpłatne Wi-Fi
+127;Hotel_Gothenburg_127;Ul. Centralna 268, Gothenburg, Szwecja;3;półpension;109;34;21;Śniadanie w cenie
+128;Hotel_Gothenburg_128;Ul. Przykładowa 281, Gothenburg, Szwecja;3;pełne wyżywienie;178;19;0;Mini bar lub lodówka
+129;Hotel_Oslo_129;Ul. Główna 198, Oslo, Norwegia;5;półpension;160;46;23;Śniadanie w cenie
+130;Hotel_Oslo_130;Ul. Główna 123, Oslo, Norwegia;4;bez wyżywienia;7;24;25;Udogodnienia dla rodzin
+131;Hotel_Oslo_131;Ul. Plażowa 146, Oslo, Norwegia;3;śniadania;34;40;23;Śniadanie w cenie
+132;Hotel_Bergen_132;Ul. Kwiatowa 1, Bergen, Norwegia;2;półpension;55;41;5;Przechowalnia bagażu
+133;Hotel_Bergen_133;Ul. Przykładowa 38, Bergen, Norwegia;3;bez wyżywienia;96;5;14;Basen (kryty lub odkryty)
+134;Hotel_Bergen_134;Ul. Przykładowa 280, Bergen, Norwegia;4;półpension;113;7;6;Telewizor z serwisami streamingowymi
+135;Hotel_Kopenhaga_135;Ul. Centralna 160, Kopenhaga, Dania;4;bez wyżywienia;98;33;8;Usługa pralni i prasowania
+136;Hotel_Kopenhaga_136;Ul. Plażowa 214, Kopenhaga, Dania;4;śniadania;7;21;27;Całodobowa recepcja
+137;Hotel_Kopenhaga_137;Ul. Przykładowa 142, Kopenhaga, Dania;4;półpension;134;42;22;Telewizor z serwisami streamingowymi
+138;Hotel_Kopenhaga_138;Ul. Plażowa 134, Kopenhaga, Dania;2;bez wyżywienia;71;16;25;Telewizor z serwisami streamingowymi
+139;Hotel_Kopenhaga_139;Ul. Główna 262, Kopenhaga, Dania;4;pełne wyżywienie;103;18;5;Transfer z/na lotnisko
+140;Hotel_Aarhus_140;Ul. Kwiatowa 82, Aarhus, Dania;5;pełne wyżywienie;198;7;11;Basen (kryty lub odkryty)
+141;Hotel_Aarhus_141;Ul. Kwiatowa 211, Aarhus, Dania;4;pełne wyżywienie;19;28;29;Usługa pralni i prasowania
+142;Hotel_Aarhus_142;Ul. Przykładowa 39, Aarhus, Dania;4;śniadania;132;43;22;Mini bar lub lodówka
+143;Hotel_Stambuł_143;Ul. Kwiatowa 156, Stambuł, Turcja;4;pełne wyżywienie;61;19;25;Parking (bezpłatny lub płatny)
+144;Hotel_Stambuł_144;Ul. Centralna 226, Stambuł, Turcja;5;półpension;198;5;29;Przechowalnia bagażu
+145;Hotel_Antalya_145;Ul. Główna 92, Antalya, Turcja;5;półpension;18;5;23;Udogodnienia dla rodzin
+146;Hotel_Antalya_146;Ul. Kwiatowa 176, Antalya, Turcja;5;pełne wyżywienie;26;1;2;Restauracja lub bar hotelowy
+147;Hotel_Marrakesz_147;Ul. Kwiatowa 226, Marrakesz, Maroko;3;bez wyżywienia;114;16;15;Siłownia / centrum fitness
+148;Hotel_Marrakesz_148;Ul. Kwiatowa 45, Marrakesz, Maroko;4;bez wyżywienia;92;25;22;Sejf w pokoju lub w recepcji
+149;Hotel_Marrakesz_149;Ul. Główna 1, Marrakesz, Maroko;4;pełne wyżywienie;69;0;5;Telewizor z serwisami streamingowymi
+150;Hotel_Marrakesz_150;Ul. Plażowa 213, Marrakesz, Maroko;3;śniadania;168;20;17;Telewizor z serwisami streamingowymi
+151;Hotel_Marrakesz_151;Ul. Plażowa 242, Marrakesz, Maroko;3;pełne wyżywienie;161;24;17;Restauracja lub bar hotelowy
+152;Hotel_Casablanca_152;Ul. Plażowa 35, Casablanca, Maroko;2;pełne wyżywienie;150;50;3;Udogodnienia dla rodzin
+153;Hotel_Casablanca_153;Ul. Kwiatowa 202, Casablanca, Maroko;2;śniadania;70;41;4;Przechowalnia bagażu
+154;Hotel_Tunis_154;Ul. Główna 287, Tunis, Tunezja;3;pełne wyżywienie;72;13;13;Centrum biznesowe / sala konferencyjna
+155;Hotel_Tunis_155;Ul. Główna 147, Tunis, Tunezja;3;półpension;189;13;9;Udogodnienia dla osób niepełnosprawnych
+156;Hotel_Tunis_156;Ul. Plażowa 75, Tunis, Tunezja;3;pełne wyżywienie;53;47;17;Udogodnienia dla rodzin
+157;Hotel_Hammamet_157;Ul. Plażowa 23, Hammamet, Tunezja;3;śniadania;49;40;8;Sejf w pokoju lub w recepcji
+158;Hotel_Hammamet_158;Ul. Przykładowa 134, Hammamet, Tunezja;5;śniadania;132;25;30;Basen (kryty lub odkryty)
+159;Hotel_Kair_159;Ul. Kwiatowa 130, Kair, Egipt;3;półpension;87;28;20;Telewizor z serwisami streamingowymi
+160;Hotel_Kair_160;Ul. Centralna 25, Kair, Egipt;5;półpension;22;37;25;Usługa pralni i prasowania
+161;Hotel_Kair_161;Ul. Centralna 146, Kair, Egipt;4;śniadania;194;10;29;Mini bar lub lodówka
+162;Hotel_Hurghada_162;Ul. Główna 294, Hurghada, Egipt;4;półpension;180;3;12;Całodobowa recepcja
+163;Hotel_Hurghada_163;Ul. Przykładowa 176, Hurghada, Egipt;3;śniadania;59;50;1;Całodobowa recepcja
+164;Hotel_Nowy Jork_164;Ul. Plażowa 88, Nowy Jork, USA;2;śniadania;156;35;15;Bezpłatne Wi-Fi
+165;Hotel_Nowy Jork_165;Ul. Plażowa 161, Nowy Jork, USA;5;pełne wyżywienie;198;36;5;Klimatyzacja w pokojach
+166;Hotel_Nowy Jork_166;Ul. Plażowa 151, Nowy Jork, USA;4;śniadania;118;47;23;Całodobowa recepcja
+167;Hotel_Nowy Jork_167;Ul. Centralna 263, Nowy Jork, USA;4;pełne wyżywienie;61;42;11;Śniadanie w cenie
+168;Hotel_Nowy Jork_168;Ul. Kwiatowa 202, Nowy Jork, USA;5;śniadania;167;31;30;Przechowalnia bagażu
+169;Hotel_Los Angeles_169;Ul. Plażowa 244, Los Angeles, USA;2;pełne wyżywienie;43;5;7;Siłownia / centrum fitness
+170;Hotel_Los Angeles_170;Ul. Przykładowa 180, Los Angeles, USA;3;półpension;76;35;22;Telewizor z serwisami streamingowymi
+171;Hotel_Los Angeles_171;Ul. Kwiatowa 252, Los Angeles, USA;3;śniadania;12;6;22;Telewizor z serwisami streamingowymi
+172;Hotel_Los Angeles_172;Ul. Przykładowa 9, Los Angeles, USA;4;pełne wyżywienie;15;36;27;Parking (bezpłatny lub płatny)
+173;Hotel_Miami_173;Ul. Centralna 289, Miami, USA;4;pełne wyżywienie;24;0;9;Klimatyzacja w pokojach
+174;Hotel_Miami_174;Ul. Kwiatowa 99, Miami, USA;4;pełne wyżywienie;180;15;20;Czajnik, kawa i herbata w pokoju
+175;Hotel_Toronto_175;Ul. Centralna 214, Toronto, Kanada;3;półpension;99;44;18;Bezpłatne Wi-Fi
+176;Hotel_Toronto_176;Ul. Kwiatowa 216, Toronto, Kanada;5;półpension;175;14;20;Spa i strefa wellness
+177;Hotel_Montreal_177;Ul. Plażowa 122, Montreal, Kanada;3;półpension;60;4;2;Sejf w pokoju lub w recepcji
+178;Hotel_Montreal_178;Ul. Centralna 152, Montreal, Kanada;1;półpension;54;37;6;Czajnik, kawa i herbata w pokoju
+179;Hotel_Sydney_179;Ul. Przykładowa 250, Sydney, Australia;3;śniadania;189;20;17;Obsługa pokojowa (room service)
+180;Hotel_Sydney_180;Ul. Kwiatowa 138, Sydney, Australia;3;pełne wyżywienie;130;12;14;Całodobowa recepcja
+181;Hotel_Sydney_181;Ul. Kwiatowa 171, Sydney, Australia;3;półpension;169;12;13;Klimatyzacja w pokojach
+182;Hotel_Sydney_182;Ul. Przykładowa 24, Sydney, Australia;5;półpension;100;10;12;Restauracja lub bar hotelowy
+183;Hotel_Sydney_183;Ul. Plażowa 52, Sydney, Australia;3;bez wyżywienia;134;26;6;Czajnik, kawa i herbata w pokoju
+184;Hotel_Melbourne_184;Ul. Plażowa 4, Melbourne, Australia;4;śniadania;26;23;5;Śniadanie w cenie
+185;Hotel_Melbourne_185;Ul. Przykładowa 63, Melbourne, Australia;3;półpension;5;45;30;Całodobowa recepcja
+186;Hotel_Melbourne_186;Ul. Kwiatowa 92, Melbourne, Australia;5;półpension;42;17;10;Parking (bezpłatny lub płatny)
+187;Hotel_Melbourne_187;Ul. Główna 2, Melbourne, Australia;3;półpension;187;27;9;Sejf w pokoju lub w recepcji
+188;Hotel_Tokio_188;Ul. Centralna 110, Tokio, Japonia;4;bez wyżywienia;89;38;20;Centrum biznesowe / sala konferencyjna
+189;Hotel_Tokio_189;Ul. Kwiatowa 232, Tokio, Japonia;3;półpension;42;26;19;Transfer z/na lotnisko
+190;Hotel_Tokio_190;Ul. Plażowa 135, Tokio, Japonia;3;półpension;91;3;0;Śniadanie w cenie
+191;Hotel_Osaka_191;Ul. Przykładowa 105, Osaka, Japonia;3;półpension;180;31;17;Centrum biznesowe / sala konferencyjna
+192;Hotel_Osaka_192;Ul. Plażowa 246, Osaka, Japonia;5;pełne wyżywienie;139;4;28;Spa i strefa wellness
+193;Hotel_Osaka_193;Ul. Przykładowa 104, Osaka, Japonia;4;bez wyżywienia;42;23;8;Udogodnienia dla osób niepełnosprawnych
+194;Hotel_Osaka_194;Ul. Centralna 212, Osaka, Japonia;3;śniadania;185;17;3;Czajnik, kawa i herbata w pokoju
+195;Hotel_Osaka_195;Ul. Plażowa 127, Osaka, Japonia;2;półpension;74;4;28;Obsługa pokojowa (room service)
+196;Hotel_Pekin_196;Ul. Przykładowa 102, Pekin, Chiny;3;pełne wyżywienie;141;5;24;Restauracja lub bar hotelowy
+197;Hotel_Pekin_197;Ul. Przykładowa 247, Pekin, Chiny;3;bez wyżywienia;135;5;0;Obsługa pokojowa (room service)
+198;Hotel_Szanghaj_198;Ul. Główna 273, Szanghaj, Chiny;3;śniadania;118;27;10;Spa i strefa wellness
+199;Hotel_Szanghaj_199;Ul. Plażowa 127, Szanghaj, Chiny;4;pełne wyżywienie;156;15;27;Mini bar lub lodówka
+200;Hotel_Szanghaj_200;Ul. Centralna 142, Szanghaj, Chiny;3;bez wyżywienia;24;1;11;Telewizor z serwisami streamingowymi
+201;Hotel_Szanghaj_201;Ul. Kwiatowa 64, Szanghaj, Chiny;4;pełne wyżywienie;193;43;27;Udogodnienia dla rodzin
+202;Hotel_Szanghaj_202;Ul. Kwiatowa 60, Szanghaj, Chiny;3;bez wyżywienia;21;34;15;Sejf w pokoju lub w recepcji
+203;Hotel_Mumbaj_203;Ul. Plażowa 289, Mumbaj, Indie;4;śniadania;105;9;3;Centrum biznesowe / sala konferencyjna
+204;Hotel_Mumbaj_204;Ul. Przykładowa 107, Mumbaj, Indie;4;półpension;97;27;14;Całodobowa recepcja
+205;Hotel_Mumbaj_205;Ul. Plażowa 255, Mumbaj, Indie;3;bez wyżywienia;35;45;22;Telewizor z serwisami streamingowymi
+206;Hotel_Mumbaj_206;Ul. Kwiatowa 32, Mumbaj, Indie;4;półpension;199;30;26;Całodobowa recepcja
+207;Hotel_Mumbaj_207;Ul. Przykładowa 229, Mumbaj, Indie;3;śniadania;111;38;10;Restauracja lub bar hotelowy
+208;Hotel_Delhi_208;Ul. Przykładowa 66, Delhi, Indie;1;pełne wyżywienie;157;18;4;Parking (bezpłatny lub płatny)
+209;Hotel_Delhi_209;Ul. Główna 290, Delhi, Indie;4;pełne wyżywienie;115;45;15;Śniadanie w cenie
+210;Hotel_Dublin_210;Ul. Kwiatowa 162, Dublin, Irlandia;2;bez wyżywienia;66;17;4;Całodobowa recepcja
+211;Hotel_Dublin_211;Ul. Centralna 188, Dublin, Irlandia;5;bez wyżywienia;12;33;10;Spa i strefa wellness
+212;Hotel_Dublin_212;Ul. Główna 136, Dublin, Irlandia;3;śniadania;187;33;5;Udogodnienia dla rodzin
+213;Hotel_Dublin_213;Ul. Centralna 277, Dublin, Irlandia;3;bez wyżywienia;18;4;6;Mini bar lub lodówka
+214;Hotel_Cork_214;Ul. Przykładowa 138, Cork, Irlandia;3;bez wyżywienia;24;35;8;Bezpłatne Wi-Fi
+215;Hotel_Cork_215;Ul. Główna 149, Cork, Irlandia;1;pełne wyżywienie;184;12;15;Transfer z/na lotnisko
+216;Hotel_Cork_216;Ul. Centralna 261, Cork, Irlandia;5;półpension;72;31;6;Przechowalnia bagażu
+217;Hotel_Cork_217;Ul. Centralna 118, Cork, Irlandia;4;śniadania;65;19;17;Obsługa pokojowa (room service)
+218;Hotel_Cork_218;Ul. Przykładowa 152, Cork, Irlandia;4;pełne wyżywienie;138;31;8;Sejf w pokoju lub w recepcji
+219;Hotel_Reykjavik_219;Ul. Centralna 26, Reykjavik, Islandia;5;bez wyżywienia;85;28;29;Obsługa pokojowa (room service)
+220;Hotel_Reykjavik_220;Ul. Kwiatowa 122, Reykjavik, Islandia;4;pełne wyżywienie;127;6;27;Parking (bezpłatny lub płatny)
+221;Hotel_Reykjavik_221;Ul. Plażowa 222, Reykjavik, Islandia;5;półpension;49;34;20;Czajnik, kawa i herbata w pokoju
+222;Hotel_Reykjavik_222;Ul. Kwiatowa 215, Reykjavik, Islandia;3;śniadania;177;15;24;Całodobowa recepcja
+223;Hotel_Akureyri_223;Ul. Plażowa 164, Akureyri, Islandia;4;pełne wyżywienie;184;25;1;Transfer z/na lotnisko
+224;Hotel_Akureyri_224;Ul. Plażowa 201, Akureyri, Islandia;5;półpension;85;49;2;Basen (kryty lub odkryty)
+225;Hotel_Warszawa_225;Ul. Plażowa 189, Warszawa, Polska;3;półpension;57;28;8;Usługa pralni i prasowania
+226;Hotel_Warszawa_226;Ul. Główna 146, Warszawa, Polska;3;śniadania;141;25;28;Całodobowa recepcja
+227;Hotel_Warszawa_227;Ul. Przykładowa 54, Warszawa, Polska;5;bez wyżywienia;30;24;22;Udogodnienia dla rodzin
+228;Hotel_Warszawa_228;Ul. Główna 7, Warszawa, Polska;2;bez wyżywienia;124;40;12;Spa i strefa wellness
+229;Hotel_Kraków_229;Ul. Kwiatowa 167, Kraków, Polska;4;pełne wyżywienie;53;36;1;Śniadanie w cenie
+230;Hotel_Kraków_230;Ul. Kwiatowa 241, Kraków, Polska;3;śniadania;39;23;19;Transfer z/na lotnisko
+231;Hotel_Kraków_231;Ul. Centralna 274, Kraków, Polska;3;śniadania;40;11;9;Centrum biznesowe / sala konferencyjna
+232;Hotel_Gdańsk_232;Ul. Przykładowa 39, Gdańsk, Polska;5;śniadania;72;42;23;Klimatyzacja w pokojach
+233;Hotel_Gdańsk_233;Ul. Główna 55, Gdańsk, Polska;3;bez wyżywienia;12;6;0;Klimatyzacja w pokojach

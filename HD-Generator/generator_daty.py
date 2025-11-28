@@ -31,18 +31,18 @@ current = start
 id_counter = 1
 
 with open("daty.csv", "w", encoding="utf-8", newline="") as csvfile:
-    writer = csv.writer(csvfile, delimiter=';')  # najbezpieczniej do BULK INSERT
-    
+    writer = csv.writer(csvfile, delimiter=';')
+
     while current <= end:
         rok = current.year
         mies = current.month
         dzien = current.day
 
-        data_str = current.strftime("%d.%m.%Y")
+        data_str = current.strftime("%Y-%m-%d")
         kwart = kwartal(mies)
 
         dzien_tyg_num = current.weekday() + 1
-        dzien_tyg_txt = dni_tyg[dzien_tyg_num] 
+        dzien_tyg_txt = dni_tyg[dzien_tyg_num]
 
         wakacje = 1 if mies in (7, 8) else 0
         sezon_txt = sezon(mies)
@@ -56,3 +56,5 @@ with open("daty.csv", "w", encoding="utf-8", newline="") as csvfile:
 
         current += datetime.timedelta(days=1)
         id_counter += 1
+
+print("Plik daty.csv zapisany!")
