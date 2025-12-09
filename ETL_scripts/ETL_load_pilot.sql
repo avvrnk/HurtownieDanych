@@ -1,4 +1,4 @@
-use TripOut_test
+use TripOutDW
 go
 If (object_id('vETLDimPilotData') is not null) Drop View vETLDimPilotData;
 go
@@ -21,9 +21,6 @@ MERGE INTO Pilot as TT
 					ST.ImieNazwisko,
 					ST.Jezyk
 					)
-			WHEN Not Matched By Source
-				Then
-					DELETE
 			;
 
 Drop View vETLDimPilotData;

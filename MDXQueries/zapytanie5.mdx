@@ -1,0 +1,7 @@
+WITH  
+    MEMBER [Measures].[OblozenieProcent] AS  
+        [Measures].[OblozenieAVG] * 100 
+SELECT 
+    [Measures].[OblozenieProcent] ON COLUMNS, 
+    [Hotel].[Zakres Wyzywienia].Children ON ROWS 
+FROM [Trip Out DW]; 

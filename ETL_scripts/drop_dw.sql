@@ -1,4 +1,4 @@
-use TripOut_test				-- HD_biuroPodró¿y
+use TripOutDW				-- HD_biuroPodró¿y
 go 
 
 DROP TABLE IF EXISTS Oferta; 

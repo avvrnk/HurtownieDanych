@@ -1,0 +1,22 @@
+WITH
+    MEMBER [Measures].[LPokoi2osSUM] AS
+            VAL([Hotel].[Id Hotelu].CurrentMember.Properties("L Pokoi2os"))
+
+    MEMBER [Measures].[LPokoi3osSUM] AS
+            VAL([Hotel].[Id Hotelu].CurrentMember.Properties("L Pokoi3os"))
+
+    MEMBER [Measures].[LPokoi4osSUM] AS
+            VAL([Hotel].[Id Hotelu].CurrentMember.Properties("L Pokoi4os"))
+
+SELECT
+    {
+        [Measures].[LPokoi2osSUM],
+        [Measures].[LPokoi3osSUM],
+        [Measures].[LPokoi4osSUM], 
+        [Measures].[OblozenieAVG]
+    } ON COLUMNS, 
+    FILTER(
+        [Hotel].[Id Hotelu].Members,
+        [Measures].[OblozenieAVG] > 0.8
+    ) ON ROWS
+FROM [Trip Out DW]

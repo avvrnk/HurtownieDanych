@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOutDW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F11F738-C8A9-19FF-9856-7A4D041D76AB}|TripOutDW\\TripOutDW.dwproj|C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOutDW\\TripOutDW\\Trip Out DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{0F11F738-C8A9-19FF-9856-7A4D041D76AB}|TripOutDW\\TripOutDW.dwproj|solutionrelative:TripOutDW\\Trip Out DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trip Out DW.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOutDW\\TripOutDW\\Trip Out DW.cube",
+              "RelativeDocumentMoniker": "TripOutDW\\Trip Out DW.cube",
+              "ToolTip": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOutDW\\TripOutDW\\Trip Out DW.cube [Design]",
+              "RelativeToolTip": "TripOutDW\\Trip Out DW.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-08T23:28:22.49Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

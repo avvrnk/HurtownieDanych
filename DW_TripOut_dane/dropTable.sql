@@ -1,4 +1,4 @@
-use TripOutDW		
+use TripOutDW	
 go 
 
 DROP TABLE IF EXISTS Oferta; 

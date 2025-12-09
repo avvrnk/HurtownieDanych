@@ -1,0 +1,359 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f5c7a160-ed70-4232-a5d0-b1e77fd3846d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Hotel</ID>
+  <Name>Hotel</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1906" scrolltop="-3839" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7789" y="12679" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Hotel" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3937" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000610f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Hotel" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1906</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3839</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ced27b02-5a19-4b5f-a424-912230ebb8e3">
+    <DataSourceViewID>Trip Out DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="5e15f88e-9d68-47ee-afb8-00a6fee974e4">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="369386ce-e43b-4f98-827f-dfd81f46f4f5">
+      <ID>Id Hotelu</ID>
+      <Name>Id Hotelu</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e54656d5-3a6e-4341-a1e2-cca54f4a8486">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ae78ecfb-a68b-489c-aa07-6d894a52875a">
+            <TableID>dbo_Hotel</TableID>
+            <ColumnID>IdHotelu</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="68b5ca7c-402c-4d80-a6b3-e6017f529ba2">
+          <AttributeID>BK Hotelu</AttributeID>
+          <Name>BK Hotelu</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="54b9667d-c99d-4c28-a73d-1ff30986c284">
+          <AttributeID>Nazwa</AttributeID>
+          <Name>Nazwa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a8dd8e0a-d09d-4bc6-a05c-f9da9451f2b9">
+          <AttributeID>Adres</AttributeID>
+          <Name>Adres</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="932284c3-07c5-41be-81dd-b42510d71991">
+          <AttributeID>Kraj</AttributeID>
+          <Name>Kraj</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cc302031-b2d6-4464-b59e-d73f5c37f140">
+          <AttributeID>Miasto</AttributeID>
+          <Name>Miasto</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f0220731-d826-495d-9096-570452bf9592">
+          <AttributeID>Standard Hotelu</AttributeID>
+          <Name>Standard Hotelu</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2516d051-dfdd-4bb7-959e-50d1483752c6">
+          <AttributeID>Zakres Wyzywienia</AttributeID>
+          <Name>Zakres Wyzywienia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ec8e3a3f-4200-4703-a6e5-4428efd18a40">
+          <AttributeID>L Pokoi2os</AttributeID>
+          <Name>L Pokoi2os</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="86cc5c68-62d0-430c-95a4-ad99786677e3">
+          <AttributeID>L Pokoi3os</AttributeID>
+          <Name>L Pokoi3os</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c48470d1-16e6-4383-a4b4-554e72de7044">
+          <AttributeID>L Pokoi4os</AttributeID>
+          <Name>L Pokoi4os</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5e87af24-6865-4d91-bba0-11810a6dcbe2">
+          <AttributeID>Udogodnienie Glowne</AttributeID>
+          <Name>Udogodnienie Glowne</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f456467a-265e-4f91-ac1c-8955bca68d13">
+          <AttributeID>Aktualny</AttributeID>
+          <Name>Aktualny</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="816e6bb4-aa90-442a-8b17-bce6054fd673">
+      <ID>BK Hotelu</ID>
+      <Name>BK Hotelu</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3f35fd1a-ecb2-49c2-88f6-30699f92fbee">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5afebbf1-4ff2-4d32-aaa2-cd56c894da1b">
+            <TableID>dbo_Hotel</TableID>
+            <ColumnID>BKHotelu</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a305ab91-a4ed-4a00-983e-40c8ae2626df">
+      <ID>Nazwa</ID>
+      <Name>Nazwa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f11baf21-f204-4df5-a130-442954998cfd">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f504ea97-05c7-479f-822b-7565bd80a7f2">
+            <TableID>dbo_Hotel</TableID>
+            <ColumnID>Nazwa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a44d4e34-0214-409c-ab75-61327ed4352d">
+      <ID>Adres</ID>
+      <Name>Adres</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b897ae5e-becd-43f6-81da-ab03b84ed5c2">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="83667762-4620-49fe-94ce-f107ec83065a">
+            <TableID>dbo_Hotel</TableID>
+            <ColumnID>Adres</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="22288806-b55d-4509-a4bf-59d35235bc07">
+      <ID>Kraj</ID>
+      <Name>Kraj</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a4e202b1-5091-4d6f-9a90-04a2db64f60b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0c5e2b19-0f79-408b-bcdd-95bb9d5dfed9">
+            <TableID>dbo_Hotel</TableID>
+            <ColumnID>Kraj</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0ed1215b-2647-4bd2-8161-0372c46d0966">
+      <ID>Miasto</ID>
+      <Name>Miasto</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2f69567d-f1a6-40f3-b47b-70744301d130">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e694ceb0-29e4-4d0d-a34b-cb75745e67f9">
+            <TableID>dbo_Hotel</TableID>
+            <ColumnID>Miasto</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7d9e15bd-fa07-491a-980f-1a1429f86792">
+      <ID>Standard Hotelu</ID>
+      <Name>Standard Hotelu</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="51b697d6-3e0e-4387-89f2-23759cf7e04f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5afbe18e-17d3-4089-a3a8-fd6601b4b630">
+            <TableID>dbo_Hotel</TableID>
+            <ColumnID>StandardHotelu</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a5b075b3-6cce-4147-8615-cc4c683d9ada">
+      <ID>Zakres Wyzywienia</ID>
+      <Name>Zakres Wyzywienia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="028d8c44-863c-4a22-8806-4e60eb31d219">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c00040b7-d0ce-45e1-8210-890da4e56e43">
+            <TableID>dbo_Hotel</TableID>
+            <ColumnID>ZakresWyzywienia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0902ed36-588c-4de5-80c0-7762d714628c">
+      <ID>L Pokoi2os</ID>
+      <Name>L Pokoi2os</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5b55fbce-c39f-457c-9902-3e166a06c156">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cd9650b5-4fbc-49ae-915b-479d06586202">
+            <TableID>dbo_Hotel</TableID>
+            <ColumnID>LPokoi2os</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c89ab7a3-4ddf-4114-bfd7-e37f874280c9">
+      <ID>L Pokoi3os</ID>
+      <Name>L Pokoi3os</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a4a24d04-52c4-4b4a-858a-23c4677327f9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6da7b191-896a-435d-a731-50fafdc4c5e3">
+            <TableID>dbo_Hotel</TableID>
+            <ColumnID>LPokoi3os</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3d49c5c1-0640-4875-9891-f4040a744964">
+      <ID>L Pokoi4os</ID>
+      <Name>L Pokoi4os</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b1ec3972-b2ec-4c3e-b332-af166f2c37a9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="69a8b7f5-a031-4c83-9cbd-3fc96c10db37">
+            <TableID>dbo_Hotel</TableID>
+            <ColumnID>LPokoi4os</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d08e6fe3-a23d-412b-8b64-8fc38f7301f1">
+      <ID>Udogodnienie Glowne</ID>
+      <Name>Udogodnienie Glowne</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="04b01800-a77f-431a-920b-5a85551b8c14">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d9029495-3cf9-466e-a150-403c2a0c676b">
+            <TableID>dbo_Hotel</TableID>
+            <ColumnID>UdogodnienieGlowne</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="28379228-bd64-48d9-b614-310ef6d5d21b">
+      <ID>Aktualny</ID>
+      <Name>Aktualny</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="12a1b663-0a7e-4867-815a-01bb5ffbcd1d">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="650495a7-dca2-4a11-a73f-be6fba43f1cc">
+            <TableID>dbo_Hotel</TableID>
+            <ColumnID>Aktualny</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="a9e341a6-65a2-4f98-9bf1-2d30bd4b37d7">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchia lokalizacji hotelu</Name>
+      <Levels>
+        <Level dwd:design-time-name="aa8c3fdf-d5d3-4c4e-8be5-2fa65956dc59">
+          <ID>Kraj</ID>
+          <Name>Kraj</Name>
+          <SourceAttributeID>Kraj</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="7dc1bcec-85f9-417d-bd40-faa92b900c42">
+          <ID>Miasto</ID>
+          <Name>Miasto</Name>
+          <SourceAttributeID>Miasto</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a0435242-69d4-4c25-b502-eb5b77c1e0db">
+          <ID>Adres</ID>
+          <Name>Adres</Name>
+          <SourceAttributeID>Adres</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

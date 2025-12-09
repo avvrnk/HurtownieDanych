@@ -1,4 +1,4 @@
-use TripOut_test
+use TripOutDW
 go 
 
 If (object_id('vETLFKwaterowanie') is not null) Drop view vETLFKwaterowanie;

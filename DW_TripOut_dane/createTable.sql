@@ -1,4 +1,4 @@
-use TripOutDW	
+use TripOutDW
 go 
 
 create table Data(
@@ -42,6 +42,7 @@ go
  
 create table Wycieczka(
     IdWycieczki integer primary key, 
+    BK_WycieczkaID integer not null, 
     Kraj varchar(50) not null, 
     Miasto varchar(50) not null, 
     TypWycieczki varchar(50) not null,
@@ -60,8 +61,8 @@ go
 
 create table Kwaterowanie( 
     FK_Wycieczka integer foreign key references Wycieczka(IdWycieczki), 
-    FK_Hotel integer foreign key references Hotel(IdHotelu), 
-    primary key (FK_Wycieczka, FK_Hotel) 
+    FK_Hotelu integer foreign key references Hotel(IdHotelu), 
+    primary key (FK_Wycieczka, FK_Hotelu) 
 )
 go 
 
@@ -81,7 +82,7 @@ create table Oferta(
     IloscMiejsc integer not null,
     ZarezerwowaneMiejsca integer not null,
     CenaZaOsobe decimal(10,2) not null,
-    Oblozenie integer not null check(Oblozenie between 0 and 100),
+    Oblozenie decimal(10,2) not null check(Oblozenie between 0 and 100),
     Przychod decimal(10,2) not null
 )
 go

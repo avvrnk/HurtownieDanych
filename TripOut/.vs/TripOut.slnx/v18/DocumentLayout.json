@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Wycieczka.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|solutionrelative:Wycieczka.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+      "AbsoluteMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|solutionrelative:Trip Out.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Atrakcja.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|solutionrelative:Atrakcja.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Wycieczka.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|solutionrelative:Wycieczka.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Data.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|solutionrelative:Data.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|solutionrelative:Trip Out.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Pilot.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|solutionrelative:Pilot.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Hotel.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
-      "RelativeMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|solutionrelative:Hotel.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{175A49A3-4DE9-0B2A-C806-FF14130637FF}|TripOut.dwproj|C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
@@ -38,43 +30,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Trip Out.cube [Design]",
-              "DocumentMoniker": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.cube",
-              "RelativeDocumentMoniker": "Trip Out.cube",
-              "ToolTip": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.cube [Design]*",
-              "RelativeToolTip": "Trip Out.cube [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-25T12:32:10.978Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Data.dim [Design]",
-              "DocumentMoniker": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Data.dim",
-              "RelativeDocumentMoniker": "Data.dim",
-              "ToolTip": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Data.dim [Design]",
-              "RelativeToolTip": "Data.dim [Design]",
+              "Title": "Wycieczka.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Wycieczka.dim",
+              "RelativeDocumentMoniker": "Wycieczka.dim",
+              "ToolTip": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Wycieczka.dim [Design]",
+              "RelativeToolTip": "Wycieczka.dim [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-25T12:31:19.538Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Pilot.dim [Design]",
-              "DocumentMoniker": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Pilot.dim",
-              "RelativeDocumentMoniker": "Pilot.dim",
-              "ToolTip": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Pilot.dim [Design]",
-              "RelativeToolTip": "Pilot.dim [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-25T12:31:18.13Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-01T16:24:19.837Z"
             },
             {
               "$type": "Document",
@@ -85,44 +52,41 @@
               "ToolTip": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Atrakcja.dim [Design]",
               "RelativeToolTip": "Atrakcja.dim [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-25T12:31:14.631Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-01T16:23:46.386Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Wycieczka.dim [Design]",
-              "DocumentMoniker": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Wycieczka.dim",
-              "RelativeDocumentMoniker": "Wycieczka.dim",
-              "ToolTip": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Wycieczka.dim [Design]*",
-              "RelativeToolTip": "Wycieczka.dim [Design]*",
+              "Title": "Trip Out.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.cube",
+              "RelativeDocumentMoniker": "Trip Out.cube",
+              "ToolTip": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.cube [Design]",
+              "RelativeToolTip": "Trip Out.cube [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-25T12:31:12.06Z",
+              "WhenOpened": "2025-11-25T12:32:10.978Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Hotel.dim [Design]",
-              "DocumentMoniker": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Hotel.dim",
-              "RelativeDocumentMoniker": "Hotel.dim",
-              "ToolTip": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Hotel.dim [Design]",
-              "RelativeToolTip": "Hotel.dim [Design]",
+              "DocumentIndex": 3,
+              "Title": "Data.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Data.dim",
+              "RelativeDocumentMoniker": "Data.dim",
+              "ToolTip": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Data.dim [Design]",
+              "RelativeToolTip": "Data.dim [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-25T12:31:16.462Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-25T12:31:19.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Trip Out.dsv [Design]",
               "DocumentMoniker": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.dsv",
               "RelativeDocumentMoniker": "Trip Out.dsv",
               "ToolTip": "C:\\Users\\wronk\\projekty\\HurtownieDanych\\TripOut\\Trip Out.dsv [Design]",
               "RelativeToolTip": "Trip Out.dsv [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-25T11:49:42.787Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-25T11:49:42.787Z"
             }
           ]
         }

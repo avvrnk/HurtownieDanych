@@ -2,14 +2,14 @@ import datetime
 import csv
 
 miesiace = {
-    1: "Styczeń", 2: "Luty", 3: "Marzec", 4: "Kwiecień",
-    5: "Maj", 6: "Czerwiec", 7: "Lipiec", 8: "Sierpień",
-    9: "Wrzesień", 10: "Październik", 11: "Listopad", 12: "Grudzień"
+    1: "Styczen", 2: "Luty", 3: "Marzec", 4: "Kwiecien",
+    5: "Maj", 6: "Czerwiec", 7: "Lipiec", 8: "Sierpien",
+    9: "Wrzesien", 10: "Pazdziernik", 11: "Listopad", 12: "Grudzien"
 }
 
 dni_tyg = {
-    1: "Poniedziałek", 2: "Wtorek", 3: "Środa", 4: "Czwartek",
-    5: "Piątek", 6: "Sobota", 7: "Niedziela"
+    1: "Poniedzialek", 2: "Wtorek", 3: "Sroda", 4: "Czwartek",
+    5: "Piatek", 6: "Sobota", 7: "Niedziela"
 }
 
 def kwartal(m):
@@ -22,7 +22,7 @@ def sezon(m):
         return "Wiosna"
     if m in (6, 7, 8):
         return "Lato"
-    return "Jesień"
+    return "Jesien"
 
 start = datetime.date(2020, 1, 1)
 end   = datetime.date(2025, 12, 31)
@@ -30,7 +30,7 @@ end   = datetime.date(2025, 12, 31)
 current = start
 id_counter = 1
 
-with open("daty.csv", "w", encoding="utf-8", newline="") as csvfile:
+with open("dane\daty.csv", "w", encoding="utf-8", newline="") as csvfile:
     writer = csv.writer(csvfile, delimiter=';')
 
     while current <= end:

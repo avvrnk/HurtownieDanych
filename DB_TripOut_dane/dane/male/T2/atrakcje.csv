@@ -1,0 +1,126 @@
+IdAtrakcji;Nazwa;Typ
+1;Panoramiczna wycieczka autokarowa;wycieczka
+2;Rejs widokowy po okolicy;wycieczka
+3;Wycieczka krajobrazowa premium;wycieczka
+4;Wycieczka edukacyjna z przewodnikiem;wycieczka
+5;Turystyczna trasa piesza;wycieczka
+6;Sciezka historyczna z audioguide;wycieczka
+7;Wycieczka kulturowa;wycieczka
+8;Wycieczka fotograficzna;wycieczka
+9;Wycieczka przyrodnicza;wycieczka
+10;Ekspedycja tematyczna;wycieczka
+11;Interaktywna wycieczka rodzinna;wycieczka
+12;Trasa przygodowa;wycieczka
+13;Wycieczka premium VIP;wycieczka
+14;Wycieczka edukacyjno-naukowa;wycieczka
+15;Wycieczka relaksacyjna;wycieczka
+16;Tematyczna wycieczka weekendowa;wycieczka
+17;Wycieczka odkrywcza;wycieczka
+18;Mobilna gra terenowa;wycieczka
+19;Wycieczka piesza z instruktorem;wycieczka
+20;Tematyczna misja orientacyjna;wycieczka
+21;Galeria Sztuki Nowoczesnej;wystawa
+22;Wystawa Fotografii Podrozniczej;wystawa
+23;Wystawa Rzezby Klasycznej;wystawa
+24;Prezentacja Sztuki Cyfrowej;wystawa
+25;Ekspozycja Historyczna;wystawa
+26;Wystawa Map Swiata;wystawa
+27;Wystawa Archeologiczna;wystawa
+28;Wystawa Modeli Architektonicznych;wystawa
+29;Galeria Malarstwa Impresjonistow;wystawa
+30;Wystawa Ilustracji Ksiegowych;wystawa
+31;Wystawa Robotyki;wystawa
+32;Galeria Sztuki Ulicznej;wystawa
+33;Ekspozycja Mineralow i Kamieni;wystawa
+34;Wystawa Sztuki Abstrakcyjnej;wystawa
+35;Wystawa Wynalazkow Technicznych;wystawa
+36;Degustacja Win Czerwonych;degustacja
+37;Degustacja Serow Regionalnych;degustacja
+38;Pokaz Sommeliera;degustacja
+39;Degustacja Miodow Swiata;degustacja
+40;Degustacja Czekolady Rzemieslniczej;degustacja
+41;Degustacja Herbat Premium;degustacja
+42;Degustacja Kaw Specialty;degustacja
+43;Degustacja Oliwy z Oliwek;degustacja
+44;Degustacja Produktow Ekologicznych;degustacja
+45;Degustacja Whisky;degustacja
+46;Degustacja Piwa Rzemieslniczego;degustacja
+47;Pokaz Parzenia Kawy;degustacja
+48;Degustacja Slodyczy Orientalnych;degustacja
+49;Degustacja Serow Twardych;degustacja
+50;Degustacja Sosow i Przypraw;degustacja
+51;Koncert Muzyki Klasycznej;koncert
+52;Koncert Jazzowy;koncert
+53;Koncert Rockowy;koncert
+54;Koncert Instrumentalny;koncert
+55;Recital Fortepianowy;koncert
+56;Koncert Muzyki Filmowej;koncert
+57;Mini Koncert Akustyczny;koncert
+58;Koncert Orkiestrowy;koncert
+59;Koncert Choralny;koncert
+60;Koncert Alternatywny;koncert
+61;Koncert Indie;koncert
+62;Koncert Elektroniczny;koncert
+63;Koncert Symfoniczny;koncert
+64;Koncert Skrzypcowy;koncert
+65;Koncert Muzyki Etno;koncert
+66;Zwiedzanie Muzeum Nauki;zwiedzanie
+67;Zwiedzanie Teatru;zwiedzanie
+68;Zwiedzanie Stadionu;zwiedzanie
+69;Zwiedzanie Studia Filmowego;zwiedzanie
+70;Zwiedzanie Zakladu Produkcyjnego;zwiedzanie
+71;Zwiedzanie Portu;zwiedzanie
+72;Zwiedzanie Biblioteki Narodowej;zwiedzanie
+73;Zwiedzanie Zamku;zwiedzanie
+74;Zwiedzanie Lotniska;zwiedzanie
+75;Zwiedzanie Planetarium;zwiedzanie
+76;Zwiedzanie Palmiarni;zwiedzanie
+77;Zwiedzanie Opery;zwiedzanie
+78;Zwiedzanie Huty Szkla;zwiedzanie
+79;Zwiedzanie Fabryki Czekolady;zwiedzanie
+80;Zwiedzanie Laboratorium Chemicznego;zwiedzanie
+81;Pokaz Iluzji;pokaz
+82;Pokaz Sokolnictwa;pokaz
+83;Pokaz Gotowania;pokaz
+84;Pokaz Robotow;pokaz
+85;Pokaz Mody;pokaz
+86;Pokaz Astronomiczny;pokaz
+87;Pokaz Tańca Nowoczesnego;pokaz
+88;Pokaz Tradycji Rzemieslniczych;pokaz
+89;Pokaz Maszyn Parowych;pokaz
+90;Pokaz Laserowy;pokaz
+91;Pokaz Chemiczny;pokaz
+92;Pokaz Druku 3D;pokaz
+93;Pokaz Kultury Orientalnej;pokaz
+94;Pokaz Slipingu;pokaz
+95;Pokaz Sztuki Walki;pokaz
+96;Warsztaty Garncarskie;warsztaty
+97;Warsztaty Fotograficzne;warsztaty
+98;Warsztaty Krawieckie;warsztaty
+99;Warsztaty Malarskie;warsztaty
+100;Warsztaty Programowania;warsztaty
+101;Warsztaty Kulinarne;warsztaty
+102;Warsztaty Druku 3D;warsztaty
+103;Warsztaty Papiernicze;warsztaty
+104;Warsztaty Rzezbiarskie;warsztaty
+105;Warsztaty Muzyczne;warsztaty
+106;Warsztaty Survivalowe;warsztaty
+107;Warsztaty Loutnicze;warsztaty
+108;Warsztaty Taneczne;warsztaty
+109;Warsztaty Zielarskie;warsztaty
+110;Warsztaty Kaligrafii;warsztaty
+111;Sesja Gier Planszowych;inne
+112;Spotkanie Autorskie;inne
+113;Pokaz Filmowy;inne
+114;Maraton Gier Retro;inne
+115;Wieczor Stand-up;inne
+116;Spotkanie Podroznicze;inne
+117;Prezentacja Nowych Technologii;inne
+118;Turniej Szachowy;inne
+119;Gra Miejska;inne
+120;Spotkanie Kolekcjonerow;inne
+121;Pokaz Modeli Kolejowych;inne
+122;Prezentacja Wydawnicza;inne
+123;Targi Rzemiosla;inne
+124;Forum Dyskusyjne;inne
+125;Spotkanie Klubu Hobbystow;inne

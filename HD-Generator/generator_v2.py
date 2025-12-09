@@ -212,7 +212,7 @@ def generate_trips(n_trips, outdir, start_id=1):
 def dates_overlap(a_start, a_end, b_start, b_end):
     return max(a_start, b_start) <= min(a_end, b_end)
 
-def generate_terms(trips, outdir, pilots_ids, start_term_id=1, terms_per_trip=2, append_pilot_fn=None):
+def generate_terms(trips, outdir, pilots_ids, start_term_id=1, max_terms_per_trip=3, append_pilot_fn=None):
     pilot_bookings = {pid: [] for pid in pilots_ids}  # pid -> list of (start,end)
     next_term_id = start_term_id
     # jesli append_pilot_fn nie None, musi zwracac nowe id
@@ -225,10 +225,31 @@ def generate_terms(trips, outdir, pilots_ids, start_term_id=1, terms_per_trip=2,
             term_ranges = []
             term_rows = []
             temp = []
+            terms_per_trip = random.randint(1, max_terms_per_trip)
             for _ in range(terms_per_trip):
-                #date_start = datetime.date.today() + datetime.timedelta(days=random.randint(7,365))
+                przedzial = random.randint(0, 100)
+                if przedzial <= 13: # 13% szans na przerwe sezonowa
+                    # data rozpoczęcia losowo od 1.01.2020 do 31.12.2020
+                    date_start = datetime.date(2020,1,1) + datetime.timedelta(days=random.randint(0,365))
+                elif przedzial <= 27: # 14% szans na brak terminu
+                    # data rozpoczęcia losowo od 1.01.2021 do 31.12.2021
+                    date_start = datetime.date(2021,1,1) + datetime.timedelta(days=random.randint(0,365))
+                elif przedzial <= 43: # 16% szans na 1 termin
+                    # data rozpoczęcia losowo od 1.01.2022 do 31.12.2022
+                    date_start = datetime.date(2022,1,1) + datetime.timedelta(days=random.randint(0,365))
+                elif przedzial <= 60: # 17% szans na 2 terminy
+                    # data rozpoczęcia losowo od 1.01.2023 do 31.12.2023
+                    date_start = datetime.date(2023,1,1) + datetime.timedelta(days=random.randint(0,365))
+                elif przedzial <= 79: # 18% szans na 3 terminy
+                    # data rozpoczęcia losowo od 1.01.2024 do 31.12.2024
+                    date_start = datetime.date(2024,1,1) + datetime.timedelta(days=random.randint(0,365))
+                else: # 21% szans na 4 terminy
+                    # data rozpoczęcia losowo od 1.01.2025 do 31.12.2025
+                    date_start = datetime.date(2025,1,1) + datetime.timedelta(days=random.randint(0,365))
+
+
                 # data rozpoczęcia losowo od 1.01.2020 do 31.12.2025
-                date_start = datetime.date(2020,1,1) + datetime.timedelta(days=random.randint(0,2191))
+                # date_start = datetime.date(2020,1,1) + datetime.timedelta(days=random.randint(0,2191))
                 if date_start in temp:
                     # unikaj duplikatow dat rozpoczęcia dla tej wycieczki
                     while date_start in temp:
@@ -357,7 +378,8 @@ def generate_rezerwacje_csv_stream(terms_rows, trip_city_map, trip_price_map, ou
             city = trip_city_map.get(trip_id, "Nieznane")
             price = trip_price_map.get(trip_id, random.randint(200, 3000))
             seats_available = int(term[4])
-            booked = random.randint(1, seats_available)
+            min_booked = seats_available*0.55
+            booked = random.randint(int(min_booked), seats_available)
 
             #booked = max(1, int(random.gauss(seats_available*0.5, max(1, seats_available*0.2))))
             #booked = min(seats_available, max(0, booked))
@@ -365,7 +387,7 @@ def generate_rezerwacje_csv_stream(terms_rows, trip_city_map, trip_price_map, ou
     return outpath
 
 def main():
-    outdir = os.environ.get("OUTDIR", "XDDDDD")
+    outdir = os.environ.get("OUTDIR", "dane_duze")
     pilots = int(os.environ.get("PILOTS", "50"))
     trips = int(os.environ.get("TRIPS", "1000"))
     random.seed(12345)
@@ -392,7 +414,7 @@ def main():
     trips_ids = [t['IdWycieczki'] for t in trips_list]
 
     # 4) Terminy - w trakcie ich tworzenia przypisujemy pilota, dbajac o konflikty
-    termy_csv, trips_list = generate_terms(trips_list, outdir, pilots_ids, start_term_id=1, terms_per_trip=3, append_pilot_fn=append_pilot_fn)
+    termy_csv, trips_list = generate_terms(trips_list, outdir, pilots_ids, start_term_id=1, max_terms_per_trip=15, append_pilot_fn=append_pilot_fn)
 
     # 5) Atrakcje
     #atrakcje_csv = generate_attractions(128, outdir, start_id=1)

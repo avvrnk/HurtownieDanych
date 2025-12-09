@@ -1,4 +1,4 @@
-﻿use TripOut_test				-- HD_biuroPodr�y 
+﻿use TripOutDW				-- HD_biuroPodr�y 
 go 
 
 create table Data(

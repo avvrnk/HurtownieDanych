@@ -1,4 +1,4 @@
-use TripOut_test
+use TripOutDW
 go 
 
 If (object_id('vETLDimWycieczkaData') is not null) Drop View vETLDimWycieczkaData;
@@ -36,9 +36,6 @@ MERGE INTO Wycieczka as TT
                     ST.TypWycieczki,
                     ST.CenaKat
                     )
-            WHEN Not Matched By Source
-                Then
-                    DELETE
             ;
 
 Drop View vETLDimWycieczkaData;

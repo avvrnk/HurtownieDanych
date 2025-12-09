@@ -1,4 +1,4 @@
-use TripOut_test
+use TripOutDW
 go
 
 If (object_id('dbo.DataTmp') is not null) DROP TABLE dbo.DataTmp;
@@ -18,7 +18,7 @@ CREATE TABLE dbo.DataTmp(
 go
 
 BULK INSERT dbo.DataTmp
-from 'C:\Users\wronk\projekty\HurtownieDanych\lab4\sql\daty.csv'
+from 'C:\Users\wronk\projekty\HurtownieDanych\DB_TripOut_dane\dane\odczyt\daty.csv'
 WITH (
 	FIELDTERMINATOR=';',
 	ROWTERMINATOR = '\n', 

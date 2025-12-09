@@ -1,0 +1,10 @@
+WITH  
+    MEMBER [Measures].[OblozenieProcent] AS  
+        [Measures].[OblozenieAVG] * 100 
+SELECT  
+    [Measures].[OblozenieProcent] ON COLUMNS, 
+    Filter( 
+        [Hotel].[Udogodnienie Glowne].Children, 
+        [Measures].[OblozenieAVG] > 0.75
+    ) ON ROWS 
+FROM [Trip Out DW]; 

@@ -1,4 +1,4 @@
-use TripOut_test;
+use TripOutDW
 go
 
 if (object_id('dbo.rezerwacje_temp') is not null) drop table dbo.rezerwacje_temp;
@@ -11,7 +11,7 @@ CREATE TABLE dbo.rezerwacje_temp
 );
 go 
 BULK INSERT dbo.rezerwacje_temp
-FROM 'C:\Users\wronk\projekty\HurtownieDanych\DB_TripOut_dane\dane\rezerwacje.csv'
+FROM 'C:\Users\wronk\projekty\HurtownieDanych\DB_TripOut_dane\dane\odczyt\rezerwacje.csv'
 WITH
 (
     FIRSTROW = 2,
@@ -51,14 +51,8 @@ MERGE INTO Oferta as TT
 			TT.IdDaty = ST.IdDaty
 		AND TT.IdWycieczki = ST.IdWycieczki 
 		AND TT.IdPilota = ST.IdPilota
-		AND TT.DlugoscPobytu = ST.DlugoscPobytu
-		AND TT.IloscMiejsc = ST.IloscMiejsc
-		AND TT.ZarezerwowaneMiejsca = ST.ZarezerwowaneMiejsca
-  		AND TT.CenaZaOsobe = ST.CenaZaOsobe
-		AND TT.Oblozenie = ST.Oblozenie
-		AND TT.Przychod = ST.Przychod
 	    WHEN NOT MATCHED 
-            AND ST.IdWycieczki IS NOT NULL
+           AND ST.IdWycieczki IS NOT NULL
             THEN INSERT
                 (
                     IdWycieczki,
@@ -86,6 +80,7 @@ MERGE INTO Oferta as TT
 					;
 
 drop view vETLFOferta;
+drop table if exists dbo.rezerwacje_temp
 
 
 
