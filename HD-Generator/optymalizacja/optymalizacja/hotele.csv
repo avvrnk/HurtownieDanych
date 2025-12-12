@@ -1,0 +1,235 @@
+IdHotelu;Nazwa;Adres;StandardHotelu;ZakresWyzywienia;LiczbaPokoi2;LiczbaPokoi3;LiczbaPokoi4;Udogodnienie
+1;Hotel_Rome_1;Ul. Plazowa 164, Rome, Italy;4;pelne wyzywienie;188;34;2;Udogodnienia dla osob niepelnosprawnych
+2;Hotel_Rome_2;Ul. Przykladowa 215, Rome, Italy;4;bez wyzywienia;22;26;21;Udogodnienia dla osob niepelnosprawnych
+3;Hotel_Rome_3;Ul. Przykladowa 44, Rome, Italy;4;sniadania;137;15;23;Przechowalnia bagazu
+4;Hotel_Rome_4;Ul. Kwiatowa 68, Rome, Italy;3;polpension;132;49;6;Usluga pralni i prasowania
+5;Hotel_Milan_5;Ul. Przykladowa 300, Milan, Italy;4;bez wyzywienia;50;43;11;Udogodnienia dla osob niepelnosprawnych
+6;Hotel_Milan_6;Ul. Przykladowa 167, Milan, Italy;4;pelne wyzywienie;93;38;24;Przechowalnia bagazu
+7;Hotel_Milan_7;Ul. Plazowa 113, Milan, Italy;3;sniadania;136;26;10;Spa i strefa wellness
+8;Hotel_Venice_8;Ul. Centralna 157, Venice, Italy;5;bez wyzywienia;62;40;17;Klimatyzacja w pokojach
+9;Hotel_Venice_9;Ul. Glowna 164, Venice, Italy;4;pelne wyzywienie;154;34;30;Sejf w pokoju lub w recepcji
+10;Hotel_Venice_10;Ul. Plazowa 133, Venice, Italy;3;sniadania;47;24;22;Klimatyzacja w pokojach
+11;Hotel_Venice_11;Ul. Przykladowa 98, Venice, Italy;5;pelne wyzywienie;177;15;16;Usluga pralni i prasowania
+12;Hotel_Venice_12;Ul. Glowna 63, Venice, Italy;5;polpension;6;10;23;Udogodnienia dla osob niepelnosprawnych
+13;Hotel_Paris_13;Ul. Kwiatowa 166, Paris, France;5;sniadania;15;34;24;Telewizor z serwisami streamingowymi
+14;Hotel_Paris_14;Ul. Kwiatowa 210, Paris, France;4;pelne wyzywienie;96;46;2;Bezplatne Wi-Fi
+15;Hotel_Paris_15;Ul. Centralna 131, Paris, France;3;bez wyzywienia;33;30;23;Calodobowa recepcja
+16;Hotel_Paris_16;Ul. Glowna 110, Paris, France;2;pelne wyzywienie;62;44;1;Udogodnienia dla osob niepelnosprawnych
+17;Hotel_Paris_17;Ul. Centralna 181, Paris, France;2;pelne wyzywienie;12;50;1;Telewizor z serwisami streamingowymi
+18;Hotel_Nice_18;Ul. Kwiatowa 255, Nice, France;3;pelne wyzywienie;109;34;12;Spa i strefa wellness
+19;Hotel_Nice_19;Ul. Centralna 244, Nice, France;2;bez wyzywienia;80;41;17;sniadanie w cenie
+20;Hotel_Nice_20;Ul. Glowna 5, Nice, France;4;polpension;11;19;24;Basen (kryty lub odkryty)
+21;Hotel_Nice_21;Ul. Glowna 3, Nice, France;3;polpension;44;1;0;Silownia / centrum fitness
+22;Hotel_Lyon_22;Ul. Glowna 118, Lyon, France;3;polpension;102;42;30;Klimatyzacja w pokojach
+23;Hotel_Lyon_23;Ul. Centralna 273, Lyon, France;4;pelne wyzywienie;83;50;3;Spa i strefa wellness
+24;Hotel_Lyon_24;Ul. Kwiatowa 27, Lyon, France;5;bez wyzywienia;101;3;2;Silownia / centrum fitness
+25;Hotel_Lyon_25;Ul. Kwiatowa 5, Lyon, France;5;sniadania;74;39;10;Czajnik, kawa i herbata w pokoju
+26;Hotel_Barcelona_26;Ul. Plazowa 285, Barcelona, Spain;3;polpension;107;6;21;Basen (kryty lub odkryty)
+27;Hotel_Barcelona_27;Ul. Glowna 181, Barcelona, Spain;3;pelne wyzywienie;83;50;0;Usluga pralni i prasowania
+28;Hotel_Barcelona_28;Ul. Kwiatowa 11, Barcelona, Spain;1;polpension;175;9;12;Spa i strefa wellness
+29;Hotel_Madrid_29;Ul. Centralna 243, Madrid, Spain;5;pelne wyzywienie;151;38;22;Parking (bezplatny lub platny)
+30;Hotel_Madrid_30;Ul. Przykladowa 248, Madrid, Spain;5;polpension;53;24;12;Transfer z/na lotnisko
+31;Hotel_Valencia_31;Ul. Kwiatowa 250, Valencia, Spain;3;sniadania;53;16;5;Usluga pralni i prasowania
+32;Hotel_Valencia_32;Ul. Plazowa 130, Valencia, Spain;3;bez wyzywienia;128;8;16;Parking (bezplatny lub platny)
+33;Hotel_Valencia_33;Ul. Centralna 23, Valencia, Spain;4;pelne wyzywienie;120;2;17;Klimatyzacja w pokojach
+34;Hotel_Valencia_34;Ul. Przykladowa 33, Valencia, Spain;3;pelne wyzywienie;142;20;7;sniadanie w cenie
+35;Hotel_Valencia_35;Ul. Plazowa 198, Valencia, Spain;4;sniadania;37;22;14;Usluga pralni i prasowania
+36;Hotel_London_36;Ul. Glowna 133, London, United Kingdom;5;pelne wyzywienie;170;30;11;Calodobowa recepcja
+37;Hotel_London_37;Ul. Przykladowa 163, London, United Kingdom;5;sniadania;197;46;30;Sejf w pokoju lub w recepcji
+38;Hotel_London_38;Ul. Przykladowa 284, London, United Kingdom;5;bez wyzywienia;148;22;30;Przechowalnia bagazu
+39;Hotel_London_39;Ul. Przykladowa 218, London, United Kingdom;4;bez wyzywienia;157;1;19;Udogodnienia dla osob niepelnosprawnych
+40;Hotel_London_40;Ul. Plazowa 16, London, United Kingdom;3;bez wyzywienia;93;41;11;Usluga pralni i prasowania
+41;Hotel_Manchester_41;Ul. Centralna 100, Manchester, United Kingdom;4;pelne wyzywienie;193;22;5;Basen (kryty lub odkryty)
+42;Hotel_Manchester_42;Ul. Centralna 220, Manchester, United Kingdom;5;polpension;182;46;0;Usluga pralni i prasowania
+43;Hotel_Manchester_43;Ul. Centralna 156, Manchester, United Kingdom;4;polpension;116;5;24;Klimatyzacja w pokojach
+44;Hotel_Edinburgh_44;Ul. Centralna 81, Edinburgh, United Kingdom;3;sniadania;145;26;3;Spa i strefa wellness
+45;Hotel_Edinburgh_45;Ul. Kwiatowa 282, Edinburgh, United Kingdom;3;sniadania;23;43;2;Usluga pralni i prasowania
+46;Hotel_Edinburgh_46;Ul. Glowna 203, Edinburgh, United Kingdom;3;bez wyzywienia;42;34;1;Spa i strefa wellness
+47;Hotel_Edinburgh_47;Ul. Glowna 77, Edinburgh, United Kingdom;5;polpension;76;32;3;Udogodnienia dla rodzin
+48;Hotel_Athens_48;Ul. Kwiatowa 65, Athens, Greece;5;polpension;183;4;11;Udogodnienia dla rodzin
+49;Hotel_Athens_49;Ul. Plazowa 172, Athens, Greece;3;polpension;77;45;18;Parking (bezplatny lub platny)
+50;Hotel_Thessaloniki_50;Ul. Centralna 26, Thessaloniki, Greece;3;sniadania;9;9;28;Bezplatne Wi-Fi
+51;Hotel_Thessaloniki_51;Ul. Przykladowa 7, Thessaloniki, Greece;3;bez wyzywienia;148;14;24;Silownia / centrum fitness
+52;Hotel_Thessaloniki_52;Ul. Kwiatowa 94, Thessaloniki, Greece;3;bez wyzywienia;185;29;3;Restauracja lub bar hotelowy
+53;Hotel_Thessaloniki_53;Ul. Glowna 31, Thessaloniki, Greece;4;pelne wyzywienie;179;17;20;Mini bar lub lodowka
+54;Hotel_Thessaloniki_54;Ul. Glowna 258, Thessaloniki, Greece;4;pelne wyzywienie;39;42;19;Sejf w pokoju lub w recepcji
+55;Hotel_Lisbon_55;Ul. Przykladowa 27, Lisbon, Portugal;4;polpension;71;49;21;Spa i strefa wellness
+56;Hotel_Lisbon_56;Ul. Plazowa 163, Lisbon, Portugal;3;sniadania;170;25;29;Calodobowa recepcja
+57;Hotel_Porto_57;Ul. Glowna 109, Porto, Portugal;3;sniadania;72;15;19;Sejf w pokoju lub w recepcji
+58;Hotel_Porto_58;Ul. Plazowa 83, Porto, Portugal;5;pelne wyzywienie;100;24;11;Centrum biznesowe / sala konferencyjna
+59;Hotel_Dubrovnik_59;Ul. Przykladowa 167, Dubrovnik, Croatia;3;pelne wyzywienie;66;8;16;Telewizor z serwisami streamingowymi
+60;Hotel_Dubrovnik_60;Ul. Kwiatowa 53, Dubrovnik, Croatia;4;polpension;51;31;18;Przechowalnia bagazu
+61;Hotel_Dubrovnik_61;Ul. Plazowa 91, Dubrovnik, Croatia;2;bez wyzywienia;153;2;21;Czajnik, kawa i herbata w pokoju
+62;Hotel_Dubrovnik_62;Ul. Centralna 200, Dubrovnik, Croatia;4;bez wyzywienia;140;0;24;Mini bar lub lodowka
+63;Hotel_Split_63;Ul. Przykladowa 4, Split, Croatia;3;sniadania;135;24;20;Spa i strefa wellness
+64;Hotel_Split_64;Ul. Kwiatowa 241, Split, Croatia;4;polpension;14;6;20;Restauracja lub bar hotelowy
+65;Hotel_Split_65;Ul. Przykladowa 208, Split, Croatia;5;pelne wyzywienie;45;45;19;Usluga pralni i prasowania
+66;Hotel_Split_66;Ul. Przykladowa 90, Split, Croatia;5;pelne wyzywienie;5;7;18;Restauracja lub bar hotelowy
+67;Hotel_Split_67;Ul. Glowna 148, Split, Croatia;4;bez wyzywienia;117;29;1;Udogodnienia dla osob niepelnosprawnych
+68;Hotel_Sofia_68;Ul. Glowna 236, Sofia, Bulgaria;4;pelne wyzywienie;173;8;4;Silownia / centrum fitness
+69;Hotel_Sofia_69;Ul. Glowna 284, Sofia, Bulgaria;3;pelne wyzywienie;141;0;19;Udogodnienia dla osob niepelnosprawnych
+70;Hotel_Sofia_70;Ul. Kwiatowa 67, Sofia, Bulgaria;3;pelne wyzywienie;94;22;21;Czajnik, kawa i herbata w pokoju
+71;Hotel_Sofia_71;Ul. Przykladowa 212, Sofia, Bulgaria;4;bez wyzywienia;140;47;7;Mini bar lub lodowka
+72;Hotel_Burgas_72;Ul. Przykladowa 277, Burgas, Bulgaria;3;bez wyzywienia;70;18;19;Bezplatne Wi-Fi
+73;Hotel_Burgas_73;Ul. Centralna 264, Burgas, Bulgaria;2;sniadania;166;22;5;Telewizor z serwisami streamingowymi
+74;Hotel_Burgas_74;Ul. Plazowa 182, Burgas, Bulgaria;2;bez wyzywienia;85;5;4;Calodobowa recepcja
+75;Hotel_Burgas_75;Ul. Glowna 273, Burgas, Bulgaria;3;pelne wyzywienie;80;50;22;Przechowalnia bagazu
+76;Hotel_Berlin_76;Ul. Kwiatowa 68, Berlin, Germany;3;pelne wyzywienie;24;35;29;Czajnik, kawa i herbata w pokoju
+77;Hotel_Berlin_77;Ul. Plazowa 222, Berlin, Germany;3;sniadania;167;43;28;Telewizor z serwisami streamingowymi
+78;Hotel_Berlin_78;Ul. Kwiatowa 254, Berlin, Germany;5;bez wyzywienia;166;26;30;Klimatyzacja w pokojach
+79;Hotel_Berlin_79;Ul. Glowna 109, Berlin, Germany;5;sniadania;64;28;21;Obsluga pokojowa (room service)
+80;Hotel_Munich_80;Ul. Glowna 204, Munich, Germany;3;bez wyzywienia;159;45;6;Klimatyzacja w pokojach
+81;Hotel_Munich_81;Ul. Glowna 296, Munich, Germany;4;polpension;77;40;0;sniadanie w cenie
+82;Hotel_Munich_82;Ul. Centralna 82, Munich, Germany;5;sniadania;45;34;12;sniadanie w cenie
+83;Hotel_Hamburg_83;Ul. Przykladowa 207, Hamburg, Germany;4;bez wyzywienia;20;39;12;Udogodnienia dla rodzin
+84;Hotel_Hamburg_84;Ul. Przykladowa 254, Hamburg, Germany;3;polpension;21;33;0;sniadanie w cenie
+85;Hotel_Hamburg_85;Ul. Przykladowa 115, Hamburg, Germany;5;sniadania;97;27;0;Sejf w pokoju lub w recepcji
+86;Hotel_Hamburg_86;Ul. Glowna 280, Hamburg, Germany;4;polpension;12;40;22;sniadanie w cenie
+87;Hotel_Amsterdam_87;Ul. Kwiatowa 198, Amsterdam, Netherlands;3;bez wyzywienia;169;39;28;Usluga pralni i prasowania
+88;Hotel_Amsterdam_88;Ul. Centralna 112, Amsterdam, Netherlands;3;sniadania;132;13;21;Silownia / centrum fitness
+89;Hotel_Amsterdam_89;Ul. Kwiatowa 220, Amsterdam, Netherlands;3;bez wyzywienia;14;41;18;Sejf w pokoju lub w recepcji
+90;Hotel_Rotterdam_90;Ul. Kwiatowa 68, Rotterdam, Netherlands;3;sniadania;10;40;24;Telewizor z serwisami streamingowymi
+91;Hotel_Rotterdam_91;Ul. Plazowa 221, Rotterdam, Netherlands;3;pelne wyzywienie;148;27;24;Transfer z/na lotnisko
+92;Hotel_Brussels_92;Ul. Glowna 90, Brussels, Belgium;4;bez wyzywienia;86;41;29;Sejf w pokoju lub w recepcji
+93;Hotel_Brussels_93;Ul. Glowna 78, Brussels, Belgium;3;polpension;150;29;13;Centrum biznesowe / sala konferencyjna
+94;Hotel_Brussels_94;Ul. Plazowa 233, Brussels, Belgium;5;pelne wyzywienie;80;29;2;Restauracja lub bar hotelowy
+95;Hotel_Brussels_95;Ul. Przykladowa 172, Brussels, Belgium;4;bez wyzywienia;150;35;5;Silownia / centrum fitness
+96;Hotel_Antwerp_96;Ul. Centralna 220, Antwerp, Belgium;4;pelne wyzywienie;95;23;24;Telewizor z serwisami streamingowymi
+97;Hotel_Antwerp_97;Ul. Kwiatowa 87, Antwerp, Belgium;3;pelne wyzywienie;166;33;11;Obsluga pokojowa (room service)
+98;Hotel_Zurich_98;Ul. Przykladowa 210, Zurich, Switzerland;5;polpension;45;18;9;Transfer z/na lotnisko
+99;Hotel_Zurich_99;Ul. Kwiatowa 49, Zurich, Switzerland;3;pelne wyzywienie;122;33;23;Usluga pralni i prasowania
+100;Hotel_Zurich_100;Ul. Glowna 40, Zurich, Switzerland;5;bez wyzywienia;86;31;9;Sejf w pokoju lub w recepcji
+101;Hotel_Zurich_101;Ul. Przykladowa 14, Zurich, Switzerland;3;bez wyzywienia;127;10;12;Udogodnienia dla osob niepelnosprawnych
+102;Hotel_Geneva_102;Ul. Glowna 128, Geneva, Switzerland;4;pelne wyzywienie;39;22;22;Spa i strefa wellness
+103;Hotel_Geneva_103;Ul. Kwiatowa 255, Geneva, Switzerland;3;polpension;51;9;21;Udogodnienia dla osob niepelnosprawnych
+104;Hotel_Geneva_104;Ul. Plazowa 82, Geneva, Switzerland;4;polpension;12;3;2;Klimatyzacja w pokojach
+105;Hotel_Geneva_105;Ul. Glowna 160, Geneva, Switzerland;4;bez wyzywienia;33;32;22;Calodobowa recepcja
+106;Hotel_Geneva_106;Ul. Kwiatowa 249, Geneva, Switzerland;5;pelne wyzywienie;149;13;13;Przechowalnia bagazu
+107;Hotel_Vienna_107;Ul. Plazowa 133, Vienna, Austria;3;bez wyzywienia;36;38;26;Parking (bezplatny lub platny)
+108;Hotel_Vienna_108;Ul. Plazowa 260, Vienna, Austria;4;sniadania;103;32;19;Spa i strefa wellness
+109;Hotel_Vienna_109;Ul. Plazowa 228, Vienna, Austria;3;polpension;151;44;8;Transfer z/na lotnisko
+110;Hotel_Vienna_110;Ul. Przykladowa 131, Vienna, Austria;5;sniadania;23;4;16;Udogodnienia dla osob niepelnosprawnych
+111;Hotel_Vienna_111;Ul. Centralna 158, Vienna, Austria;2;polpension;84;31;28;Spa i strefa wellness
+112;Hotel_Salzburg_112;Ul. Kwiatowa 249, Salzburg, Austria;3;polpension;167;43;2;Calodobowa recepcja
+113;Hotel_Salzburg_113;Ul. Kwiatowa 266, Salzburg, Austria;1;polpension;86;29;14;Centrum biznesowe / sala konferencyjna
+114;Hotel_Prague_114;Ul. Plazowa 178, Prague, Czech Republic;4;pelne wyzywienie;168;8;16;Sejf w pokoju lub w recepcji
+115;Hotel_Prague_115;Ul. Przykladowa 241, Prague, Czech Republic;3;bez wyzywienia;112;45;28;Parking (bezplatny lub platny)
+116;Hotel_Ostrava_116;Ul. Przykladowa 170, Ostrava, Czech Republic;4;bez wyzywienia;179;17;12;Sejf w pokoju lub w recepcji
+117;Hotel_Ostrava_117;Ul. Plazowa 90, Ostrava, Czech Republic;3;bez wyzywienia;124;33;4;Bezplatne Wi-Fi
+118;Hotel_Ostrava_118;Ul. Plazowa 182, Ostrava, Czech Republic;4;bez wyzywienia;40;7;1;Transfer z/na lotnisko
+119;Hotel_Ostrava_119;Ul. Plazowa 26, Ostrava, Czech Republic;3;pelne wyzywienie;64;5;30;sniadanie w cenie
+120;Hotel_Stockholm_120;Ul. Glowna 118, Stockholm, Sweden;2;bez wyzywienia;35;11;11;Udogodnienia dla osob niepelnosprawnych
+121;Hotel_Stockholm_121;Ul. Glowna 71, Stockholm, Sweden;5;bez wyzywienia;40;36;17;Transfer z/na lotnisko
+122;Hotel_Stockholm_122;Ul. Plazowa 173, Stockholm, Sweden;3;polpension;168;26;12;Bezplatne Wi-Fi
+123;Hotel_Gothenburg_123;Ul. Przykladowa 249, Gothenburg, Sweden;4;bez wyzywienia;59;49;27;Spa i strefa wellness
+124;Hotel_Gothenburg_124;Ul. Centralna 158, Gothenburg, Sweden;4;sniadania;111;12;20;Przechowalnia bagazu
+125;Hotel_Oslo_125;Ul. Kwiatowa 170, Oslo, Norway;4;polpension;99;39;11;Obsluga pokojowa (room service)
+126;Hotel_Oslo_126;Ul. Plazowa 147, Oslo, Norway;4;bez wyzywienia;28;0;27;Bezplatne Wi-Fi
+127;Hotel_Oslo_127;Ul. Glowna 39, Oslo, Norway;4;pelne wyzywienie;70;48;4;Udogodnienia dla rodzin
+128;Hotel_Oslo_128;Ul. Plazowa 230, Oslo, Norway;3;polpension;14;22;25;Restauracja lub bar hotelowy
+129;Hotel_Bergen_129;Ul. Plazowa 256, Bergen, Norway;4;polpension;82;29;13;Transfer z/na lotnisko
+130;Hotel_Bergen_130;Ul. Przykladowa 3, Bergen, Norway;5;polpension;149;9;2;Obsluga pokojowa (room service)
+131;Hotel_Bergen_131;Ul. Plazowa 113, Bergen, Norway;4;polpension;200;16;13;Calodobowa recepcja
+132;Hotel_Copenhagen_132;Ul. Plazowa 157, Copenhagen, Denmark;3;polpension;189;33;14;Restauracja lub bar hotelowy
+133;Hotel_Copenhagen_133;Ul. Przykladowa 279, Copenhagen, Denmark;4;pelne wyzywienie;184;22;9;Parking (bezplatny lub platny)
+134;Hotel_Copenhagen_134;Ul. Kwiatowa 188, Copenhagen, Denmark;1;pelne wyzywienie;132;25;4;Klimatyzacja w pokojach
+135;Hotel_Aarhus_135;Ul. Kwiatowa 41, Aarhus, Denmark;3;sniadania;53;41;10;Obsluga pokojowa (room service)
+136;Hotel_Aarhus_136;Ul. Centralna 285, Aarhus, Denmark;3;polpension;100;13;14;Obsluga pokojowa (room service)
+137;Hotel_Aarhus_137;Ul. Glowna 156, Aarhus, Denmark;2;bez wyzywienia;91;11;9;sniadanie w cenie
+138;Hotel_Istanbul_138;Ul. Centralna 176, Istanbul, Turkey;4;sniadania;67;19;25;Bezplatne Wi-Fi
+139;Hotel_Istanbul_139;Ul. Centralna 271, Istanbul, Turkey;3;sniadania;91;37;21;Sejf w pokoju lub w recepcji
+140;Hotel_Istanbul_140;Ul. Centralna 140, Istanbul, Turkey;2;pelne wyzywienie;122;1;19;sniadanie w cenie
+141;Hotel_Istanbul_141;Ul. Glowna 292, Istanbul, Turkey;3;polpension;110;49;11;Transfer z/na lotnisko
+142;Hotel_Istanbul_142;Ul. Centralna 76, Istanbul, Turkey;4;pelne wyzywienie;13;31;16;Przechowalnia bagazu
+143;Hotel_Antalya_143;Ul. Glowna 227, Antalya, Turkey;4;pelne wyzywienie;107;0;24;Usluga pralni i prasowania
+144;Hotel_Antalya_144;Ul. Glowna 175, Antalya, Turkey;4;sniadania;157;26;28;Calodobowa recepcja
+145;Hotel_Antalya_145;Ul. Kwiatowa 117, Antalya, Turkey;5;sniadania;200;38;26;Przechowalnia bagazu
+146;Hotel_Antalya_146;Ul. Glowna 284, Antalya, Turkey;5;polpension;64;19;11;Obsluga pokojowa (room service)
+147;Hotel_Marrakesh_147;Ul. Centralna 270, Marrakesh, Morocco;4;pelne wyzywienie;120;33;17;Bezplatne Wi-Fi
+148;Hotel_Marrakesh_148;Ul. Kwiatowa 40, Marrakesh, Morocco;1;pelne wyzywienie;173;32;27;Mini bar lub lodowka
+149;Hotel_Marrakesh_149;Ul. Plazowa 109, Marrakesh, Morocco;3;pelne wyzywienie;98;24;17;Bezplatne Wi-Fi
+150;Hotel_Marrakesh_150;Ul. Przykladowa 125, Marrakesh, Morocco;4;polpension;63;27;28;sniadanie w cenie
+151;Hotel_Marrakesh_151;Ul. Przykladowa 104, Marrakesh, Morocco;4;bez wyzywienia;146;16;12;Centrum biznesowe / sala konferencyjna
+152;Hotel_Casablanca_152;Ul. Plazowa 58, Casablanca, Morocco;5;polpension;18;19;1;Bezplatne Wi-Fi
+153;Hotel_Casablanca_153;Ul. Przykladowa 272, Casablanca, Morocco;4;polpension;159;8;26;sniadanie w cenie
+154;Hotel_Tunis_154;Ul. Przykladowa 57, Tunis, Tunisia;5;pelne wyzywienie;168;13;14;Usluga pralni i prasowania
+155;Hotel_Tunis_155;Ul. Centralna 174, Tunis, Tunisia;3;polpension;61;31;11;Klimatyzacja w pokojach
+156;Hotel_Tunis_156;Ul. Glowna 68, Tunis, Tunisia;3;sniadania;74;23;4;Bezplatne Wi-Fi
+157;Hotel_Hammamet_157;Ul. Centralna 20, Hammamet, Tunisia;3;polpension;120;5;16;Parking (bezplatny lub platny)
+158;Hotel_Hammamet_158;Ul. Centralna 153, Hammamet, Tunisia;3;sniadania;72;0;23;Silownia / centrum fitness
+159;Hotel_Hammamet_159;Ul. Centralna 61, Hammamet, Tunisia;3;sniadania;173;34;13;Bezplatne Wi-Fi
+160;Hotel_Hammamet_160;Ul. Plazowa 266, Hammamet, Tunisia;3;polpension;30;33;19;Silownia / centrum fitness
+161;Hotel_Hammamet_161;Ul. Plazowa 184, Hammamet, Tunisia;4;pelne wyzywienie;164;23;10;Spa i strefa wellness
+162;Hotel_Cairo_162;Ul. Kwiatowa 228, Cairo, Egypt;3;pelne wyzywienie;60;3;9;Udogodnienia dla rodzin
+163;Hotel_Cairo_163;Ul. Kwiatowa 203, Cairo, Egypt;5;sniadania;125;46;25;Usluga pralni i prasowania
+164;Hotel_Cairo_164;Ul. Kwiatowa 200, Cairo, Egypt;3;sniadania;48;43;28;Transfer z/na lotnisko
+165;Hotel_Hurghada_165;Ul. Przykladowa 96, Hurghada, Egypt;4;pelne wyzywienie;26;17;23;Czajnik, kawa i herbata w pokoju
+166;Hotel_Hurghada_166;Ul. Glowna 148, Hurghada, Egypt;3;polpension;164;0;16;Usluga pralni i prasowania
+167;Hotel_Hurghada_167;Ul. Centralna 233, Hurghada, Egypt;5;polpension;161;7;20;Basen (kryty lub odkryty)
+168;Hotel_Hurghada_168;Ul. Glowna 119, Hurghada, Egypt;1;bez wyzywienia;178;49;8;Centrum biznesowe / sala konferencyjna
+169;Hotel_Hurghada_169;Ul. Plazowa 67, Hurghada, Egypt;3;pelne wyzywienie;185;27;17;Klimatyzacja w pokojach
+170;Hotel_New York_170;Ul. Glowna 293, New York, USA;5;bez wyzywienia;39;35;26;Usluga pralni i prasowania
+171;Hotel_New York_171;Ul. Przykladowa 287, New York, USA;3;bez wyzywienia;64;12;26;Usluga pralni i prasowania
+172;Hotel_Los Angeles_172;Ul. Kwiatowa 97, Los Angeles, USA;3;sniadania;62;20;18;Mini bar lub lodowka
+173;Hotel_Los Angeles_173;Ul. Kwiatowa 92, Los Angeles, USA;4;sniadania;131;48;2;Sejf w pokoju lub w recepcji
+174;Hotel_Miami_174;Ul. Przykladowa 233, Miami, USA;3;polpension;147;48;0;Silownia / centrum fitness
+175;Hotel_Miami_175;Ul. Plazowa 244, Miami, USA;3;pelne wyzywienie;157;29;19;sniadanie w cenie
+176;Hotel_Toronto_176;Ul. Plazowa 116, Toronto, Canada;3;pelne wyzywienie;37;9;16;Klimatyzacja w pokojach
+177;Hotel_Toronto_177;Ul. Glowna 86, Toronto, Canada;3;polpension;54;20;3;Klimatyzacja w pokojach
+178;Hotel_Toronto_178;Ul. Centralna 160, Toronto, Canada;5;polpension;92;25;24;Mini bar lub lodowka
+179;Hotel_Montreal_179;Ul. Plazowa 169, Montreal, Canada;4;pelne wyzywienie;166;17;11;Silownia / centrum fitness
+180;Hotel_Montreal_180;Ul. Centralna 70, Montreal, Canada;4;sniadania;70;29;29;Telewizor z serwisami streamingowymi
+181;Hotel_Montreal_181;Ul. Plazowa 260, Montreal, Canada;4;sniadania;106;27;8;Bezplatne Wi-Fi
+182;Hotel_Montreal_182;Ul. Plazowa 183, Montreal, Canada;3;sniadania;195;1;2;Sejf w pokoju lub w recepcji
+183;Hotel_Montreal_183;Ul. Przykladowa 194, Montreal, Canada;3;bez wyzywienia;123;40;19;Bezplatne Wi-Fi
+184;Hotel_Sydney_184;Ul. Glowna 218, Sydney, Australia;5;polpension;103;37;6;Obsluga pokojowa (room service)
+185;Hotel_Sydney_185;Ul. Centralna 218, Sydney, Australia;3;polpension;58;3;0;Przechowalnia bagazu
+186;Hotel_Melbourne_186;Ul. Glowna 24, Melbourne, Australia;5;pelne wyzywienie;141;1;23;Obsluga pokojowa (room service)
+187;Hotel_Melbourne_187;Ul. Centralna 253, Melbourne, Australia;4;sniadania;157;37;1;Mini bar lub lodowka
+188;Hotel_Melbourne_188;Ul. Przykladowa 66, Melbourne, Australia;4;pelne wyzywienie;59;21;10;Restauracja lub bar hotelowy
+189;Hotel_Melbourne_189;Ul. Przykladowa 197, Melbourne, Australia;5;bez wyzywienia;113;40;5;Bezplatne Wi-Fi
+190;Hotel_Melbourne_190;Ul. Plazowa 279, Melbourne, Australia;3;sniadania;61;6;17;Czajnik, kawa i herbata w pokoju
+191;Hotel_Tokyo_191;Ul. Centralna 295, Tokyo, Japan;5;pelne wyzywienie;16;28;29;Klimatyzacja w pokojach
+192;Hotel_Tokyo_192;Ul. Centralna 6, Tokyo, Japan;4;sniadania;146;29;5;Silownia / centrum fitness
+193;Hotel_Tokyo_193;Ul. Plazowa 292, Tokyo, Japan;3;pelne wyzywienie;33;39;13;Przechowalnia bagazu
+194;Hotel_Tokyo_194;Ul. Centralna 110, Tokyo, Japan;4;polpension;21;42;24;sniadanie w cenie
+195;Hotel_Osaka_195;Ul. Przykladowa 214, Osaka, Japan;4;bez wyzywienia;150;20;8;Calodobowa recepcja
+196;Hotel_Osaka_196;Ul. Centralna 133, Osaka, Japan;5;polpension;59;15;3;Obsluga pokojowa (room service)
+197;Hotel_Osaka_197;Ul. Glowna 94, Osaka, Japan;4;pelne wyzywienie;63;29;13;Sejf w pokoju lub w recepcji
+198;Hotel_Osaka_198;Ul. Glowna 92, Osaka, Japan;5;bez wyzywienia;119;21;21;Udogodnienia dla rodzin
+199;Hotel_Beijing_199;Ul. Przykladowa 71, Beijing, China;4;polpension;49;48;30;Przechowalnia bagazu
+200;Hotel_Beijing_200;Ul. Kwiatowa 241, Beijing, China;5;polpension;139;38;5;Usluga pralni i prasowania
+201;Hotel_Shanghai_201;Ul. Centralna 149, Shanghai, China;3;pelne wyzywienie;95;46;20;Obsluga pokojowa (room service)
+202;Hotel_Shanghai_202;Ul. Plazowa 180, Shanghai, China;3;polpension;96;29;15;Centrum biznesowe / sala konferencyjna
+203;Hotel_Shanghai_203;Ul. Kwiatowa 124, Shanghai, China;4;sniadania;176;20;6;Mini bar lub lodowka
+204;Hotel_Shanghai_204;Ul. Glowna 58, Shanghai, China;3;pelne wyzywienie;151;43;19;Calodobowa recepcja
+205;Hotel_Shanghai_205;Ul. Kwiatowa 237, Shanghai, China;3;polpension;194;30;28;Centrum biznesowe / sala konferencyjna
+206;Hotel_Mumbai_206;Ul. Plazowa 213, Mumbai, India;2;polpension;128;40;19;Klimatyzacja w pokojach
+207;Hotel_Mumbai_207;Ul. Kwiatowa 289, Mumbai, India;4;bez wyzywienia;116;43;22;Klimatyzacja w pokojach
+208;Hotel_Mumbai_208;Ul. Centralna 300, Mumbai, India;4;polpension;49;49;22;Calodobowa recepcja
+209;Hotel_Mumbai_209;Ul. Centralna 37, Mumbai, India;3;sniadania;158;42;5;Przechowalnia bagazu
+210;Hotel_Delhi_210;Ul. Glowna 8, Delhi, India;5;pelne wyzywienie;158;50;13;Udogodnienia dla osob niepelnosprawnych
+211;Hotel_Delhi_211;Ul. Kwiatowa 61, Delhi, India;5;polpension;7;24;29;Czajnik, kawa i herbata w pokoju
+212;Hotel_Dublin_212;Ul. Przykladowa 279, Dublin, Ireland;3;bez wyzywienia;14;28;27;Restauracja lub bar hotelowy
+213;Hotel_Dublin_213;Ul. Glowna 214, Dublin, Ireland;4;sniadania;36;26;22;Obsluga pokojowa (room service)
+214;Hotel_Dublin_214;Ul. Centralna 105, Dublin, Ireland;3;bez wyzywienia;102;13;8;Spa i strefa wellness
+215;Hotel_Cork_215;Ul. Glowna 14, Cork, Ireland;3;polpension;36;20;24;Transfer z/na lotnisko
+216;Hotel_Cork_216;Ul. Przykladowa 3, Cork, Ireland;4;polpension;7;16;9;Basen (kryty lub odkryty)
+217;Hotel_Cork_217;Ul. Centralna 63, Cork, Ireland;5;bez wyzywienia;78;22;0;Telewizor z serwisami streamingowymi
+218;Hotel_Reykjavik_218;Ul. Kwiatowa 108, Reykjavik, Iceland;3;bez wyzywienia;179;37;1;Klimatyzacja w pokojach
+219;Hotel_Reykjavik_219;Ul. Plazowa 237, Reykjavik, Iceland;3;sniadania;189;20;7;Telewizor z serwisami streamingowymi
+220;Hotel_Reykjavik_220;Ul. Plazowa 102, Reykjavik, Iceland;4;bez wyzywienia;112;27;27;Centrum biznesowe / sala konferencyjna
+221;Hotel_Akureyri_221;Ul. Kwiatowa 213, Akureyri, Iceland;5;polpension;67;4;20;Transfer z/na lotnisko
+222;Hotel_Akureyri_222;Ul. Centralna 269, Akureyri, Iceland;4;polpension;112;34;11;Transfer z/na lotnisko
+223;Hotel_Akureyri_223;Ul. Przykladowa 95, Akureyri, Iceland;4;bez wyzywienia;6;25;8;Czajnik, kawa i herbata w pokoju
+224;Hotel_Akureyri_224;Ul. Centralna 61, Akureyri, Iceland;5;pelne wyzywienie;177;30;24;Parking (bezplatny lub platny)
+225;Hotel_Warsaw_225;Ul. Kwiatowa 5, Warsaw, Poland;4;pelne wyzywienie;94;49;10;Usluga pralni i prasowania
+226;Hotel_Warsaw_226;Ul. Plazowa 110, Warsaw, Poland;3;sniadania;185;19;5;Spa i strefa wellness
+227;Hotel_Warsaw_227;Ul. Przykladowa 215, Warsaw, Poland;1;polpension;118;24;20;Mini bar lub lodowka
+228;Hotel_Warsaw_228;Ul. Kwiatowa 135, Warsaw, Poland;3;sniadania;126;30;7;Przechowalnia bagazu
+229;Hotel_Krakow_229;Ul. Kwiatowa 142, Krakow, Poland;5;bez wyzywienia;33;15;12;Czajnik, kawa i herbata w pokoju
+230;Hotel_Krakow_230;Ul. Kwiatowa 154, Krakow, Poland;4;bez wyzywienia;177;13;25;Telewizor z serwisami streamingowymi
+231;Hotel_Krakow_231;Ul. Plazowa 155, Krakow, Poland;3;pelne wyzywienie;81;28;3;Obsluga pokojowa (room service)
+232;Hotel_Krakow_232;Ul. Przykladowa 189, Krakow, Poland;5;bez wyzywienia;30;3;18;Sejf w pokoju lub w recepcji
+233;Hotel_Gdansk_233;Ul. Przykladowa 210, Gdansk, Poland;3;pelne wyzywienie;158;23;17;Udogodnienia dla osob niepelnosprawnych
+234;Hotel_Gdansk_234;Ul. Kwiatowa 130, Gdansk, Poland;5;pelne wyzywienie;81;5;17;Spa i strefa wellness
