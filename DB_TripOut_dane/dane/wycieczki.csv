@@ -1,0 +1,1001 @@
+IdWycieczki;Kraj;Miasto;Cena;Typ;IdPilota
+1;Poland;Warsaw;335;objazdowa;4
+2;Japan;Osaka;283;city break;32
+3;Czech Republic;Prague;336;wypoczynkowa;13
+4;Egypt;Cairo;357;tematyczna;25
+5;Ireland;Dublin;275;tematyczna;20
+6;Portugal;Lisbon;143;city break;17
+7;Germany;Berlin;221;objazdowa;3
+8;France;Lyon;208;tematyczna;32
+9;Egypt;Hurghada;54;city break;11
+10;Germany;Hamburg;78;city break;2
+11;Poland;Gdansk;332;city break;2
+12;Portugal;Lisbon;278;city break;45
+13;Denmark;Copenhagen;244;wypoczynkowa;12
+14;China;Shanghai;287;objazdowa;14
+15;United Kingdom;Edinburgh;172;city break;39
+16;India;Mumbai;55;city break;35
+17;Japan;Tokyo;346;tematyczna;43
+18;Denmark;Aarhus;250;objazdowa;33
+19;Tunisia;Tunis;227;wypoczynkowa;41
+20;Austria;Vienna;132;wypoczynkowa;42
+21;Portugal;Lisbon;81;objazdowa;8
+22;China;Shanghai;100;objazdowa;36
+23;Germany;Hamburg;63;objazdowa;29
+24;China;Beijing;283;wypoczynkowa;15
+25;Norway;Oslo;167;wypoczynkowa;30
+26;Canada;Montreal;129;tematyczna;23
+27;Sweden;Gothenburg;205;city break;45
+28;China;Shanghai;135;city break;9
+29;Austria;Vienna;80;objazdowa;11
+30;Japan;Osaka;262;wypoczynkowa;1
+31;Norway;Bergen;248;city break;44
+32;Canada;Montreal;299;objazdowa;26
+33;United Kingdom;Edinburgh;277;objazdowa;29
+34;Greece;Thessaloniki;295;objazdowa;23
+35;China;Shanghai;43;wypoczynkowa;43
+36;Greece;Athens;328;objazdowa;50
+37;Croatia;Split;182;wypoczynkowa;33
+38;France;Nice;255;tematyczna;5
+39;Switzerland;Zurich;382;tematyczna;48
+40;Norway;Oslo;325;wypoczynkowa;47
+41;Denmark;Copenhagen;259;city break;16
+42;Denmark;Copenhagen;332;objazdowa;19
+43;Canada;Toronto;148;objazdowa;31
+44;France;Paris;215;tematyczna;22
+45;Iceland;Akureyri;120;wypoczynkowa;11
+46;Canada;Toronto;387;tematyczna;15
+47;Greece;Athens;297;objazdowa;26
+48;Portugal;Porto;193;objazdowa;27
+49;Japan;Osaka;74;wypoczynkowa;1
+50;Turkey;Istanbul;48;city break;27
+51;Italy;Rome;126;tematyczna;41
+52;Egypt;Hurghada;86;city break;7
+53;Morocco;Casablanca;282;tematyczna;39
+54;Japan;Osaka;91;tematyczna;40
+55;Ireland;Dublin;291;city break;37
+56;Italy;Rome;397;objazdowa;32
+57;Poland;Gdansk;64;objazdowa;18
+58;Iceland;Akureyri;44;wypoczynkowa;48
+59;Sweden;Gothenburg;181;objazdowa;31
+60;Turkey;Istanbul;312;tematyczna;36
+61;Croatia;Dubrovnik;183;wypoczynkowa;19
+62;Italy;Milan;336;city break;20
+63;United Kingdom;Manchester;273;tematyczna;44
+64;Morocco;Marrakesh;166;city break;12
+65;Egypt;Hurghada;322;tematyczna;6
+66;Poland;Krakow;87;tematyczna;20
+67;France;Paris;279;city break;34
+68;Czech Republic;Ostrava;138;city break;12
+69;United Kingdom;Manchester;351;city break;49
+70;Netherlands;Rotterdam;362;objazdowa;48
+71;Egypt;Cairo;72;city break;20
+72;Greece;Thessaloniki;174;objazdowa;28
+73;Egypt;Hurghada;61;city break;22
+74;Italy;Milan;162;objazdowa;25
+75;Denmark;Aarhus;55;city break;9
+76;Tunisia;Tunis;125;wypoczynkowa;42
+77;Morocco;Casablanca;125;city break;25
+78;United Kingdom;London;270;tematyczna;35
+79;Canada;Toronto;376;objazdowa;37
+80;Iceland;Akureyri;180;city break;48
+81;United Kingdom;Manchester;107;wypoczynkowa;42
+82;Austria;Salzburg;269;city break;17
+83;USA;Miami;74;objazdowa;49
+84;Japan;Osaka;202;tematyczna;1
+85;Bulgaria;Burgas;156;city break;23
+86;Czech Republic;Ostrava;390;tematyczna;29
+87;Czech Republic;Prague;97;city break;33
+88;Egypt;Hurghada;96;tematyczna;16
+89;Spain;Barcelona;229;city break;46
+90;Australia;Sydney;248;city break;14
+91;Iceland;Reykjavik;60;city break;30
+92;Netherlands;Rotterdam;253;objazdowa;28
+93;Italy;Milan;366;objazdowa;48
+94;Sweden;Gothenburg;333;tematyczna;3
+95;Austria;Vienna;91;city break;15
+96;Portugal;Lisbon;362;objazdowa;14
+97;Japan;Osaka;190;city break;41
+98;Iceland;Reykjavik;250;wypoczynkowa;21
+99;Spain;Barcelona;77;wypoczynkowa;42
+100;Sweden;Gothenburg;389;wypoczynkowa;19
+101;Netherlands;Rotterdam;239;objazdowa;31
+102;Portugal;Porto;147;objazdowa;22
+103;Switzerland;Zurich;154;objazdowa;28
+104;Netherlands;Amsterdam;280;city break;4
+105;France;Nice;194;tematyczna;21
+106;Italy;Rome;377;tematyczna;16
+107;Czech Republic;Prague;352;objazdowa;10
+108;Netherlands;Rotterdam;248;wypoczynkowa;27
+109;United Kingdom;Manchester;61;tematyczna;10
+110;Tunisia;Hammamet;122;objazdowa;24
+111;Switzerland;Zurich;104;tematyczna;15
+112;USA;Los Angeles;128;city break;34
+113;France;Paris;182;objazdowa;39
+114;France;Paris;387;objazdowa;38
+115;Australia;Sydney;279;wypoczynkowa;43
+116;Egypt;Cairo;340;tematyczna;44
+117;Iceland;Reykjavik;226;city break;25
+118;Austria;Salzburg;300;objazdowa;41
+119;Austria;Vienna;300;tematyczna;46
+120;Netherlands;Rotterdam;378;objazdowa;31
+121;Canada;Montreal;74;city break;47
+122;Egypt;Hurghada;193;wypoczynkowa;17
+123;Sweden;Stockholm;82;wypoczynkowa;38
+124;Spain;Barcelona;170;city break;16
+125;Czech Republic;Prague;385;wypoczynkowa;31
+126;Canada;Montreal;54;wypoczynkowa;46
+127;Czech Republic;Prague;372;objazdowa;7
+128;Australia;Melbourne;144;tematyczna;46
+129;Switzerland;Geneva;135;wypoczynkowa;30
+130;France;Lyon;257;wypoczynkowa;6
+131;Portugal;Lisbon;75;tematyczna;22
+132;Italy;Venice;355;city break;35
+133;Netherlands;Rotterdam;296;city break;17
+134;France;Nice;344;city break;13
+135;Greece;Thessaloniki;99;city break;2
+136;India;Delhi;315;wypoczynkowa;24
+137;Germany;Hamburg;128;tematyczna;49
+138;Ireland;Cork;336;wypoczynkowa;35
+139;India;Mumbai;295;wypoczynkowa;21
+140;United Kingdom;Edinburgh;122;wypoczynkowa;29
+141;Belgium;Brussels;231;wypoczynkowa;34
+142;United Kingdom;London;302;objazdowa;16
+143;Croatia;Split;370;tematyczna;8
+144;Morocco;Casablanca;354;wypoczynkowa;35
+145;France;Lyon;43;wypoczynkowa;17
+146;Spain;Barcelona;271;tematyczna;6
+147;Greece;Thessaloniki;188;city break;18
+148;Sweden;Gothenburg;386;city break;32
+149;Spain;Valencia;287;city break;2
+150;Portugal;Porto;286;tematyczna;4
+151;Iceland;Reykjavik;202;tematyczna;6
+152;Italy;Rome;256;tematyczna;26
+153;Austria;Vienna;60;wypoczynkowa;40
+154;Belgium;Antwerp;170;objazdowa;38
+155;Japan;Osaka;354;city break;19
+156;Turkey;Antalya;399;tematyczna;25
+157;Denmark;Copenhagen;123;wypoczynkowa;3
+158;Ireland;Dublin;215;objazdowa;27
+159;Belgium;Antwerp;359;objazdowa;37
+160;France;Paris;393;wypoczynkowa;49
+161;India;Delhi;361;city break;36
+162;Germany;Munich;128;city break;3
+163;Egypt;Cairo;269;city break;25
+164;Italy;Rome;201;wypoczynkowa;12
+165;Tunisia;Hammamet;337;objazdowa;20
+166;Portugal;Porto;236;objazdowa;33
+167;Italy;Venice;44;wypoczynkowa;50
+168;Denmark;Copenhagen;226;city break;43
+169;Germany;Hamburg;69;wypoczynkowa;5
+170;Canada;Montreal;277;wypoczynkowa;37
+171;Portugal;Porto;237;city break;4
+172;Canada;Montreal;59;city break;26
+173;Switzerland;Zurich;253;wypoczynkowa;41
+174;Denmark;Aarhus;73;objazdowa;51
+175;Canada;Toronto;135;tematyczna;32
+176;Spain;Madrid;91;wypoczynkowa;7
+177;France;Paris;217;objazdowa;9
+178;Morocco;Marrakesh;357;objazdowa;44
+179;Morocco;Marrakesh;299;city break;1
+180;Spain;Valencia;320;city break;35
+181;Austria;Vienna;180;tematyczna;1
+182;Germany;Munich;200;wypoczynkowa;23
+183;Morocco;Marrakesh;222;tematyczna;18
+184;Poland;Krakow;321;city break;27
+185;Italy;Milan;160;objazdowa;12
+186;Japan;Tokyo;145;tematyczna;33
+187;Japan;Tokyo;122;tematyczna;39
+188;India;Mumbai;364;wypoczynkowa;23
+189;China;Beijing;127;objazdowa;5
+190;Italy;Milan;370;city break;36
+191;Egypt;Hurghada;208;wypoczynkowa;17
+192;Iceland;Reykjavik;282;objazdowa;5
+193;Australia;Melbourne;65;tematyczna;18
+194;France;Lyon;203;city break;37
+195;China;Beijing;360;city break;42
+196;USA;Miami;343;objazdowa;43
+197;Egypt;Cairo;306;wypoczynkowa;34
+198;Spain;Valencia;155;wypoczynkowa;37
+199;USA;New York;187;objazdowa;19
+200;China;Beijing;203;wypoczynkowa;8
+201;Greece;Athens;236;wypoczynkowa;17
+202;Ireland;Cork;273;wypoczynkowa;51
+203;Czech Republic;Ostrava;215;city break;37
+204;Spain;Barcelona;145;wypoczynkowa;30
+205;Germany;Munich;200;objazdowa;52
+206;Germany;Hamburg;73;wypoczynkowa;7
+207;Tunisia;Hammamet;296;city break;32
+208;Switzerland;Zurich;302;tematyczna;18
+209;Egypt;Cairo;379;objazdowa;52
+210;Switzerland;Geneva;150;objazdowa;50
+211;Sweden;Stockholm;50;tematyczna;50
+212;Switzerland;Geneva;187;wypoczynkowa;47
+213;Australia;Melbourne;198;objazdowa;9
+214;Denmark;Copenhagen;137;city break;9
+215;Denmark;Aarhus;111;objazdowa;4
+216;Morocco;Casablanca;259;wypoczynkowa;53
+217;Switzerland;Zurich;328;tematyczna;20
+218;Germany;Berlin;395;objazdowa;37
+219;Croatia;Split;235;city break;54
+220;Austria;Salzburg;241;wypoczynkowa;46
+221;Netherlands;Rotterdam;341;tematyczna;55
+222;India;Mumbai;174;wypoczynkowa;56
+223;India;Mumbai;182;wypoczynkowa;40
+224;Bulgaria;Burgas;122;city break;13
+225;Egypt;Hurghada;54;city break;53
+226;Morocco;Marrakesh;238;city break;57
+227;Austria;Vienna;51;wypoczynkowa;47
+228;France;Nice;257;city break;5
+229;Greece;Athens;395;objazdowa;40
+230;Italy;Rome;377;city break;56
+231;India;Mumbai;280;city break;54
+232;Belgium;Brussels;226;tematyczna;10
+233;Spain;Valencia;343;objazdowa;55
+234;Germany;Berlin;371;objazdowa;58
+235;Croatia;Dubrovnik;69;tematyczna;58
+236;Iceland;Reykjavik;381;tematyczna;30
+237;China;Beijing;201;objazdowa;59
+238;Croatia;Split;170;city break;53
+239;Turkey;Antalya;314;city break;59
+240;Japan;Osaka;293;wypoczynkowa;28
+241;Poland;Warsaw;375;tematyczna;33
+242;France;Lyon;354;objazdowa;60
+243;Morocco;Marrakesh;278;tematyczna;51
+244;Czech Republic;Ostrava;391;wypoczynkowa;22
+245;Czech Republic;Ostrava;322;wypoczynkowa;58
+246;Morocco;Casablanca;354;city break;55
+247;Denmark;Copenhagen;116;tematyczna;54
+248;Netherlands;Amsterdam;212;wypoczynkowa;22
+249;China;Shanghai;219;wypoczynkowa;10
+250;USA;Miami;115;wypoczynkowa;9
+251;China;Shanghai;123;wypoczynkowa;55
+252;Croatia;Split;46;wypoczynkowa;56
+253;Tunisia;Hammamet;93;objazdowa;24
+254;Germany;Hamburg;324;tematyczna;30
+255;Germany;Hamburg;244;wypoczynkowa;21
+256;Ireland;Cork;278;wypoczynkowa;61
+257;Tunisia;Tunis;282;tematyczna;62
+258;Norway;Oslo;326;objazdowa;62
+259;Turkey;Istanbul;219;tematyczna;21
+260;Czech Republic;Ostrava;374;tematyczna;60
+261;Canada;Montreal;341;tematyczna;1
+262;Spain;Barcelona;360;city break;59
+263;India;Delhi;62;objazdowa;63
+264;Morocco;Marrakesh;174;objazdowa;57
+265;Norway;Bergen;63;tematyczna;27
+266;India;Mumbai;82;city break;64
+267;Czech Republic;Ostrava;147;objazdowa;41
+268;Italy;Rome;289;objazdowa;64
+269;Portugal;Lisbon;244;objazdowa;64
+270;Poland;Gdansk;114;objazdowa;27
+271;Turkey;Antalya;279;tematyczna;45
+272;Canada;Montreal;400;city break;4
+273;United Kingdom;London;398;tematyczna;20
+274;France;Lyon;56;wypoczynkowa;61
+275;Norway;Bergen;152;city break;65
+276;Morocco;Marrakesh;119;city break;52
+277;Ireland;Cork;351;tematyczna;64
+278;Greece;Thessaloniki;311;objazdowa;2
+279;Canada;Montreal;201;city break;66
+280;Egypt;Cairo;342;wypoczynkowa;31
+281;Turkey;Antalya;400;wypoczynkowa;44
+282;Poland;Gdansk;148;city break;42
+283;Norway;Bergen;85;tematyczna;67
+284;France;Paris;395;wypoczynkowa;25
+285;Canada;Toronto;98;objazdowa;48
+286;Spain;Barcelona;195;wypoczynkowa;23
+287;Australia;Sydney;62;objazdowa;22
+288;France;Paris;389;tematyczna;32
+289;Germany;Hamburg;258;tematyczna;68
+290;Germany;Munich;226;objazdowa;63
+291;Egypt;Cairo;315;wypoczynkowa;68
+292;India;Mumbai;235;objazdowa;14
+293;Germany;Hamburg;233;wypoczynkowa;55
+294;Bulgaria;Burgas;180;wypoczynkowa;41
+295;Egypt;Cairo;349;city break;38
+296;Italy;Venice;212;objazdowa;66
+297;Portugal;Lisbon;332;objazdowa;69
+298;Italy;Venice;283;city break;48
+299;Croatia;Dubrovnik;200;objazdowa;14
+300;India;Mumbai;252;city break;67
+301;Netherlands;Amsterdam;212;objazdowa;43
+302;Austria;Salzburg;225;wypoczynkowa;4
+303;Poland;Krakow;255;objazdowa;67
+304;Canada;Montreal;312;wypoczynkowa;29
+305;India;Delhi;125;city break;70
+306;Germany;Munich;140;wypoczynkowa;46
+307;Turkey;Antalya;238;objazdowa;11
+308;Netherlands;Amsterdam;224;wypoczynkowa;1
+309;Greece;Athens;192;objazdowa;69
+310;United Kingdom;Manchester;96;tematyczna;43
+311;Austria;Salzburg;257;objazdowa;70
+312;Poland;Gdansk;248;tematyczna;34
+313;Bulgaria;Burgas;386;objazdowa;12
+314;Greece;Thessaloniki;153;city break;63
+315;Ireland;Cork;131;objazdowa;58
+316;Australia;Sydney;271;wypoczynkowa;66
+317;Japan;Osaka;219;tematyczna;68
+318;Germany;Berlin;257;wypoczynkowa;12
+319;Bulgaria;Burgas;251;city break;65
+320;Austria;Salzburg;379;objazdowa;28
+321;Austria;Vienna;103;city break;50
+322;France;Paris;122;city break;71
+323;Greece;Athens;79;city break;65
+324;Belgium;Antwerp;264;city break;72
+325;Poland;Gdansk;230;city break;50
+326;Australia;Melbourne;238;wypoczynkowa;73
+327;Italy;Venice;150;wypoczynkowa;72
+328;Croatia;Split;371;objazdowa;25
+329;France;Paris;183;city break;39
+330;Portugal;Porto;322;city break;68
+331;Poland;Warsaw;195;tematyczna;65
+332;Bulgaria;Burgas;269;tematyczna;71
+333;Italy;Rome;300;objazdowa;64
+334;Greece;Thessaloniki;277;tematyczna;21
+335;Morocco;Casablanca;58;objazdowa;71
+336;Switzerland;Zurich;397;objazdowa;70
+337;USA;Miami;295;objazdowa;74
+338;Tunisia;Hammamet;287;wypoczynkowa;6
+339;Norway;Bergen;266;tematyczna;3
+340;Ireland;Cork;153;tematyczna;75
+341;Japan;Tokyo;122;wypoczynkowa;23
+342;Switzerland;Geneva;198;tematyczna;29
+343;Australia;Melbourne;286;wypoczynkowa;19
+344;USA;Miami;60;tematyczna;74
+345;Morocco;Marrakesh;78;objazdowa;73
+346;USA;Miami;170;tematyczna;61
+347;Spain;Barcelona;96;wypoczynkowa;42
+348;Spain;Madrid;200;tematyczna;49
+349;Poland;Warsaw;138;city break;62
+350;Egypt;Cairo;185;wypoczynkowa;13
+351;Japan;Osaka;169;city break;15
+352;Belgium;Antwerp;48;city break;47
+353;France;Nice;261;objazdowa;5
+354;Belgium;Antwerp;264;tematyczna;66
+355;Japan;Osaka;244;wypoczynkowa;11
+356;Denmark;Aarhus;197;wypoczynkowa;56
+357;Italy;Venice;310;wypoczynkowa;76
+358;Switzerland;Zurich;340;tematyczna;49
+359;India;Delhi;186;city break;56
+360;Canada;Toronto;244;city break;65
+361;China;Shanghai;205;tematyczna;76
+362;Norway;Bergen;331;city break;76
+363;United Kingdom;Edinburgh;122;wypoczynkowa;68
+364;Morocco;Casablanca;50;wypoczynkowa;49
+365;Poland;Krakow;180;city break;13
+366;Iceland;Reykjavik;68;wypoczynkowa;69
+367;Bulgaria;Sofia;179;objazdowa;71
+368;Netherlands;Rotterdam;398;tematyczna;77
+369;Iceland;Akureyri;377;objazdowa;28
+370;Japan;Tokyo;233;city break;61
+371;Tunisia;Tunis;233;wypoczynkowa;11
+372;Australia;Melbourne;305;city break;77
+373;Iceland;Reykjavik;211;city break;78
+374;Denmark;Copenhagen;241;city break;70
+375;China;Shanghai;135;wypoczynkowa;78
+376;Croatia;Dubrovnik;332;wypoczynkowa;21
+377;Turkey;Antalya;377;tematyczna;8
+378;China;Beijing;231;wypoczynkowa;60
+379;Germany;Munich;258;city break;42
+380;Morocco;Casablanca;189;tematyczna;14
+381;Ireland;Cork;265;tematyczna;75
+382;Canada;Montreal;54;objazdowa;79
+383;Italy;Milan;157;tematyczna;67
+384;France;Lyon;284;tematyczna;72
+385;Turkey;Antalya;236;tematyczna;77
+386;Croatia;Split;251;wypoczynkowa;62
+387;Austria;Salzburg;391;objazdowa;78
+388;Egypt;Hurghada;188;objazdowa;80
+389;India;Mumbai;65;tematyczna;80
+390;China;Shanghai;196;city break;12
+391;Croatia;Split;95;city break;77
+392;Belgium;Brussels;117;objazdowa;63
+393;Switzerland;Zurich;287;tematyczna;76
+394;Croatia;Split;304;city break;50
+395;Ireland;Dublin;340;tematyczna;40
+396;Iceland;Akureyri;83;objazdowa;66
+397;Morocco;Marrakesh;170;objazdowa;81
+398;Ireland;Dublin;261;objazdowa;73
+399;Denmark;Copenhagen;146;tematyczna;40
+400;Bulgaria;Sofia;110;objazdowa;59
+401;Switzerland;Geneva;116;tematyczna;72
+402;Netherlands;Amsterdam;262;city break;36
+403;Turkey;Istanbul;322;tematyczna;81
+404;Morocco;Casablanca;397;tematyczna;82
+405;India;Delhi;268;wypoczynkowa;5
+406;Sweden;Gothenburg;123;objazdowa;74
+407;Spain;Barcelona;310;tematyczna;69
+408;Egypt;Cairo;79;objazdowa;8
+409;Belgium;Brussels;190;tematyczna;79
+410;Spain;Valencia;113;wypoczynkowa;81
+411;Japan;Tokyo;246;objazdowa;19
+412;Morocco;Casablanca;50;wypoczynkowa;29
+413;Netherlands;Rotterdam;192;tematyczna;80
+414;Switzerland;Geneva;241;city break;73
+415;Greece;Thessaloniki;186;wypoczynkowa;76
+416;Italy;Milan;358;objazdowa;18
+417;United Kingdom;Manchester;374;wypoczynkowa;71
+418;Croatia;Dubrovnik;290;tematyczna;39
+419;Egypt;Cairo;293;city break;35
+420;India;Mumbai;220;tematyczna;62
+421;Denmark;Aarhus;183;wypoczynkowa;73
+422;Austria;Salzburg;399;city break;72
+423;Portugal;Lisbon;63;tematyczna;83
+424;Norway;Oslo;168;city break;21
+425;India;Mumbai;175;city break;80
+426;India;Delhi;400;city break;57
+427;Canada;Toronto;50;tematyczna;83
+428;Morocco;Casablanca;169;city break;38
+429;Bulgaria;Burgas;80;objazdowa;82
+430;Germany;Hamburg;161;city break;83
+431;France;Nice;368;tematyczna;79
+432;India;Mumbai;200;city break;84
+433;Denmark;Copenhagen;183;objazdowa;12
+434;China;Shanghai;365;wypoczynkowa;85
+435;Germany;Berlin;382;wypoczynkowa;86
+436;Morocco;Casablanca;123;city break;87
+437;Australia;Melbourne;60;tematyczna;21
+438;Netherlands;Rotterdam;339;wypoczynkowa;83
+439;Tunisia;Hammamet;129;city break;76
+440;Italy;Milan;237;wypoczynkowa;85
+441;Egypt;Hurghada;370;wypoczynkowa;23
+442;France;Nice;63;tematyczna;86
+443;Japan;Tokyo;364;wypoczynkowa;78
+444;Tunisia;Hammamet;301;tematyczna;27
+445;Norway;Bergen;383;tematyczna;75
+446;Austria;Vienna;205;city break;65
+447;Poland;Warsaw;120;objazdowa;70
+448;Germany;Berlin;135;city break;14
+449;Austria;Vienna;272;tematyczna;59
+450;Germany;Munich;388;tematyczna;48
+451;Canada;Toronto;172;wypoczynkowa;62
+452;France;Lyon;211;wypoczynkowa;86
+453;Croatia;Split;354;city break;87
+454;Belgium;Brussels;396;city break;72
+455;Australia;Sydney;180;city break;82
+456;Czech Republic;Prague;125;objazdowa;85
+457;Denmark;Copenhagen;148;objazdowa;75
+458;Belgium;Antwerp;50;wypoczynkowa;82
+459;China;Beijing;199;wypoczynkowa;87
+460;Turkey;Antalya;175;city break;84
+461;India;Delhi;175;wypoczynkowa;14
+462;France;Nice;131;wypoczynkowa;36
+463;Belgium;Brussels;153;objazdowa;32
+464;Spain;Valencia;180;objazdowa;88
+465;France;Lyon;236;city break;89
+466;Tunisia;Hammamet;170;wypoczynkowa;55
+467;Croatia;Split;370;wypoczynkowa;90
+468;Canada;Montreal;73;tematyczna;38
+469;Egypt;Hurghada;380;objazdowa;17
+470;Bulgaria;Sofia;89;tematyczna;91
+471;USA;New York;362;tematyczna;89
+472;Belgium;Brussels;299;wypoczynkowa;4
+473;Czech Republic;Prague;108;tematyczna;77
+474;Netherlands;Amsterdam;89;wypoczynkowa;76
+475;Bulgaria;Sofia;90;wypoczynkowa;88
+476;Canada;Montreal;170;objazdowa;53
+477;India;Delhi;286;wypoczynkowa;84
+478;Portugal;Porto;274;wypoczynkowa;92
+479;Turkey;Antalya;289;objazdowa;93
+480;Turkey;Istanbul;96;objazdowa;90
+481;Switzerland;Zurich;70;tematyczna;37
+482;Norway;Bergen;175;tematyczna;91
+483;Austria;Vienna;155;city break;23
+484;Croatia;Split;223;city break;53
+485;Australia;Melbourne;211;objazdowa;44
+486;Sweden;Stockholm;67;tematyczna;85
+487;Poland;Krakow;346;wypoczynkowa;63
+488;Morocco;Casablanca;191;tematyczna;44
+489;China;Shanghai;215;tematyczna;80
+490;Norway;Oslo;342;objazdowa;26
+491;Turkey;Istanbul;70;wypoczynkowa;47
+492;Portugal;Lisbon;108;tematyczna;45
+493;Bulgaria;Sofia;396;city break;94
+494;Turkey;Antalya;285;wypoczynkowa;20
+495;Egypt;Cairo;197;city break;95
+496;Croatia;Split;312;wypoczynkowa;79
+497;China;Beijing;349;city break;94
+498;Egypt;Cairo;75;city break;89
+499;Switzerland;Zurich;284;objazdowa;65
+500;Italy;Venice;132;tematyczna;51
+501;Poland;Gdansk;244;wypoczynkowa;67
+502;Japan;Tokyo;197;city break;95
+503;Portugal;Porto;61;wypoczynkowa;88
+504;Canada;Montreal;274;objazdowa;96
+505;Croatia;Dubrovnik;300;wypoczynkowa;95
+506;India;Mumbai;257;city break;97
+507;Norway;Bergen;86;objazdowa;97
+508;Poland;Warsaw;303;city break;94
+509;Turkey;Istanbul;382;objazdowa;97
+510;Czech Republic;Ostrava;176;objazdowa;41
+511;Denmark;Copenhagen;322;tematyczna;98
+512;Germany;Berlin;48;objazdowa;41
+513;Germany;Munich;277;objazdowa;82
+514;Croatia;Dubrovnik;341;city break;70
+515;Bulgaria;Burgas;244;wypoczynkowa;99
+516;Bulgaria;Burgas;303;objazdowa;3
+517;Tunisia;Hammamet;255;wypoczynkowa;100
+518;United Kingdom;Edinburgh;202;city break;17
+519;Australia;Sydney;284;objazdowa;81
+520;Portugal;Porto;228;city break;93
+521;Canada;Montreal;234;wypoczynkowa;96
+522;India;Mumbai;280;objazdowa;101
+523;India;Delhi;263;city break;7
+524;Italy;Venice;121;city break;88
+525;Netherlands;Rotterdam;239;city break;92
+526;USA;New York;68;city break;52
+527;Austria;Salzburg;156;tematyczna;38
+528;Poland;Krakow;285;city break;49
+529;Ireland;Dublin;283;city break;89
+530;Egypt;Cairo;197;wypoczynkowa;76
+531;Sweden;Gothenburg;224;city break;89
+532;Bulgaria;Burgas;79;tematyczna;25
+533;Croatia;Dubrovnik;151;city break;76
+534;Iceland;Akureyri;367;city break;53
+535;Denmark;Aarhus;385;city break;101
+536;France;Paris;308;tematyczna;71
+537;Ireland;Cork;382;city break;98
+538;Croatia;Split;203;tematyczna;102
+539;Spain;Barcelona;144;objazdowa;100
+540;Italy;Rome;358;tematyczna;103
+541;Turkey;Antalya;100;tematyczna;104
+542;Belgium;Brussels;206;city break;98
+543;Spain;Valencia;222;city break;7
+544;Bulgaria;Burgas;373;city break;101
+545;Morocco;Casablanca;159;city break;80
+546;Poland;Warsaw;354;city break;60
+547;Belgium;Antwerp;331;objazdowa;105
+548;Denmark;Copenhagen;92;city break;97
+549;Morocco;Casablanca;49;city break;35
+550;USA;New York;50;city break;47
+551;Morocco;Casablanca;42;wypoczynkowa;80
+552;Portugal;Porto;391;wypoczynkowa;17
+553;Switzerland;Zurich;193;tematyczna;51
+554;Japan;Tokyo;203;city break;96
+555;Denmark;Copenhagen;184;objazdowa;43
+556;Austria;Salzburg;71;city break;88
+557;Japan;Osaka;290;city break;105
+558;India;Delhi;221;wypoczynkowa;43
+559;Austria;Salzburg;320;city break;104
+560;Austria;Salzburg;114;objazdowa;36
+561;Austria;Vienna;296;wypoczynkowa;90
+562;Belgium;Antwerp;325;objazdowa;55
+563;Germany;Berlin;162;wypoczynkowa;57
+564;Belgium;Brussels;234;wypoczynkowa;8
+565;France;Nice;55;city break;7
+566;Turkey;Antalya;398;tematyczna;106
+567;Portugal;Porto;241;objazdowa;92
+568;Italy;Venice;398;tematyczna;106
+569;Greece;Athens;133;tematyczna;40
+570;Spain;Barcelona;372;wypoczynkowa;90
+571;Turkey;Istanbul;169;objazdowa;40
+572;Switzerland;Zurich;289;city break;99
+573;China;Beijing;181;tematyczna;105
+574;United Kingdom;Edinburgh;160;city break;95
+575;Ireland;Dublin;129;city break;32
+576;Tunisia;Tunis;61;city break;102
+577;Austria;Salzburg;81;wypoczynkowa;8
+578;United Kingdom;London;251;objazdowa;68
+579;Turkey;Istanbul;259;city break;83
+580;Japan;Tokyo;387;tematyczna;94
+581;India;Delhi;381;tematyczna;107
+582;Japan;Tokyo;59;tematyczna;100
+583;United Kingdom;Edinburgh;70;wypoczynkowa;47
+584;Morocco;Marrakesh;211;tematyczna;17
+585;Sweden;Gothenburg;122;tematyczna;37
+586;Japan;Tokyo;197;city break;101
+587;Norway;Oslo;86;objazdowa;106
+588;Denmark;Copenhagen;238;objazdowa;10
+589;Italy;Venice;282;wypoczynkowa;107
+590;Tunisia;Hammamet;366;tematyczna;102
+591;Greece;Thessaloniki;310;wypoczynkowa;50
+592;Denmark;Aarhus;342;wypoczynkowa;108
+593;Ireland;Cork;371;tematyczna;73
+594;Ireland;Cork;46;tematyczna;109
+595;Iceland;Reykjavik;371;wypoczynkowa;91
+596;Poland;Warsaw;156;wypoczynkowa;93
+597;China;Shanghai;88;city break;9
+598;Japan;Osaka;339;city break;109
+599;Egypt;Hurghada;72;objazdowa;10
+600;Austria;Vienna;393;wypoczynkowa;109
+601;Denmark;Copenhagen;226;tematyczna;108
+602;Tunisia;Hammamet;352;tematyczna;1
+603;Canada;Toronto;52;city break;84
+604;United Kingdom;Edinburgh;342;objazdowa;93
+605;Czech Republic;Ostrava;224;wypoczynkowa;110
+606;Spain;Madrid;317;tematyczna;49
+607;Tunisia;Tunis;112;city break;73
+608;Canada;Toronto;290;wypoczynkowa;10
+609;United Kingdom;Manchester;331;tematyczna;85
+610;Portugal;Porto;143;wypoczynkowa;88
+611;Poland;Krakow;98;tematyczna;103
+612;Croatia;Dubrovnik;366;city break;111
+613;Canada;Montreal;81;city break;104
+614;Belgium;Brussels;136;objazdowa;102
+615;Greece;Thessaloniki;238;objazdowa;112
+616;Australia;Melbourne;361;city break;113
+617;Australia;Sydney;228;wypoczynkowa;16
+618;China;Beijing;314;city break;18
+619;Portugal;Lisbon;257;tematyczna;24
+620;Spain;Madrid;108;objazdowa;55
+621;India;Delhi;295;wypoczynkowa;114
+622;Greece;Thessaloniki;114;tematyczna;31
+623;Norway;Bergen;315;tematyczna;67
+624;Belgium;Antwerp;247;objazdowa;115
+625;India;Mumbai;304;objazdowa;110
+626;Turkey;Istanbul;40;tematyczna;86
+627;Iceland;Reykjavik;306;city break;102
+628;Germany;Berlin;389;wypoczynkowa;116
+629;Greece;Athens;40;city break;113
+630;Denmark;Copenhagen;347;objazdowa;112
+631;France;Nice;399;objazdowa;110
+632;Belgium;Brussels;379;city break;107
+633;Denmark;Aarhus;109;tematyczna;96
+634;Croatia;Split;129;city break;111
+635;USA;New York;361;wypoczynkowa;101
+636;Croatia;Split;214;wypoczynkowa;115
+637;Sweden;Gothenburg;256;wypoczynkowa;54
+638;USA;Miami;267;city break;117
+639;Switzerland;Geneva;310;city break;91
+640;Turkey;Istanbul;293;tematyczna;99
+641;Norway;Oslo;134;tematyczna;40
+642;France;Nice;195;tematyczna;111
+643;Bulgaria;Sofia;81;city break;74
+644;Denmark;Aarhus;199;city break;111
+645;Sweden;Gothenburg;223;wypoczynkowa;116
+646;Ireland;Dublin;125;city break;118
+647;United Kingdom;Edinburgh;340;city break;18
+648;Egypt;Hurghada;285;objazdowa;104
+649;Sweden;Gothenburg;332;tematyczna;119
+650;USA;New York;220;objazdowa;105
+651;Netherlands;Amsterdam;393;objazdowa;90
+652;Ireland;Dublin;397;objazdowa;120
+653;Italy;Rome;289;objazdowa;120
+654;Japan;Osaka;192;city break;121
+655;USA;New York;58;tematyczna;60
+656;Italy;Venice;79;tematyczna;113
+657;Norway;Bergen;164;objazdowa;112
+658;Ireland;Dublin;123;wypoczynkowa;33
+659;Belgium;Brussels;340;objazdowa;115
+660;Iceland;Reykjavik;367;objazdowa;117
+661;China;Beijing;41;objazdowa;108
+662;Ireland;Dublin;392;city break;122
+663;Morocco;Casablanca;370;wypoczynkowa;123
+664;Iceland;Akureyri;89;city break;71
+665;Bulgaria;Burgas;344;objazdowa;121
+666;Croatia;Dubrovnik;282;wypoczynkowa;116
+667;Sweden;Stockholm;253;objazdowa;93
+668;USA;Miami;223;city break;95
+669;Sweden;Stockholm;162;city break;121
+670;Egypt;Cairo;320;objazdowa;118
+671;Turkey;Antalya;239;tematyczna;124
+672;Sweden;Gothenburg;122;objazdowa;118
+673;Turkey;Istanbul;222;city break;125
+674;Morocco;Marrakesh;244;city break;123
+675;Portugal;Porto;221;objazdowa;123
+676;Ireland;Cork;389;city break;114
+677;Japan;Tokyo;185;tematyczna;52
+678;Egypt;Hurghada;52;objazdowa;85
+679;Spain;Madrid;212;objazdowa;74
+680;Egypt;Hurghada;259;tematyczna;79
+681;Poland;Gdansk;173;tematyczna;36
+682;Germany;Munich;47;wypoczynkowa;125
+683;Spain;Valencia;341;city break;26
+684;Sweden;Gothenburg;163;tematyczna;58
+685;Iceland;Reykjavik;218;city break;109
+686;Iceland;Reykjavik;203;tematyczna;86
+687;Germany;Munich;98;objazdowa;19
+688;Poland;Gdansk;278;objazdowa;126
+689;France;Lyon;149;tematyczna;74
+690;USA;Los Angeles;334;city break;99
+691;Japan;Osaka;375;tematyczna;126
+692;Portugal;Lisbon;112;wypoczynkowa;120
+693;India;Delhi;74;wypoczynkowa;27
+694;Norway;Oslo;379;wypoczynkowa;118
+695;Germany;Berlin;267;wypoczynkowa;127
+696;Morocco;Casablanca;138;wypoczynkowa;119
+697;Egypt;Cairo;384;tematyczna;96
+698;United Kingdom;Manchester;185;city break;85
+699;India;Mumbai;187;wypoczynkowa;9
+700;Denmark;Copenhagen;256;wypoczynkowa;128
+701;France;Paris;90;city break;58
+702;Poland;Warsaw;352;tematyczna;116
+703;France;Nice;118;wypoczynkowa;127
+704;France;Nice;368;tematyczna;128
+705;Tunisia;Tunis;273;city break;114
+706;Croatia;Dubrovnik;117;tematyczna;114
+707;Morocco;Marrakesh;225;city break;122
+708;India;Delhi;192;wypoczynkowa;129
+709;Netherlands;Rotterdam;201;tematyczna;129
+710;Czech Republic;Prague;79;city break;124
+711;Turkey;Antalya;391;tematyczna;11
+712;India;Mumbai;321;objazdowa;130
+713;Switzerland;Zurich;202;city break;85
+714;Portugal;Lisbon;136;objazdowa;100
+715;Greece;Athens;172;wypoczynkowa;124
+716;Iceland;Reykjavik;255;tematyczna;131
+717;Australia;Sydney;373;tematyczna;113
+718;Austria;Salzburg;151;wypoczynkowa;11
+719;United Kingdom;London;307;city break;132
+720;Spain;Valencia;333;objazdowa;84
+721;Austria;Vienna;59;tematyczna;87
+722;Canada;Toronto;90;tematyczna;81
+723;Italy;Rome;112;tematyczna;122
+724;Denmark;Aarhus;290;objazdowa;126
+725;Bulgaria;Sofia;146;objazdowa;115
+726;Turkey;Antalya;175;wypoczynkowa;109
+727;Sweden;Stockholm;188;city break;125
+728;Croatia;Split;141;objazdowa;131
+729;Norway;Oslo;143;objazdowa;133
+730;Croatia;Split;241;city break;128
+731;Portugal;Porto;165;city break;130
+732;France;Nice;95;tematyczna;123
+733;Turkey;Antalya;76;wypoczynkowa;11
+734;Greece;Athens;50;wypoczynkowa;134
+735;Morocco;Marrakesh;370;wypoczynkowa;80
+736;Sweden;Gothenburg;356;tematyczna;131
+737;Bulgaria;Burgas;284;objazdowa;105
+738;Croatia;Dubrovnik;306;city break;130
+739;India;Delhi;102;wypoczynkowa;135
+740;Poland;Warsaw;204;wypoczynkowa;132
+741;Germany;Berlin;343;wypoczynkowa;92
+742;Egypt;Hurghada;274;tematyczna;48
+743;Austria;Salzburg;132;objazdowa;130
+744;Canada;Toronto;269;wypoczynkowa;135
+745;Switzerland;Zurich;332;city break;35
+746;Greece;Athens;305;tematyczna;135
+747;Czech Republic;Ostrava;90;objazdowa;53
+748;Croatia;Split;368;city break;78
+749;Czech Republic;Ostrava;149;city break;106
+750;Croatia;Split;150;city break;119
+751;Morocco;Casablanca;101;city break;136
+752;Poland;Gdansk;321;tematyczna;134
+753;India;Mumbai;318;wypoczynkowa;103
+754;Japan;Tokyo;349;objazdowa;137
+755;Iceland;Akureyri;135;objazdowa;133
+756;China;Beijing;179;city break;86
+757;Czech Republic;Prague;217;city break;122
+758;Tunisia;Tunis;63;objazdowa;102
+759;China;Beijing;190;tematyczna;129
+760;Ireland;Dublin;308;tematyczna;124
+761;Portugal;Porto;194;tematyczna;138
+762;India;Delhi;285;tematyczna;137
+763;India;Delhi;349;city break;114
+764;Turkey;Antalya;46;objazdowa;139
+765;Norway;Oslo;68;city break;8
+766;Belgium;Brussels;289;wypoczynkowa;44
+767;United Kingdom;London;116;wypoczynkowa;138
+768;Turkey;Istanbul;119;tematyczna;45
+769;Canada;Toronto;258;tematyczna;135
+770;Netherlands;Rotterdam;186;city break;140
+771;Greece;Thessaloniki;44;city break;52
+772;Belgium;Antwerp;106;tematyczna;141
+773;Italy;Venice;260;objazdowa;140
+774;Sweden;Gothenburg;393;wypoczynkowa;137
+775;Greece;Thessaloniki;137;city break;141
+776;France;Paris;321;wypoczynkowa;134
+777;Austria;Vienna;381;tematyczna;84
+778;Belgium;Brussels;147;wypoczynkowa;69
+779;Egypt;Cairo;133;city break;137
+780;Croatia;Dubrovnik;395;tematyczna;139
+781;Bulgaria;Sofia;310;tematyczna;103
+782;Iceland;Reykjavik;82;wypoczynkowa;142
+783;Norway;Oslo;102;wypoczynkowa;135
+784;China;Shanghai;142;objazdowa;134
+785;Greece;Thessaloniki;198;city break;117
+786;Norway;Oslo;389;wypoczynkowa;143
+787;Spain;Barcelona;163;tematyczna;143
+788;Iceland;Reykjavik;340;objazdowa;91
+789;Germany;Berlin;232;tematyczna;139
+790;Croatia;Split;79;city break;52
+791;Denmark;Aarhus;205;objazdowa;125
+792;Norway;Bergen;130;city break;114
+793;Spain;Barcelona;156;wypoczynkowa;56
+794;France;Paris;398;city break;44
+795;Greece;Athens;321;city break;130
+796;Czech Republic;Ostrava;357;tematyczna;144
+797;Austria;Salzburg;334;tematyczna;119
+798;India;Delhi;97;objazdowa;142
+799;Morocco;Marrakesh;258;objazdowa;145
+800;Germany;Munich;357;wypoczynkowa;123
+801;Australia;Melbourne;227;tematyczna;142
+802;Austria;Salzburg;271;wypoczynkowa;146
+803;Bulgaria;Burgas;318;wypoczynkowa;54
+804;Sweden;Stockholm;60;wypoczynkowa;15
+805;Netherlands;Rotterdam;65;objazdowa;121
+806;Croatia;Dubrovnik;43;tematyczna;38
+807;Iceland;Akureyri;370;city break;143
+808;Poland;Warsaw;242;tematyczna;24
+809;Greece;Thessaloniki;69;objazdowa;95
+810;Iceland;Reykjavik;146;city break;95
+811;Poland;Gdansk;196;wypoczynkowa;144
+812;Australia;Melbourne;139;tematyczna;132
+813;Japan;Osaka;47;wypoczynkowa;111
+814;Czech Republic;Ostrava;79;objazdowa;136
+815;Greece;Thessaloniki;110;wypoczynkowa;118
+816;France;Lyon;211;wypoczynkowa;126
+817;Norway;Oslo;268;wypoczynkowa;120
+818;United Kingdom;Edinburgh;132;wypoczynkowa;139
+819;Sweden;Stockholm;364;objazdowa;147
+820;Turkey;Antalya;108;city break;116
+821;Belgium;Antwerp;298;wypoczynkowa;146
+822;Italy;Milan;382;city break;3
+823;Italy;Rome;338;objazdowa;115
+824;United Kingdom;London;128;objazdowa;131
+825;Morocco;Marrakesh;277;city break;75
+826;Tunisia;Tunis;196;city break;135
+827;Denmark;Aarhus;378;city break;148
+828;Iceland;Reykjavik;236;tematyczna;143
+829;Bulgaria;Sofia;239;tematyczna;13
+830;Croatia;Dubrovnik;280;wypoczynkowa;145
+831;Germany;Hamburg;333;objazdowa;122
+832;Spain;Madrid;207;tematyczna;80
+833;Tunisia;Hammamet;362;wypoczynkowa;149
+834;Denmark;Aarhus;65;wypoczynkowa;145
+835;USA;New York;101;city break;150
+836;Austria;Salzburg;60;city break;141
+837;Japan;Tokyo;298;tematyczna;134
+838;Tunisia;Hammamet;55;objazdowa;146
+839;United Kingdom;Manchester;47;objazdowa;97
+840;Czech Republic;Prague;123;objazdowa;104
+841;Ireland;Cork;356;wypoczynkowa;103
+842;Portugal;Porto;206;city break;149
+843;Turkey;Istanbul;394;objazdowa;116
+844;Switzerland;Geneva;115;city break;51
+845;Canada;Toronto;87;tematyczna;84
+846;Morocco;Casablanca;400;tematyczna;136
+847;Sweden;Stockholm;294;objazdowa;151
+848;Tunisia;Tunis;43;objazdowa;54
+849;Croatia;Split;48;city break;151
+850;Bulgaria;Burgas;75;city break;71
+851;Spain;Madrid;231;city break;148
+852;Croatia;Split;171;wypoczynkowa;70
+853;Iceland;Reykjavik;103;objazdowa;117
+854;Egypt;Hurghada;108;wypoczynkowa;150
+855;Denmark;Copenhagen;180;city break;143
+856;Poland;Warsaw;336;city break;52
+857;Ireland;Cork;198;tematyczna;106
+858;China;Shanghai;94;objazdowa;55
+859;Croatia;Split;388;tematyczna;149
+860;India;Delhi;307;wypoczynkowa;98
+861;Denmark;Aarhus;104;tematyczna;152
+862;Tunisia;Hammamet;343;objazdowa;2
+863;Switzerland;Geneva;359;wypoczynkowa;59
+864;Australia;Sydney;332;objazdowa;79
+865;France;Lyon;114;tematyczna;153
+866;Tunisia;Hammamet;161;wypoczynkowa;101
+867;Croatia;Dubrovnik;326;tematyczna;153
+868;Egypt;Hurghada;321;city break;66
+869;Germany;Berlin;187;objazdowa;147
+870;Greece;Athens;112;objazdowa;65
+871;Germany;Hamburg;186;wypoczynkowa;153
+872;Sweden;Gothenburg;71;objazdowa;152
+873;Turkey;Istanbul;54;city break;154
+874;Sweden;Stockholm;151;objazdowa;130
+875;Turkey;Istanbul;58;wypoczynkowa;154
+876;Denmark;Copenhagen;380;wypoczynkowa;109
+877;Iceland;Reykjavik;348;objazdowa;34
+878;Spain;Barcelona;51;wypoczynkowa;98
+879;Belgium;Antwerp;74;wypoczynkowa;138
+880;Italy;Milan;140;city break;119
+881;China;Beijing;232;objazdowa;86
+882;Belgium;Brussels;321;objazdowa;155
+883;Croatia;Split;216;objazdowa;153
+884;Japan;Tokyo;257;city break;98
+885;Egypt;Hurghada;395;city break;126
+886;Greece;Athens;308;wypoczynkowa;133
+887;USA;Miami;353;tematyczna;141
+888;USA;Los Angeles;176;tematyczna;156
+889;Portugal;Porto;158;objazdowa;157
+890;Egypt;Cairo;45;objazdowa;145
+891;India;Delhi;108;city break;68
+892;Greece;Athens;314;objazdowa;77
+893;Japan;Tokyo;121;wypoczynkowa;144
+894;Canada;Montreal;362;city break;68
+895;Netherlands;Rotterdam;353;tematyczna;158
+896;Japan;Tokyo;271;city break;137
+897;USA;Miami;384;tematyczna;128
+898;Germany;Berlin;126;tematyczna;158
+899;Turkey;Istanbul;250;objazdowa;92
+900;Australia;Sydney;367;city break;127
+901;Poland;Gdansk;197;city break;159
+902;Germany;Berlin;250;city break;154
+903;Germany;Berlin;385;tematyczna;65
+904;Poland;Gdansk;300;objazdowa;135
+905;Morocco;Casablanca;253;objazdowa;62
+906;Japan;Osaka;382;tematyczna;131
+907;Bulgaria;Sofia;114;wypoczynkowa;145
+908;United Kingdom;Edinburgh;324;wypoczynkowa;78
+909;Germany;Munich;226;objazdowa;160
+910;India;Delhi;206;tematyczna;156
+911;Iceland;Akureyri;352;objazdowa;120
+912;Italy;Venice;96;wypoczynkowa;161
+913;Japan;Tokyo;186;tematyczna;87
+914;Japan;Tokyo;148;wypoczynkowa;64
+915;Belgium;Brussels;346;objazdowa;157
+916;Ireland;Dublin;152;tematyczna;140
+917;Italy;Rome;99;tematyczna;160
+918;Czech Republic;Prague;356;wypoczynkowa;161
+919;Austria;Vienna;333;objazdowa;24
+920;Norway;Bergen;368;objazdowa;117
+921;Germany;Hamburg;124;city break;150
+922;Switzerland;Geneva;223;wypoczynkowa;162
+923;Germany;Berlin;206;city break;163
+924;Ireland;Dublin;319;objazdowa;142
+925;Japan;Tokyo;149;city break;101
+926;Germany;Berlin;226;tematyczna;96
+927;Turkey;Istanbul;217;objazdowa;151
+928;Tunisia;Tunis;237;wypoczynkowa;162
+929;Ireland;Cork;159;city break;108
+930;Poland;Krakow;392;city break;160
+931;Tunisia;Tunis;118;objazdowa;155
+932;United Kingdom;London;254;tematyczna;9
+933;Netherlands;Rotterdam;233;wypoczynkowa;92
+934;Ireland;Dublin;95;objazdowa;57
+935;Czech Republic;Ostrava;191;city break;159
+936;Japan;Osaka;251;wypoczynkowa;148
+937;India;Mumbai;42;tematyczna;123
+938;Czech Republic;Prague;127;wypoczynkowa;4
+939;Spain;Madrid;207;tematyczna;133
+940;Japan;Osaka;315;wypoczynkowa;71
+941;Netherlands;Rotterdam;226;objazdowa;164
+942;Canada;Toronto;202;objazdowa;165
+943;Czech Republic;Ostrava;131;wypoczynkowa;136
+944;China;Beijing;131;city break;166
+945;Switzerland;Geneva;387;objazdowa;166
+946;Turkey;Istanbul;213;objazdowa;165
+947;Germany;Munich;390;city break;167
+948;France;Nice;100;objazdowa;163
+949;Netherlands;Rotterdam;211;objazdowa;168
+950;Iceland;Reykjavik;369;tematyczna;167
+951;Austria;Salzburg;286;tematyczna;115
+952;Japan;Tokyo;248;objazdowa;48
+953;Netherlands;Amsterdam;297;city break;113
+954;Tunisia;Hammamet;49;tematyczna;123
+955;Italy;Milan;266;objazdowa;168
+956;USA;Los Angeles;207;objazdowa;168
+957;Belgium;Antwerp;187;tematyczna;144
+958;Bulgaria;Burgas;62;wypoczynkowa;131
+959;Italy;Venice;350;wypoczynkowa;154
+960;United Kingdom;London;41;tematyczna;138
+961;Bulgaria;Sofia;323;objazdowa;144
+962;India;Mumbai;243;city break;22
+963;Belgium;Brussels;98;tematyczna;152
+964;Netherlands;Amsterdam;137;wypoczynkowa;80
+965;China;Shanghai;223;wypoczynkowa;164
+966;Iceland;Akureyri;281;city break;130
+967;Iceland;Reykjavik;100;wypoczynkowa;149
+968;Poland;Krakow;55;tematyczna;13
+969;Canada;Toronto;234;city break;164
+970;Portugal;Lisbon;127;city break;113
+971;India;Mumbai;71;tematyczna;148
+972;Sweden;Gothenburg;331;objazdowa;155
+973;Switzerland;Geneva;334;city break;158
+974;Tunisia;Tunis;319;objazdowa;169
+975;Croatia;Split;110;wypoczynkowa;170
+976;Portugal;Lisbon;283;tematyczna;166
+977;Poland;Krakow;128;city break;169
+978;Italy;Milan;169;objazdowa;146
+979;Spain;Valencia;252;tematyczna;155
+980;United Kingdom;London;190;objazdowa;128
+981;Ireland;Dublin;117;tematyczna;13
+982;Switzerland;Zurich;388;objazdowa;171
+983;Austria;Vienna;55;wypoczynkowa;172
+984;Germany;Munich;369;city break;129
+985;USA;New York;315;city break;173
+986;Bulgaria;Burgas;327;objazdowa;23
+987;Sweden;Stockholm;214;objazdowa;24
+988;Canada;Montreal;82;city break;173
+989;Bulgaria;Burgas;254;tematyczna;170
+990;USA;Los Angeles;256;wypoczynkowa;174
+991;Spain;Valencia;146;tematyczna;70
+992;China;Shanghai;163;objazdowa;157
+993;Germany;Hamburg;394;city break;162
+994;China;Beijing;160;wypoczynkowa;133
+995;USA;Los Angeles;136;objazdowa;26
+996;Spain;Barcelona;393;tematyczna;166
+997;Switzerland;Geneva;142;wypoczynkowa;107
+998;Australia;Melbourne;50;wypoczynkowa;175
+999;Netherlands;Amsterdam;383;objazdowa;133
+1000;Croatia;Split;295;city break;151
