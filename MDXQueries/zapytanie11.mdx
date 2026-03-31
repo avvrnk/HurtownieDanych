@@ -1,0 +1,12 @@
+WITH   
+    MEMBER [Measures].[OblozenieProcent] AS   
+        [Measures].[OblozenieAVG] * 100  
+SELECT 
+    [Measures].[OblozenieProcent] ON COLUMNS, 
+    Descendants(
+        [Data].[Hierarchia daty wyjazdu].[Rok].&[2024], 
+        [Data].[Hierarchia daty wyjazdu].[Miesiac]
+    ) ON ROWS 
+FROM [Trip Out DW]
+WHERE ([Hotel].[Standard Hotelu].&[4]); 
+ 
